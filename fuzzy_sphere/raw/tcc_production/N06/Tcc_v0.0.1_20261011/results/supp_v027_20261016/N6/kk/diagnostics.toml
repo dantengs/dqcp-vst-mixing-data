@@ -1,0 +1,100 @@
+[s2_s2_L0_L1_conjugacy]
+errors = [1.2053052656544962e-17, 9.081059019994382e-18]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s1_L1_mu]
+nonlowering_residual_norm = 10.095985816641017
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 6.414768687889128e-13
+fitted_mu_identity_component = 2.4690020379804993
+L = 1
+
+[s0_s1_L1_L2_conjugacy]
+status = "ineligible_different_target_eigenbasis_payloads"
+factor = 1.2909944487358056
+
+[s0_s2_L0_L1_conjugacy]
+errors = [5.1744585927225097e-17, 2.0231129656015832e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s2_L1_mu]
+nonlowering_residual_norm = 6.035410402843315
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 5.541758088600025e-13
+fitted_mu_identity_component = 2.4690020379805
+L = 1
+
+[s2_s2_L1_L2_conjugacy]
+errors = [1.4826111786572162e-17, 8.621007480102981e-18]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s0_L1_mu]
+nonlowering_residual_norm = 11.968190754585782
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 8.284220229326333e-13
+fitted_mu_identity_component = 2.4690020379805
+L = 1
+
+[s1_s2_L0_L1_conjugacy]
+errors = [4.7640239489680305e-17, 3.357350859330336e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s1_s2_L1_L2_conjugacy]
+errors = [4.035563041591578e-17, 3.295242936688825e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s0_L0_L1_conjugacy]
+errors = [6.890409899260757e-17, 5.405546592956304e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s1_s1_L0_L1_conjugacy]
+errors = [8.256522939764166e-17, 8.816356211827869e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s0_L1_L2_conjugacy]
+errors = [4.802284450369552e-17, 5.342702029037684e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s1_s1_L1_mu]
+nonlowering_residual_norm = 12.216036974367615
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 5.750598363613299e-13
+fitted_mu_identity_component = 2.4690020379804993
+L = 1
+
+[s1_s2_L1_mu]
+nonlowering_residual_norm = 7.707058292733888
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 3.042739612768875e-13
+fitted_mu_identity_component = 2.4690020379804993
+L = 1
+
+[s0_s2_L1_L2_conjugacy]
+errors = [3.428158585476219e-17, 1.9461934129226218e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s2_s2_L1_mu]
+nonlowering_residual_norm = 2.5155890709320015
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 5.743219720334079e-15
+fitted_mu_identity_component = 2.469002037980499
+L = 1
+
+[s1_s1_L1_L2_conjugacy]
+errors = [6.074354495884549e-17, 6.517417175527986e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s1_L0_L1_conjugacy]
+errors = [3.774067602472506e-17, 5.120210409679456e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772

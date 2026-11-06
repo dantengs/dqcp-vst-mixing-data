@@ -1,0 +1,8 @@
+profile = "full_saved_KK_Q_sources_no_tail_drop_v1"
+PH_projection_applied = false
+status = "ALL_PASS"
+N = 10
+rows = 2733
+expected_rows = 2733
+source_discarded_weight = 0.0
+csv_sha256 = "e3bc39a44b6abc0f28b0211d3f9ae3027a0acbdeeb78eb7ebdf0c4fa75c2a476"

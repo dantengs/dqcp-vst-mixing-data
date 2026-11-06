@@ -1,0 +1,101 @@
+[s2_s2_L0_L1_conjugacy]
+errors = [8.694843832128853e-17, 7.556421500083015e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s1_L1_mu]
+nonlowering_residual_norm = 16.952875354943217
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.1247597433631547e-12
+fitted_mu_identity_component = 2.007760828565765
+L = 1
+
+[s0_s1_L1_L2_conjugacy]
+errors = [3.356290123737342e-17, 4.32406885742487e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s2_L0_L1_conjugacy]
+errors = [4.056470859058113e-17, 4.087796995135407e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s2_L1_mu]
+nonlowering_residual_norm = 15.027209549859068
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.6768918423874564e-12
+fitted_mu_identity_component = 2.0077608285659583
+L = 1
+
+[s2_s2_L1_L2_conjugacy]
+errors = [5.1326714234374e-17, 4.91518186694872e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s0_L1_mu]
+nonlowering_residual_norm = 22.007477430848866
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.2592133749332223e-12
+fitted_mu_identity_component = 2.007760828565846
+L = 1
+
+[s1_s2_L0_L1_conjugacy]
+errors = [4.335462462783584e-17, 3.710214442022721e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s1_s2_L1_L2_conjugacy]
+errors = [3.546310117092029e-17, 2.6845095917320855e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s0_L0_L1_conjugacy]
+errors = [9.21711102896092e-17, 7.187757438549592e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s1_s1_L0_L1_conjugacy]
+errors = [1.042821654377018e-16, 9.069957606733567e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s0_L1_L2_conjugacy]
+errors = [5.010474839159539e-17, 4.9172761080902594e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s1_s1_L1_mu]
+nonlowering_residual_norm = 21.90611862769094
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.42315324466289e-12
+fitted_mu_identity_component = 2.007760828565715
+L = 1
+
+[s1_s2_L1_mu]
+nonlowering_residual_norm = 16.260646702161047
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.278135118043314e-12
+fitted_mu_identity_component = 2.0077608285657345
+L = 1
+
+[s0_s2_L1_L2_conjugacy]
+errors = [2.7055649881708846e-17, 2.702097652372092e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s2_s2_L1_mu]
+nonlowering_residual_norm = 20.40273954335475
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.441873754768376e-12
+fitted_mu_identity_component = 2.007760828565844
+L = 1
+
+[s1_s1_L1_L2_conjugacy]
+errors = [7.040701543926687e-17, 8.220537596479517e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s1_L0_L1_conjugacy]
+errors = [4.8689215539822813e-17, 6.018337901989332e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772

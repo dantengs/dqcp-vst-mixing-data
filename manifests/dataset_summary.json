@@ -1,0 +1,45 @@
+{
+  "snapshot_date": "2026-11-06",
+  "manuscript": {
+    "version": "manuscript_skydive_efm_20261106",
+    "pdf_sha256": "b611a24e6f714c5eab91a100af226606684c5753e43c8cba364b552538e4cb08",
+    "source_zip_sha256": "f700e00cde446ef73045becf96af4f3ebc04146a5e9529d4c4c6984a54f8104d"
+  },
+  "bootstrap": {
+    "dataset": "L23_Skydiving_minS_ver4",
+    "spectrum_source_sha256": "2595d96104a203b66ad94c61b3645c599b5e12b0908e44f39ba9b5888ad4dee7",
+    "notebook_channel_records": 971,
+    "fixed_external_normalization_records": 1,
+    "signed_components": 1834
+  },
+  "fuzzy_sphere": {
+    "replay_version": "blindpd 0.5.5",
+    "blind_code_commit": "2927614",
+    "production_validation_commit": "ce5dd4e",
+    "sizes": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "recorded_input_files": 1447,
+    "raw_level_copies": 4203,
+    "final_physical_levels": 2712,
+    "per_route_ope_rows": 37689,
+    "isolated_n12_raw_levels": 264,
+    "isolated_n12_ope_rows": 845,
+    "current_common_lambda": 0.8574003792250015,
+    "current_l2_complement_certificate_present": false,
+    "manuscript_ope_catalogue_routes": 76,
+    "replay_cross_size_ope_curves": 699
+  },
+  "external": {
+    "archive_count": 8,
+    "indexed_checkpoint_payloads": 531
+  },
+  "figure2": "The five unresolved-weight proximity fields were refreshed against the saved ver4 roots."
+}

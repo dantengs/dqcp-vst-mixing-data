@@ -1,0 +1,162 @@
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+julia = "1.11.7"
+tcc_version = "0.2.7"
+git_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+code_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+physics_digest = "b7f14d3fefa6cd50373d0837fc6e5fb823a944bc3be8c15a2a876a8915891a66"
+
+[physics]
+exchange = "true"
+g = "0.9149510000000001"
+lmax = "3"
+block_nev = "Dict{String, Any}()"
+tune = "Dict{Any, Any}()"
+N = "9"
+blocks = "[[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 0, 3], [0, 0, 4], [0, 1, 0], [0, 1, 1], [0, 1, 2], [0, 1, 3], [0, 1, 4], [0, 2, 0], [0, 2, 1], [0, 2, 2], [0, 2, 3], [0, 2, 4], [1, 1, 0], [1, 1, 1], [1, 1, 2], [1, 1, 3], [1, 1, 4], [1, 2, 0], [1, 2, 1], [1, 2, 2], [1, 2, 3], [1, 2, 4], [2, 2, 0], [2, 2, 1], [2, 2, 2], [2, 2, 3], [2, 2, 4]]"
+nev = "120"
+parity = "both"
+parity_nev = "Dict{String, Any}()"
+
+[stages.summary]
+summary = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N9/summary.tsv"
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+g = 0.9149510000000001
+producer_version = "0.2.7"
+outputs_count = 3
+stage_digest = "e762c0c88b017bd0fc8e762b3dbe1d9c295947597e74d8c4f13483322d387503"
+EJ = 15.81400876254411
+E0 = 12.484141242664379
+producer_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+status = "done"
+physics_report = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N9/physics_report.toml"
+outputs_digest = "539594e9cb9971301f7757c8bba3d09d8c0d6c26fe16182ac016531a8a2a89cd"
+ET = 17.478953804502137
+wall_s = 1.041916847229004
+producer_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+finished = "1792155359"
+F = 6.776256467944108e-6
+peak_rss_gib = 12.500019073486328
+
+[stages.kk]
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+outputs_count = 112
+producer_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+status = "done"
+wall_s = 405.72256898880005
+finished = "1792155350"
+peak_rss_gib = 12.500019073486328
+producer_version = "0.2.7"
+alpha = 0.6006244957373666
+projected_states = 2814
+stage_digest = "2799c0f8c535c1c1565571c28b93a456578e4ca5ff1d85db2e38ad68d8f6f37e"
+outputs_digest = "7810b69ecc97856426254a6f696a00d4ec104871647b51d028db43d1cc353ba9"
+producer_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+coefficients = [-601.5262370503076, 558.7834342274642]
+
+[stages.targets]
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+outputs_count = 36
+targets = 36
+producer_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+status = "done"
+wall_s = 902.0831470489502
+solved = 6
+peak_rss_gib = 12.302696228027344
+producer_version = "0.2.7"
+finished = "1792154944"
+stage_digest = "d6b688adba6417bc245962c66ec5765b48d2a7da3fa79b155ad3163e966f361e"
+outputs_digest = "b29a8c145acbefd8c272effe6990e8bfdd6d7304c1d62dc31fddad12aee67793"
+producer_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+
+[stages.basis]
+ph_half = false
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+outputs_count = 1
+producer_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+sha256 = "41857bf4659039387ccd7c16fc51bed8820d3410e46ebdd860d325d0eb4ecc74"
+status = "done"
+wall_s = 9.268141031265259
+finished = "1792153306"
+peak_rss_gib = 1.2886161804199219
+producer_version = "0.2.7"
+stage_digest = "226b1546a3fcee24ff17c5428e21d9392c5702fedf65adfdb829f62684b521c1"
+outputs_digest = "33acf981d91c3c97545e695a135fdc95e98cf30ce5c45e8aadf1475e0bbce96a"
+segment_checkpoint = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N9/segment_spaces.ckpt"
+producer_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+
+[stages.spectrum]
+max_C2_residual = 8.34344597402612e-7
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+outputs_count = 60
+states = 5400
+producer_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+status = "done"
+wall_s = 731.4898798465729
+finished = "1792154038"
+peak_rss_gib = 9.225032806396484
+producer_version = "0.2.7"
+residency = "all"
+max_H_residual = 9.343434504925314e-11
+concurrency = 1
+stage_digest = "0a83b29d76716edbad6f758576ca4e910a40b666ca8ea11135f520de4ac48893"
+gate = "PASS"
+outputs_digest = "5d1c4c5d25837f1bad8a8fb745f04c8f53e58d37fe07a885b78cfeff9259a419"
+producer_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+
+[stages.ope]
+config_digest = "15ea3d2ef19be9ccdd36836fa339feb09f4e6268bf71caf55cb5be76725fcdfa"
+outputs_count = 8
+producer_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+status = "done"
+wall_s = 8.00703501701355
+finished = "1792155358"
+peak_rss_gib = 12.500019073486328
+producer_version = "0.2.7"
+stage_digest = "e762c0c88b017bd0fc8e762b3dbe1d9c295947597e74d8c4f13483322d387503"
+outputs_digest = "bfe7ee0c045cd26b2a83c27da676c398793eaf0b7be61f654ca54ceab083ada2"
+producer_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+
+    [stages.ope.edges]
+    status_projected_all = "finite_N_candidate_not_certified_CFT_OPE"
+    density_normalization = 0.2701195752667916
+    "projected_all:phi_phi_stress" = 0.12094259437210851
+    phi_energy = 13.455719140739852
+    tensor_energy = 14.90444853533684
+    half_tensor_energy = 14.904448535336904
+    f_phi_phi_T_half = 1.1807562959154188
+    half_current_energy = 15.814008762544143
+    half_phi_energy = 13.455719140739838
+    N = 9
+    "projected_scalar_raw_spin2:phi_phi_S" = 0.1852523188385627
+    "projected_scalar_raw_spin2:phi_phi_T14" = 1.1807562959154105
+    status_raw = "finite_N_candidate_not_certified_CFT_OPE"
+    tower_rows = 173
+    f_phi_phi_J = 0.7551645055626829
+    radius_squared = 9
+    status_projected_scalar_raw_spin2 = "finite_N_candidate_not_certified_CFT_OPE"
+    "raw:phi_phi_stress" = 0.12094259437210851
+    half_vs_integer_phi_energy_difference = -1.4210854715202004e-14
+    "raw:phi_phi_S" = 0.1852523188385627
+    g = 0.9149510000000001
+    "projected_scalar_raw_spin2:phi_phi_stress" = 0.12094259437210851
+    "projected_all:phi_phi_S" = 0.1852523188385627
+    interpretation = "raw finite-N estimates; no continuum extrapolation; not certified CFT OPE data"
+    J_factor = "sqrt(3)*abs(Gamma2_rank1)/abs(vacuum_phi_Gamma0)"
+    "projected_all:phi_phi_T14" = 1.1807562959154105
+    T_factor = "sqrt(2)*abs(Gamma2_rank0)/abs(vacuum_phi_Gamma0)"
+    "raw:phi_phi_T14" = 1.1807562959154105
+    half_dims = [50532, 149432]
+    half_signed_conjugacy_error = 1.3877787807814457e-17
+
+[[invocations]]
+git_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+tcc_version = "0.2.7"
+stages = "basis,spectrum"
+time = "1792153296"
+code_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+[[invocations]]
+git_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+tcc_version = "0.2.7"
+stages = "targets,kk,ope,summary"
+time = "1792154041"
+code_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"

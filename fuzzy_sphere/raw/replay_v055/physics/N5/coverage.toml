@@ -1,0 +1,326 @@
+E0 = 6.741381283833569
+iteration = 1
+alpha = 0.48502392855608323
+delta_cut = 6.0
+kmax = 400
+
+[[history]]
+iteration = 0
+
+    [history.grow]
+    s0_s1_L3 = 48
+
+[sectors.s0_s1_L3_x0]
+sector_dim = 96
+delta_top = 6.591031849995055
+complete = false
+states = 48
+reached = true
+
+[sectors.s2_s2_L3_x-1]
+sector_dim = 1
+delta_top = 6.381399866633504
+complete = true
+states = 1
+reached = true
+
+[sectors.s0_s0_L2_x1]
+sector_dim = 44
+delta_top = 7.179305801208469
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s1_L4_x0]
+sector_dim = 82
+delta_top = 6.467029958088937
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s0_L4_x-1]
+sector_dim = 50
+delta_top = 7.433684367951407
+complete = false
+states = 30
+reached = true
+
+[sectors.s2_s2_L0_x1]
+sector_dim = 1
+delta_top = 3.9515741811874965
+complete = true
+states = 1
+reached = true
+
+[sectors.s1_s2_L0_x0]
+sector_dim = 2
+delta_top = 6.405007568859242
+complete = true
+states = 2
+reached = true
+
+[sectors.s0_s0_L0_x1]
+sector_dim = 18
+delta_top = 9.843291937356856
+complete = true
+states = 18
+reached = true
+
+[sectors.s1_s2_L1_x0]
+sector_dim = 10
+delta_top = 6.85355391114808
+complete = true
+states = 10
+reached = true
+
+[sectors.s2_s2_L4_x1]
+sector_dim = 1
+delta_top = 6.432376554325586
+complete = true
+states = 1
+reached = true
+
+[sectors.s0_s2_L1_x0]
+sector_dim = 6
+delta_top = 6.8535539111480785
+complete = true
+states = 6
+reached = true
+
+[sectors.s0_s2_L3_x0]
+sector_dim = 10
+delta_top = 7.9234477682244755
+complete = true
+states = 10
+reached = true
+
+[sectors.s2_s2_L0_x-1]
+sector_dim = 1
+delta_top = 5.460699479830087
+complete = true
+states = 1
+reached = true
+
+[sectors.s1_s2_L4_x0]
+sector_dim = 10
+delta_top = 7.318469143898905
+complete = true
+states = 10
+reached = true
+
+[sectors.s1_s1_L0_x-1]
+sector_dim = 13
+delta_top = 7.965223032949789
+complete = true
+states = 13
+reached = true
+
+[sectors.s0_s0_L4_x1]
+sector_dim = 50
+delta_top = 7.351685318346027
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s2_L2_x0]
+sector_dim = 14
+delta_top = 7.842217069426415
+complete = true
+states = 14
+reached = true
+
+[sectors.s0_s1_L0_x0]
+sector_dim = 12
+delta_top = 7.965223032949792
+complete = true
+states = 12
+reached = true
+
+[sectors.s1_s1_L4_x1]
+sector_dim = 44
+delta_top = 7.241735430117644
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s1_L1_x0]
+sector_dim = 62
+delta_top = 6.048491925761399
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s2_L4_x0]
+sector_dim = 12
+delta_top = 7.957171022659492
+complete = true
+states = 12
+reached = true
+
+[sectors.s0_s0_L2_x-1]
+sector_dim = 44
+delta_top = 6.853925787657636
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s0_L3_x1]
+sector_dim = 40
+delta_top = 7.518005618097121
+complete = false
+states = 30
+reached = true
+
+[sectors.s1_s1_L2_x1]
+sector_dim = 43
+delta_top = 6.6846463731754096
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s0_L1_x-1]
+sector_dim = 20
+delta_top = 9.203786187991897
+complete = true
+states = 20
+reached = true
+
+[sectors.s2_s2_L1_x-1]
+sector_dim = 1
+delta_top = 5.7912073109902895
+complete = true
+states = 1
+reached = true
+
+[sectors.s1_s1_L0_x1]
+sector_dim = 13
+delta_top = 7.744599354968576
+complete = true
+states = 13
+reached = true
+
+[sectors.s1_s2_L3_x0]
+sector_dim = 14
+delta_top = 7.382107501464704
+complete = true
+states = 14
+reached = true
+
+[sectors.s1_s1_L1_x-1]
+sector_dim = 27
+delta_top = 8.299268264346695
+complete = true
+states = 27
+reached = true
+
+[sectors.s0_s0_L1_x1]
+sector_dim = 20
+delta_top = 8.278311176780045
+complete = true
+states = 20
+reached = true
+
+[sectors.s0_s0_L0_x-1]
+sector_dim = 18
+delta_top = 10.200480108535187
+complete = true
+states = 18
+reached = true
+
+[sectors.s1_s2_L2_x0]
+sector_dim = 12
+delta_top = 6.93071153986752
+complete = true
+states = 12
+reached = true
+
+[sectors.s1_s1_L3_x1]
+sector_dim = 44
+delta_top = 6.872952975553602
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s0_L3_x-1]
+sector_dim = 40
+delta_top = 7.466152891820423
+complete = false
+states = 30
+reached = true
+
+[sectors.s1_s1_L4_x-1]
+sector_dim = 44
+delta_top = 7.3725172767052305
+complete = false
+states = 30
+reached = true
+
+[sectors.s2_s2_L4_x-1]
+sector_dim = 1
+delta_top = 6.4443537392354475
+complete = true
+states = 1
+reached = true
+
+[sectors.s1_s1_L2_x-1]
+sector_dim = 43
+delta_top = 6.819392876975063
+complete = false
+states = 30
+reached = true
+
+[sectors.s2_s2_L2_x1]
+sector_dim = 1
+delta_top = 5.737751889846922
+complete = true
+states = 1
+reached = true
+
+[sectors.s1_s1_L3_x-1]
+sector_dim = 44
+delta_top = 6.95372550771998
+complete = false
+states = 30
+reached = true
+
+[sectors.s0_s2_L0_x0]
+sector_dim = 4
+delta_top = 6.674936140282139
+complete = true
+states = 4
+reached = true
+
+[sectors.s1_s1_L1_x1]
+sector_dim = 27
+delta_top = 8.278311176780049
+complete = true
+states = 27
+reached = true
+
+[sectors.s2_s2_L2_x-1]
+sector_dim = 1
+delta_top = 6.168930546601948
+complete = true
+states = 1
+reached = true
+
+[sectors.s2_s2_L1_x1]
+sector_dim = 1
+delta_top = 4.7851237785618945
+complete = true
+states = 1
+reached = true
+
+[sectors.s0_s1_L2_x0]
+sector_dim = 72
+delta_top = 6.168930546601948
+complete = false
+states = 30
+reached = true
+
+[sectors.s2_s2_L3_x1]
+sector_dim = 1
+delta_top = 6.273605202444747
+complete = true
+states = 1
+reached = true

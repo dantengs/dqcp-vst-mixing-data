@@ -1,0 +1,23 @@
+PARITY_REUSED 3675 sectors=12
+MAINCHAIN_FULLQ_START 2026-10-27T23:46:35-04:00 xeon8474c-512-1.cluster.home.arpa source=3889 parity=3675
+SOURCE_TREE_PASS 5da4202f25c0137fc4a98d9849ed3560fc7f104823c5c5f037b59a4a0d675dd6
+FULL_Q_SELF_TEST_PASS: full high-energy support retained; projected-source contraction exact
+FULLQ_EDGE N=12 s0_s2 singlet rank0 rows=4 total=4
+FULLQ_EDGE N=12 s0_s2 singlet rank1 rows=1 total=5
+FULLQ_EDGE N=12 s0_s2 singlet rank2 rows=7 total=12
+FULLQ_EDGE N=12 s0_s2 singlet rank3 rows=2 total=14
+FULLQ_EDGE N=12 s0_s0 singlet rank0 rows=128 total=142
+FULLQ_EDGE N=12 s0_s0 gamma2 rank0 rows=128 total=270
+FULLQ_EDGE N=12 s0_s0 tensorG rank0 rows=128 total=398
+FULLQ_EDGE N=12 s0_s0 singlet rank1 rows=24 total=422
+FULLQ_EDGE N=12 s0_s0 gamma2 rank1 rows=24 total=446
+FULLQ_EDGE N=12 s0_s0 tensorG rank1 rows=24 total=470
+FULLQ_EDGE N=12 s0_s0 singlet rank2 rows=96 total=566
+FULLQ_EDGE N=12 s0_s0 gamma2 rank2 rows=96 total=662
+FULLQ_EDGE N=12 s0_s0 tensorG rank2 rows=96 total=758
+FULLQ_EDGE N=12 s0_s0 singlet rank3 rows=48 total=806
+FULLQ_EDGE N=12 s0_s0 gamma2 rank3 rows=48 total=854
+FULLQ_EDGE N=12 s0_s0 tensorG rank3 rows=48 total=902
+FULLQ_DONE N=12 rows=902 seconds=3806.4 maxrss_gib=85.33
+peak_julia_rss_GiB 84.5
+JOB_ALL_PASS 2026-10-28T00:50:15-04:00

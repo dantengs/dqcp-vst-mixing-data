@@ -1,0 +1,25 @@
+[threads]
+native = 8
+tile = 64
+
+[run]
+g = 1.0092383457693275
+stages = ["basis", "spectrum"]
+N = 12
+out = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/cross35p_N12"
+
+[basis]
+segment_checkpoint = "/nfs/work/sth/Zhou_v005_ParallelTune_20261006/inputs/N12/segment_spaces.ckpt"
+
+[spectrum]
+lmax = 3
+exchange = true
+tol = 1.0e-10
+residency = "pair"
+blocks = [[1, 1, 0], [1, 1, 1], [1, 1, 2], [1, 1, 3]]
+nev = 24
+parity = "both"
+
+    [spectrum.block_nev]
+
+    [spectrum.parity_nev]

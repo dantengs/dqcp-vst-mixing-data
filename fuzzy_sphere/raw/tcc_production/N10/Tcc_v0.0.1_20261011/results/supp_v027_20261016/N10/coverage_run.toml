@@ -1,0 +1,36 @@
+[threads]
+native = 8
+tile = 64
+
+[run]
+g = 0.9437
+N = 10
+out = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N10"
+
+[kk]
+cache = "/nfs/work/sth/Tcc_v0.0.1_20261011/kk_cache"
+
+[targets]
+max_nev = 4000
+source_delta_max = 6.2
+guard = 1.0e-5
+initial_nev = 60
+
+[basis]
+segment_checkpoint = ""
+
+[spectrum]
+lmax = 3
+exchange = true
+tol = 1.0e-10
+residency = "all"
+blocks = [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 0, 3], [0, 0, 4], [0, 1, 0], [0, 1, 1], [0, 1, 2], [0, 1, 3], [0, 1, 4], [0, 2, 0], [0, 2, 1], [0, 2, 2], [0, 2, 3], [0, 2, 4], [1, 1, 0], [1, 1, 1], [1, 1, 2], [1, 1, 3], [1, 1, 4], [1, 2, 0], [1, 2, 1], [1, 2, 2], [1, 2, 3], [1, 2, 4], [2, 2, 0], [2, 2, 1], [2, 2, 2], [2, 2, 3], [2, 2, 4]]
+nev = 60
+parity = "both"
+
+    [spectrum.block_nev]
+
+    [spectrum.parity_nev]
+
+[ope]
+half = true

@@ -1,0 +1,35 @@
+{
+  "run/primary_tracks.csv": {
+    "old_rows": 162,
+    "new_rows": 162,
+    "old_only": 0,
+    "new_only": 0,
+    "changed_series_rows": 4,
+    "changed_columns": {
+      "max_match_cost": 2,
+      "max_sigma_Delta": 4,
+      "Delta_N5": 4,
+      "fit_sys_window": 2,
+      "fit_err_main": 2,
+      "fit_err_with_model": 2
+    },
+    "key_note": "compared within same sector/ordinal descriptive names; track membership changes separately enumerated by phys_id"
+  },
+  "run/ope_curves.csv": {
+    "old_rows": 707,
+    "new_rows": 699,
+    "old_only": 10,
+    "new_only": 2,
+    "changed_series_rows": 24,
+    "changed_columns": {
+      "Ns": 12,
+      "nN": 12,
+      "lambda_iso_N5": 12,
+      "iso_sys_window": 11,
+      "iso_err_main": 11,
+      "iso_err_with_model": 11,
+      "iso_model_dominated": 3
+    },
+    "key_note": "compared within same sector/ordinal descriptive names; track membership changes separately enumerated by phys_id"
+  }
+}

@@ -1,0 +1,54 @@
+phi_normalization = 0.25350438455428265
+"named:SSS" = 0.31015971401282627
+"named:phi_S_vprime_Os" = 0.5827524169240645
+"named:phi_phi_tprime_Gamma2" = 0.06352759000633157
+"named:T_T_tprime" = 0.7962970560449427
+code_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+N = 11
+vacuum_expectation_Os = 94.5999130589128
+"named:phi_phi_T14_Gamma2" = 1.190503423607773
+"named:phi_T_vprime_Gamma2" = 0.14296336105127516
+"named:STT_tensor_insertion" = 0.7728580575308016
+"named:tprime_tprime_S" = 0.4713131214212041
+version = "ope3-v1"
+half_vs_integer_phi_energy_difference = 1.7763568394002505e-14
+"named:TTT_trace" = 2.60292190372322
+"named:phi_S_vprime_Gamma2" = 0.6110137865310357
+"named:density_vprime_admixture" = 0.0009658135497698966
+g = 0.9753477137817606
+tcc_version = "0.2.7"
+"named:stress_S_stress_rank0" = -0.7282403253793888
+Z_T = 0.007087082078356171
+alpha = 0.6274643111551582
+"named:phi_phi_S_Os" = 0.2903288595889819
+"named:STT_singlet_insertion" = 0.7813589849698275
+"named:TTT_isometric" = 3.024321955379561
+beta = [964.7053844694863, 215.64670133717408]
+git_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+E0 = 13.907015245143057
+interpretation = "finite-N local-operator proxies; no continuum extrapolation; not certified CFT OPE data"
+run = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v0116_20261012/N11"
+"named:phi_phi_stress_canonical" = 0.2640372202210466
+half_dims = [3274744, 9750284, 16011464, 21921309]
+"named:vprime_vprime_S" = 0.44441973217696784
+"named:phi_phi_S_Gamma2" = 0.19628735051720775
+
+[gates]
+hermiticity_tensorG_L0 = 2.164796496917934e-15
+stress_null_residual = 7.682633662695252e-18
+T14_spin2_integer_vs_half = [0.7520283951855372, 0.7520283951854678, 4.263256414560601e-14]
+hermiticity_singlet_L0 = 1.403548258317502e-15
+cond_R = 1.8646414885684994
+Z_S_raw = -1.0
+hermiticity_singlet_L2 = 2.971675771918334e-15
+QG_S_forbidden = 2.651958513899544e-16
+half_selection_max_ratio = 3.974969687523498e-12
+hermiticity_gamma2_L0 = 2.235407907837237e-16
+T14_spin0_integer_vs_half = [1.190503423607773, 1.1905034236077845, 6.394884621840902e-14]
+QG_vacuum_forbidden = 2.5153490401663703e-17
+
+    [gates.half_reverse_over_forward]
+    L1 = [-1.7320508075688752, -1.7320508075688772]
+    L2 = [2.2360679774997942, 2.23606797749979]
+    L3 = [-2.6457513110645694, -2.6457513110645907]
+    L0 = [1.0, 1.0]

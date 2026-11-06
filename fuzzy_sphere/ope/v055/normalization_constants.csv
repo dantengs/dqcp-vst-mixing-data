@@ -1,0 +1,105 @@
+N,quantity,value,definition,source
+5,g,0.8642902899515241,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+5,E0,6.741381283833569,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+5,alpha,0.48502392855608323,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+5,generator_c1,-309.2115882717406,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+5,generator_c2,279.5418851914812,KK generator coefficient of O2,kk/calibration.ckpt
+5,generator_ratio_c2_over_c1,-0.9040472472390486,ratio fixed by the vacuum-image minimisation,derived
+5,Z_phi,0.32353802692163974,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+5,Z_T,0.011537605536990913,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+5,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+5,beta_1,508.27559006181593,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+5,beta_2,84.27589387923702,second coefficient of O_S,ope3.toml beta
+5,O_S_vacuum_expectation,48.788052727708475,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+5,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+6,g,0.8614354464649371,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+6,E0,8.523480343768544,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+6,alpha,0.5245292962253522,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+6,generator_c1,-375.2408551187777,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+6,generator_c2,334.9152234424146,KK generator coefficient of O2,kk/calibration.ckpt
+6,generator_ratio_c2_over_c1,-0.8925340054893581,ratio fixed by the vacuum-image minimisation,derived
+6,Z_phi,0.3059415679255753,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+6,Z_T,0.01044456238789894,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+6,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+6,beta_1,569.5861584122633,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+6,beta_2,103.33042004718041,second coefficient of O_S,ope3.toml beta
+6,O_S_vacuum_expectation,54.98692039084306,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+6,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+7,g,0.8715829719358338,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+7,E0,10.083065442107563,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+7,alpha,0.5561338756483963,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+7,generator_c1,-448.2803155493856,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+7,generator_c2,401.572186709885,KK generator coefficient of O2,kk/calibration.ckpt
+7,generator_ratio_c2_over_c1,-0.8958059784930376,ratio fixed by the vacuum-image minimisation,derived
+7,Z_phi,0.2918738409392999,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+7,Z_T,0.009546661739487265,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+7,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+7,beta_1,638.8321651053418,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+7,beta_2,123.4436672658375,second coefficient of O_S,ope3.toml beta
+7,O_S_vacuum_expectation,61.939696440309376,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+7,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+8,g,0.8903705662882018,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+8,E0,11.404442339760447,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+8,alpha,0.5810739338483868,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+8,generator_c1,-524.3142717810847,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+8,generator_c2,476.60614784255563,KK generator coefficient of O2,kk/calibration.ckpt
+8,generator_ratio_c2_over_c1,-0.9090085345636968,ratio fixed by the vacuum-image minimisation,derived
+8,Z_phi,0.2801598252029626,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+8,Z_T,0.008791257804629166,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+8,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+8,beta_1,713.6114468026349,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+8,beta_2,144.70769443128657,second coefficient of O_S,ope3.toml beta
+8,O_S_vacuum_expectation,69.43424801813914,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+8,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+9,g,0.9149510000000001,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+9,E0,12.484141242664379,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+9,alpha,0.6006244957373666,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+9,generator_c1,-601.5262370503076,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+9,generator_c2,558.7834342274642,KK generator coefficient of O2,kk/calibration.ckpt
+9,generator_ratio_c2_over_c1,-0.9289427456523918,ratio fixed by the vacuum-image minimisation,derived
+9,Z_phi,0.2701195752667916,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+9,Z_T,0.008144070123447818,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+9,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+9,beta_1,793.0464638799099,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+9,beta_2,167.15130686901654,second coefficient of O_S,ope3.toml beta
+9,O_S_vacuum_expectation,77.39295183057003,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+9,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+10,g,0.9437,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+10,E0,13.31739635387794,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+10,alpha,0.6157798463994382,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+10,generator_c1,-678.8481390009279,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+10,generator_c2,647.4376803695121,KK generator coefficient of O2,kk/calibration.ckpt
+10,generator_ratio_c2_over_c1,-0.9537297713187474,ratio fixed by the vacuum-image minimisation,derived
+10,Z_phi,0.2613267697524514,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+10,Z_T,0.007581453821650954,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+10,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+10,beta_1,876.7902737582792,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+10,beta_2,190.79762490276113,second coefficient of O_S,ope3.toml beta
+10,O_S_vacuum_expectation,85.78561487176992,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+10,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+11,g,0.9753477137817606,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+11,E0,13.907015245143057,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+11,alpha,0.6274643111551582,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+11,generator_c1,-755.743301528131,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+11,generator_c2,742.0870816175672,KK generator coefficient of O2,kk/calibration.ckpt
+11,generator_ratio_c2_over_c1,-0.9819300814404167,ratio fixed by the vacuum-image minimisation,derived
+11,Z_phi,0.25350438455428265,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+11,Z_T,0.007087082078356171,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+11,Z_S_raw,-1.0,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+11,beta_1,964.7053844694863,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+11,beta_2,215.64670133717408,second coefficient of O_S,ope3.toml beta
+11,O_S_vacuum_expectation,94.5999130589128,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+11,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline
+12,g,1.0092383457693275,coupling V/U at which 2(E_T-E0)/(E_J-E0)=3,coverage_run.toml
+12,E0,14.249922893434432,"ground-state energy (lowest C2=0 state of (0,0) L0)",kk/calibration.ckpt
+12,alpha,0.6363114904077907,"energy->Delta scale, alpha = 2/(E_J-E0)",kk/calibration.ckpt
+12,generator_c1,-831.7965187236681,"KK generator coefficient of O1 (vacuum-image minimised, |<dS|L|S>|=sqrt(2 Delta_S))",kk/calibration.ckpt
+12,generator_c2,842.4090797466765,KK generator coefficient of O2,kk/calibration.ckpt
+12,generator_ratio_c2_over_c1,-1.0127586023554085,ratio fixed by the vacuum-image minimisation,derived
+12,Z_phi,0.24645740871548036,phi normalisation |<phi|n_Gamma2|0>| (vector density Gamma^2),ope3.toml phi_normalization
+12,Z_T,0.006648586592652064,"T normalisation |<T|Q_G|0>| (tensor insertion), T phase fixed by Z_T > 0",ope3.toml Z_T
+12,Z_S_raw,-0.9999999999999999,S normalisation <S|O_S|0> = Z_S_raw (|Z_S|=1 after beta calibration),ope3.toml Z_S_raw
+12,beta_1,1056.7499726345075,"O_S = beta_1 rho'rho + beta_2 Delta'Delta (two conditions: <stress|O_S|0>=0, <S|O_S|0>=+-1)",ope3.toml beta
+12,beta_2,241.713976386392,second coefficient of O_S,ope3.toml beta
+12,O_S_vacuum_expectation,103.83270760737788,"<0|O_S|0>, subtracted as <O_S>_vac <Z|X>",ope3.toml vacuum_expectation_Os
+12,kappa_threshold,0.042169650342858224,primary criterion kappa = K2/(2 Delta) <= threshold (pooled N6-10 valley rule),pipeline

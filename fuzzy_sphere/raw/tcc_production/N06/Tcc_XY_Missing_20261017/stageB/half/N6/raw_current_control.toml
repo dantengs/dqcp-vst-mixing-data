@@ -1,0 +1,10 @@
+old_abs_ME = 0.13189459603521667
+current_P = 1
+status = "pass"
+absolute_difference = 2.7755575615628914e-17
+current_Delta = 2.000000000000006
+new_phi_energy = 9.641429423859154
+new_current_energy = 12.336422755932213
+new_abs_ME = 0.1318945960352167
+old_edge_sha = "cbe0cad30aff0f1c3cb11bc6595dd495b84bf0f3dec3938e70de33be23917982"
+tolerance = 1.0e-7

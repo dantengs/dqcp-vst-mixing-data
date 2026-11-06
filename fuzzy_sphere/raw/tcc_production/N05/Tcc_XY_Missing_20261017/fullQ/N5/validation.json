@@ -1,0 +1,9 @@
+{
+  "status": "ALL_PASS",
+  "rows": 1644,
+  "pure_source_part_controls": 2152,
+  "max_control_difference": 2.7755575615628914e-17,
+  "sha256": "916f2932768e579d1dd8193ff9c4c0610a39195d77992c773f1591524d698e6f",
+  "source_discarded_weight": 0,
+  "normalization": "raw_separate_parts_no_PH_or_CG_projection"
+}

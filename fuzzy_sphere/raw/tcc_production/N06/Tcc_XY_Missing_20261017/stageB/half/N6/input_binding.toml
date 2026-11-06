@@ -1,0 +1,14 @@
+calibration_sha = "a1a8acccd9472a9347d86a536050bd938d474148b5e70f290e1e35d4c71ef473"
+raw_dmax = 6.8
+source_run = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N6"
+script_sha = "53d551e21b158eca553340f548e74619d0a5ad207c52100fa4b260b621904800"
+normalization_sha = "e8639c1ab884b7896d40473186037ef2167297aa8581c9b6ee252757578fe181"
+N = 6
+basis_source = "fb560dd94742ed49402c4f5c501660ff0de4916c39978409cc8835d7b7f88d44"
+ope3_source = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/ope3_20261016/N6"
+g = 0.8614354464649371
+source_tree_sha = "5da4202f25c0137fc4a98d9849ed3560fc7f104823c5c5f037b59a4a0d675dd6"
+memory_limit_bytes = 1.16823110451e11
+max_nev = 384
+config_sha = "f08130f41ad2d997f435c361803ce82d4223a2ef3d1195c51c0c037dc6edfff9"
+sector = "half"

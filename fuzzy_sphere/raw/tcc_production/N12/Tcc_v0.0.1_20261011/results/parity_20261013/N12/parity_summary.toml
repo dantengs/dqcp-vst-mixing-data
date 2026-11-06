@@ -1,0 +1,12 @@
+max_residual = 1.4230589135094317e-10
+convention = "P = P_seg * P_seg(vacuum) * (-1)^L (src/parity.jl); Table VI of arXiv:2306.16435 reproduced 129/129 at N10"
+vacuum_raw_sign = 1
+N = 12
+segment_s2_orthogonality = 1.6562064635967097e-11
+kk_modes = 411
+"kk_modes_mixed_t0.25" = 0
+segment_s1_orthogonality = 1.0943922123444697e-11
+g = 1.0092383457693275
+tcc_version = "0.2.4"
+run = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v0116_20261012/N12"
+segment_s0_orthogonality = 1.5108297809086078e-11

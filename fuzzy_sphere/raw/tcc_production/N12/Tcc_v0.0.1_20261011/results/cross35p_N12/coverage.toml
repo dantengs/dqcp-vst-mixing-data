@@ -1,0 +1,97 @@
+E0 = 14.249922893434432
+history = []
+iteration = 0
+alpha = 0.6363114904077907
+delta_cut = 5.8
+kmax = 400
+
+[sectors.s1_s1_L0_x1]
+sector_dim = 16140010
+delta_top = 7.151113346891025
+complete = false
+states = 24
+reached = true
+
+[sectors.s0_s0_L2_x1]
+sector_dim = 26523250
+delta_top = 6.266485424392994
+complete = false
+states = 24
+reached = true
+
+[sectors.s1_s1_L0_x-1]
+sector_dim = 16123333
+delta_top = 7.4833885079730695
+complete = false
+states = 24
+reached = true
+
+[sectors.s1_s1_L2_x-1]
+sector_dim = 79194557
+delta_top = 6.302975186893049
+complete = false
+states = 24
+reached = true
+
+[sectors.s1_s1_L1_x-1]
+sector_dim = 48090842
+delta_top = 6.469479665815259
+complete = false
+states = 24
+reached = true
+
+[sectors.s0_s1_L1_x0]
+sector_dim = 55612834
+delta_top = 6.404526189400556
+complete = false
+states = 44
+reached = true
+
+[sectors.s1_s1_L3_x-1]
+sector_dim = 108909064
+delta_top = 6.463533647367896
+complete = false
+states = 24
+reached = true
+
+[sectors.s0_s0_L0_x-1]
+sector_dim = 5398483
+delta_top = 7.513307275594841
+complete = false
+states = 24
+reached = true
+
+[sectors.s1_s1_L1_x1]
+sector_dim = 48074247
+delta_top = 6.535487403108348
+complete = false
+states = 24
+reached = true
+
+[sectors.s0_s0_L0_x1]
+sector_dim = 5408157
+delta_top = 7.1441075174710456
+complete = false
+states = 24
+reached = true
+
+[sectors.s0_s0_L2_x-1]
+sector_dim = 26513655
+delta_top = 6.359763704487345
+complete = false
+states = 24
+reached = true
+
+[sectors.s1_s1_L3_x1]
+sector_dim = 108892765
+delta_top = 6.5103851735405
+complete = false
+states = 24
+reached = true
+
+[sectors.s1_s1_L2_x1]
+sector_dim = 79211152
+delta_top = 6.23663352946945
+complete = false
+states = 24
+reached = true

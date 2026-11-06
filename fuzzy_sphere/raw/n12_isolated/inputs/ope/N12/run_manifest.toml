@@ -1,0 +1,281 @@
+target_Delta_max = 6.6
+basis_sha = "470e0d7418e3238d1fdf23ee01f778a1617bf2890d32f6980e555aa792d1f777"
+sectors_processed = [[0, 1], [0, 2], [0, 0]]
+source_policy = "V_projected=V_raw*full_Q_selected; no coefficient omitted"
+version = "xy-full-sources-v1"
+parity_sha256 = "420729297e3d0720b54df8cb09069ddcc00843d8e89bc71bcde7ce4980182478"
+elapsed_seconds = 3806.262612104416
+PH_projection_applied = false
+tcc_version = "0.2.7"
+profile_presence_gate = "ALL_PASS"
+base_commit_expected = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+profile = "full_saved_KK_Q_sources_no_tail_drop_v1"
+source_capture_gate = "ALL_PASS_full_Q_no_discard"
+tcc_source_tree_sha256 = "5da4202f25c0137fc4a98d9849ed3560fc7f104823c5c5f037b59a4a0d675dd6"
+script_sha256 = "e561eb36763e758e34430b412f8ef267154ad05e429ce45197a2d0bde2d44fba"
+expected_rows = 902
+full_Q_probe_gate = "ALL_PASS_independent_axpy_accumulation"
+status = "done"
+N = 12
+config_sha256 = "ae8089edcd561099c882e6cf0ca4f80edea38fc9283fdbc29f076b62783e9f0b"
+rank_max = 3
+csv_sha256 = "b311ede0bae188ea33d8668c091c9858f2d4fad48846b96f808ce1fac36aa399"
+segment_residency = "pair_split_store"
+source_Delta_max = 5.0
+threshold = 0.25
+run = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v0116_20261012/N12"
+rows = 902
+tcc_source = "/nfs/work/sth/Tcc_v0.0.1_20261011/code_v027/v027/Tcc_v0.0.1/src/Tcc.jl"
+
+[[targets]]
+rank = 0
+status = "available_saved_KK_candidates"
+target_count = 4
+sector = "s0_s2"
+target_projection_sha = "33029e596639240b42da353c61a94c6448f9e6caf20dfe691d29e0130e73adaf"
+target_raw_columns = 32
+target_window_sha = "ad97065a0621737b33f0bd1825dba06339c475e43336e02b001cf8af195395b8"
+[[targets]]
+rank = 1
+status = "available_saved_KK_candidates"
+target_count = 1
+sector = "s0_s2"
+target_projection_sha = "57d18ded5e7287c0f6bb1f34460fbf0c56bc4ae145916a5546a2ae14812e4669"
+target_raw_columns = 32
+target_window_sha = "d6ebd9c19b25f839fe37de872730140af9af77e85997c9e31b801263f1dd86eb"
+[[targets]]
+rank = 2
+status = "available_saved_KK_candidates"
+target_count = 7
+sector = "s0_s2"
+target_projection_sha = "52f4a1a3ad0b8383053495a3a98ccf0fc87f5e583cb699b17fe59a1bda4ae516"
+target_raw_columns = 32
+target_window_sha = "5c555ce1e566320f7913ed7b819098b3deeae84bd5173e60e81f52a780718e2e"
+[[targets]]
+rank = 3
+status = "available_saved_KK_candidates"
+target_count = 2
+sector = "s0_s2"
+target_projection_sha = "6c847a40a46db98de4ce3fd0cc1cb765266fb03cea31e954b073cade9236e5a7"
+target_raw_columns = 32
+target_window_sha = "8cc70c7988c98bd1457acc311c0db2f39d07d16e833696fc45eb66c0b03c4092"
+[[targets]]
+rank = 0
+status = "available_saved_KK_candidates"
+target_count = 16
+sector = "s0_s0"
+target_projection_sha = "3c275b592f681a8f801e8be28358a2f761a6cf9aba38b21502c63d485441a9ed"
+target_raw_columns = 48
+target_window_sha = "02e45156e08f5e4ef458831176d9e5b26952d2f299f25605066b66a97605fe69"
+[[targets]]
+rank = 1
+status = "available_saved_KK_candidates"
+target_count = 3
+sector = "s0_s0"
+target_projection_sha = "7cdea7afb70a2839e353baa77c8f7609585108d560037428d76f5158a67420d6"
+target_raw_columns = 48
+target_window_sha = "294b8aca8ec96eac4bf25c9b650c153012d0a1a8ddaf40349069d0d8ff869ef8"
+[[targets]]
+rank = 2
+status = "available_saved_KK_candidates"
+target_count = 12
+sector = "s0_s0"
+target_projection_sha = "38241ae2c30300ac0bdb3ff02116ccfe33f4c5788aaa9240afc8b48fb8829f69"
+target_raw_columns = 48
+target_window_sha = "dd21808103d5ae3601a3f5d3233934a22a10fa29e0b538d75a26c7c440a8b812"
+[[targets]]
+rank = 3
+status = "available_saved_KK_candidates"
+target_count = 6
+sector = "s0_s0"
+target_projection_sha = "66b39bd3bb5aeeabe732232a4668d49129a93711da36ab1ba758886d557fe9c0"
+target_raw_columns = 48
+target_window_sha = "48bb4d10817ffe8a47bb6167312c049672d4af3dd3f9098659ce081c0f98bab1"
+
+[[edges]]
+rank = 0
+insertion = "singlet"
+target_count = 4
+sector = "s0_s2"
+source_count = 1
+expected_rows = 4
+exported_rows = 4
+identity_sha = "49aef28f897ca21af2f0a97f7774fa29c27748a0584ac2b60297951d5d356d6e"
+part_count = 2
+[[edges]]
+rank = 1
+insertion = "singlet"
+target_count = 1
+sector = "s0_s2"
+source_count = 1
+expected_rows = 1
+exported_rows = 1
+identity_sha = "4e782ceab2b7f9f36a21eab912411589d532adae969e9b6bb4ddeb1c18ae3fc2"
+part_count = 2
+[[edges]]
+rank = 2
+insertion = "singlet"
+target_count = 7
+sector = "s0_s2"
+source_count = 1
+expected_rows = 7
+exported_rows = 7
+identity_sha = "b3bc8a4dbc74db16968da4d506ee1aa996f64a74c94a19f3ed7d6d1e04348637"
+part_count = 2
+[[edges]]
+rank = 3
+insertion = "singlet"
+target_count = 2
+sector = "s0_s2"
+source_count = 1
+expected_rows = 2
+exported_rows = 2
+identity_sha = "4d3b48fb54198c5d709cdeda6c57b93163d77c66da3d154f4c51fa97e3806e9d"
+part_count = 2
+[[edges]]
+rank = 0
+insertion = "singlet"
+target_count = 16
+sector = "s0_s0"
+source_count = 8
+expected_rows = 128
+exported_rows = 128
+identity_sha = "179ec1748dd171237453075777c7348d35af575261804eb537d602a0f4e6f8a9"
+part_count = 2
+[[edges]]
+rank = 0
+insertion = "gamma2"
+target_count = 16
+sector = "s0_s0"
+source_count = 8
+expected_rows = 128
+exported_rows = 128
+identity_sha = "394e647ad789d150c339b2936851f06e88019842f00af4d73e5032385863a837"
+part_count = 1
+[[edges]]
+rank = 0
+insertion = "tensorG"
+target_count = 16
+sector = "s0_s0"
+source_count = 8
+expected_rows = 128
+exported_rows = 128
+identity_sha = "aec73c45e253094493866816f98117b1ddd4d4c66dd23d81c2bb7ecec5e54916"
+part_count = 2
+[[edges]]
+rank = 1
+insertion = "singlet"
+target_count = 3
+sector = "s0_s0"
+source_count = 8
+expected_rows = 24
+exported_rows = 24
+identity_sha = "5b9c4869cc26b6f4ddf1a26b97c2d926cd229e0bec8ea31a262046ed26abc8ad"
+part_count = 2
+[[edges]]
+rank = 1
+insertion = "gamma2"
+target_count = 3
+sector = "s0_s0"
+source_count = 8
+expected_rows = 24
+exported_rows = 24
+identity_sha = "293cc95a5041b529b7b94fd0f79a1b35b41b7c44a60c33048323a1145c88ec40"
+part_count = 1
+[[edges]]
+rank = 1
+insertion = "tensorG"
+target_count = 3
+sector = "s0_s0"
+source_count = 8
+expected_rows = 24
+exported_rows = 24
+identity_sha = "e9c1d135394a6a2257ec25195fb27b329aeb6bb035be6e6e6f671a32ab619a70"
+part_count = 2
+[[edges]]
+rank = 2
+insertion = "singlet"
+target_count = 12
+sector = "s0_s0"
+source_count = 8
+expected_rows = 96
+exported_rows = 96
+identity_sha = "348ef7a85279be4629d35b6aed28e4a70d70acdcbb623027ff8c61828fc4e490"
+part_count = 2
+[[edges]]
+rank = 2
+insertion = "gamma2"
+target_count = 12
+sector = "s0_s0"
+source_count = 8
+expected_rows = 96
+exported_rows = 96
+identity_sha = "fc76cb744b0359d5c5758dc383d3037cca765346ac518eaaa909e4d227661581"
+part_count = 1
+[[edges]]
+rank = 2
+insertion = "tensorG"
+target_count = 12
+sector = "s0_s0"
+source_count = 8
+expected_rows = 96
+exported_rows = 96
+identity_sha = "97186404bbcf3e5c2ac706e73c0400e9a2e0bd49e131eb7ed56777e57b1a3887"
+part_count = 2
+[[edges]]
+rank = 3
+insertion = "singlet"
+target_count = 6
+sector = "s0_s0"
+source_count = 8
+expected_rows = 48
+exported_rows = 48
+identity_sha = "664386bca0b6f7239c446e0ccc49e0ed8d72cb5b96bf6593735601d38c37623a"
+part_count = 2
+[[edges]]
+rank = 3
+insertion = "gamma2"
+target_count = 6
+sector = "s0_s0"
+source_count = 8
+expected_rows = 48
+exported_rows = 48
+identity_sha = "fa0ec6c9ba0cefa070134a2ca0ef36dc607ea288bae2e46bd5ac11628cd7e3fc"
+part_count = 1
+[[edges]]
+rank = 3
+insertion = "tensorG"
+target_count = 6
+sector = "s0_s0"
+source_count = 8
+expected_rows = 48
+exported_rows = 48
+identity_sha = "03d5cd050250bed210c93004bb7e3134816ab2842c31e81570d88ac0b52723c3"
+part_count = 2
+
+[[sectors]]
+status = "no_scalar_KK_sources_below_cut"
+sector = "s0_s1"
+catalogue_sources = 0
+[[sectors]]
+source_window_sha = "ad97065a0621737b33f0bd1825dba06339c475e43336e02b001cf8af195395b8"
+source_raw_columns = 32
+source_projection_sha = "33029e596639240b42da353c61a94c6448f9e6caf20dfe691d29e0130e73adaf"
+selected_sources = 1
+status = "full_sources_prepared"
+source_Q_sha = "8034367eec76495180b08e634d0bf4236b83a30d9ce7be3fd843fe8860f4de41"
+sector = "s0_s2"
+catalogue_sources = 1
+full_Q_probe_relative_error = 0.0
+full_Q_probe_label = "kk_C2_8_m1"
+[[sectors]]
+source_window_sha = "02e45156e08f5e4ef458831176d9e5b26952d2f299f25605066b66a97605fe69"
+source_raw_columns = 48
+source_projection_sha = "3c275b592f681a8f801e8be28358a2f761a6cf9aba38b21502c63d485441a9ed"
+selected_sources = 8
+status = "full_sources_prepared"
+source_Q_sha = "e8531f980cfa584fbfe60d3f4f98fe86c0137c0237f50cd69e7a4aa9e83fc313"
+sector = "s0_s0"
+catalogue_sources = 8
+full_Q_probe_relative_error = 0.0
+full_Q_probe_label = "kk_C2_2_m2"

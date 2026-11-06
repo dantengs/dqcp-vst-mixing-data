@@ -1,0 +1,56 @@
+phi_normalization = 0.3059415679255753
+"named:SSS" = -0.32478249101529855
+"named:phi_S_vprime_Os" = 0.44974717256666613
+"named:phi_phi_tprime_Gamma2" = 0.039975254068507604
+"named:T_T_tprime" = 0.622985705634119
+code_tree = "5f4185f1dd7002536bd733da6598f3d48ae09d8fb215c1fd4851f05a5ce4cd13"
+N = 6
+vacuum_expectation_Os = 54.98692039084306
+"named:phi_phi_T14_Gamma2" = 1.1515041577314549
+"named:phi_T_vprime_Gamma2" = 0.09528341910387059
+"named:STT_tensor_insertion" = 0.8243417198389413
+"named:tprime_tprime_S" = -0.33768461897308555
+version = "ope3-v1"
+half_vs_integer_phi_energy_difference = 1.2434497875801753e-14
+"named:TTT_trace" = 2.9979812827822183
+"named:phi_S_vprime_Gamma2" = 0.5021804356057998
+"named:density_vprime_admixture" = 0.000664478695883334
+g = 0.8614354464649371
+tcc_version = "0.2.7"
+"named:stress_S_stress_rank0" = -1.9804212013515752
+Z_T = 0.01044456238789894
+alpha = 0.5245292962253522
+"named:phi_phi_S_Os" = 0.33001504981913854
+"named:STT_singlet_insertion" = 0.8850796524624016
+"named:TTT_isometric" = 3.483339474137124
+beta = [569.5861584122633, 103.33042004718041]
+git_commit = "232da369f399e6ec09574dc5f1a67df1e6352a6a"
+E0 = 8.523480343768544
+interpretation = "finite-N local-operator proxies; no continuum extrapolation; not certified CFT OPE data"
+run = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N6"
+"named:phi_phi_stress_canonical" = 0.18907021023521295
+half_dims = [180, 508, 778, 966]
+"named:vprime_vprime_S" = -0.4059641639172398
+"named:phi_phi_S_Gamma2" = 0.15895707435225412
+
+[gates]
+hermiticity_tensorG_L0 = 8.294596762106789e-16
+stress_null_residual = 1.666030604609872e-17
+T14_spin2_integer_vs_half = [0.681592322994786, 0.6815923229947665, -7.105427357601002e-15]
+QG_terms_count = [1168, 1168]
+hermiticity_singlet_L0 = 3.6517501683157455e-16
+cond_R = 2.202005275146985
+Z_S_raw = -1.0
+QG_terms_error = 2.6020852139652106e-18
+hermiticity_singlet_L2 = 3.986663217796862e-16
+QG_S_forbidden = 1.3368616259227627e-16
+half_selection_max_ratio = 3.884736649345179e-14
+hermiticity_gamma2_L0 = 2.8141930320639183e-16
+T14_spin0_integer_vs_half = [1.1515041577314549, 1.1515041577314669, 1.7763568394002505e-15]
+QG_vacuum_forbidden = 1.7702543545411586e-16
+
+    [gates.half_reverse_over_forward]
+    L1 = [-1.7320508075688776, -1.7320508075688772]
+    L2 = [2.2360679774997894, 2.23606797749979]
+    L3 = [-2.6457513110645903, -2.6457513110645907]
+    L0 = [0.9999999999999999, 1.0]

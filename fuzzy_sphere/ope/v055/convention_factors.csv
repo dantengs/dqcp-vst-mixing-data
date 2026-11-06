@@ -1,0 +1,8 @@
+name,value,definition
+c_0,1.0,spin factor c_l = sqrt((2l+1)!!/l!) (canonical-I STF extraction)
+c_1,1.7320508075688772,spin factor c_l = sqrt((2l+1)!!/l!) (canonical-I STF extraction)
+c_2,2.7386127875258306,spin factor c_l = sqrt((2l+1)!!/l!) (canonical-I STF extraction)
+c_3,4.183300132670378,spin factor c_l = sqrt((2l+1)!!/l!) (canonical-I STF extraction)
+c_4,6.274950199005566,spin factor c_l = sqrt((2l+1)!!/l!) (canonical-I STF extraction)
+lambda_3j/lambda_iso,,sqrt(dim Z) (permutation-symmetric 3j convention)
+stress_extra_factor,1.0,canonical-I stress normalisation: no extra factor beyond c_2

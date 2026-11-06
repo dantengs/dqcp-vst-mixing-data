@@ -1,0 +1,37 @@
+[threads]
+native = 8
+tile = 64
+
+[run]
+g = 0.9753477137817606
+N = 11
+out = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v0116_20261012/N11"
+
+[kk]
+cache = "/nfs/work/sth/Tcc_v0.0.1_20261011/kk_cache"
+
+[targets]
+max_nev = 4000
+source_delta_max = 6.2
+guard = 1.0e-5
+initial_nev = 48
+
+[basis]
+segment_checkpoint = "/nfs/work/sth/Zhou_v0.0.3_so5n11_epyc64_gstar_20260924/checkpoints/n11_gstar_k40/segment_spaces.ckpt"
+
+[spectrum]
+lmax = 3
+exchange = true
+tol = 1.0e-10
+residency = "all"
+blocks = [[0, 0, 0], [0, 0, 1], [0, 0, 2], [0, 0, 3], [0, 0, 4], [0, 1, 0], [0, 1, 1], [0, 1, 2], [0, 1, 3], [0, 1, 4], [0, 2, 0], [0, 2, 1], [0, 2, 2], [0, 2, 3], [0, 2, 4], [1, 1, 0], [1, 1, 1], [1, 1, 2], [1, 1, 3], [1, 1, 4], [1, 2, 0], [1, 2, 1], [1, 2, 2], [1, 2, 3], [1, 2, 4], [2, 2, 0], [2, 2, 1], [2, 2, 2], [2, 2, 3], [2, 2, 4]]
+nev = 48
+parity = "both"
+extend = true
+
+    [spectrum.block_nev]
+
+    [spectrum.parity_nev]
+
+[ope]
+half = true

@@ -1,0 +1,97 @@
+[s2_s2_L0_L1_conjugacy]
+errors = [4.13492684773917e-17, 1.3909400741858354e-16]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s1_L1_mu]
+nonlowering_residual_norm = 20.76355051461179
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 1.1871343010631525e-11
+fitted_mu_identity_component = 1.5622980736748244
+L = 1
+
+[s0_s1_L1_L2_conjugacy]
+status = "ineligible_different_target_eigenbasis_payloads"
+factor = 1.2909944487358056
+
+[s0_s2_L0_L1_conjugacy]
+errors = [3.4623931044889247e-17, 7.26437976490549e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s2_L1_mu]
+nonlowering_residual_norm = 13.163262668972466
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 5.007361834474943e-13
+fitted_mu_identity_component = 1.5622980736748775
+L = 1
+
+[s2_s2_L1_L2_conjugacy]
+errors = [4.644324333849732e-17, 1.4526206454887078e-16]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s0_L1_mu]
+nonlowering_residual_norm = 27.550975873266406
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 7.741538388558311e-13
+fitted_mu_identity_component = 1.5622980736749177
+L = 1
+
+[s1_s2_L0_L1_conjugacy]
+errors = [3.4862425679536705e-17, 9.802047158466617e-17]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s1_s2_L1_L2_conjugacy]
+errors = [4.420766158098307e-17, 1.1585462390708647e-16]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s0_L0_L1_conjugacy]
+status = "ineligible_different_target_eigenbasis_payloads"
+factor = 1.7320508075688772
+
+[s1_s1_L0_L1_conjugacy]
+errors = [7.692102368071351e-17, 1.9723612883212533e-16]
+status = "passed_common_original_indices"
+factor = 1.7320508075688772
+
+[s0_s0_L1_L2_conjugacy]
+status = "ineligible_different_target_eigenbasis_payloads"
+factor = 1.2909944487358056
+
+[s1_s1_L1_mu]
+nonlowering_residual_norm = 17.717216739117443
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 6.882954742341914e-13
+fitted_mu_identity_component = 1.5622980736749177
+L = 1
+
+[s1_s2_L1_mu]
+nonlowering_residual_norm = 12.382527551250883
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 9.307544434880903e-13
+fitted_mu_identity_component = 1.5622980736749077
+L = 1
+
+[s0_s2_L1_L2_conjugacy]
+errors = [3.423179138673215e-17, 8.733540967261084e-17]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s2_s2_L1_mu]
+nonlowering_residual_norm = 19.617516980538102
+status = "rotation_identity_ambiguity_diagnostic_only"
+lowering_shift_error = 6.076630221325624e-13
+fitted_mu_identity_component = 1.5622980736748886
+L = 1
+
+[s1_s1_L1_L2_conjugacy]
+errors = [8.899450211332496e-17, 2.267012136447953e-16]
+status = "passed_common_original_indices"
+factor = 1.2909944487358056
+
+[s0_s1_L0_L1_conjugacy]
+status = "ineligible_different_target_eigenbasis_payloads"
+factor = 1.7320508075688772

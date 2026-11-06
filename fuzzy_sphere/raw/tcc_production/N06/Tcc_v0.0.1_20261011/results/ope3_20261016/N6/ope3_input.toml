@@ -1,0 +1,13 @@
+g = 0.8614354464649371
+run_toml = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N6/coverage_run.toml"
+run = "/nfs/work/sth/Tcc_v0.0.1_20261011/results/supp_v027_20261016/N6"
+N = 6
+
+[opts]
+image_bytes = 1.6e10
+pair_dmax = 6.5
+threshold = 0.25
+half_lmax = 3
+int_ranks = [1, 2, 3, 4]
+half_nev = 24
+src_dmax = 5.0

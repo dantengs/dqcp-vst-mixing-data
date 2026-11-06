@@ -1,0 +1,23 @@
+{
+  "levels": 264,
+  "classified_counts": {
+    "primary": 45,
+    "descendant": 154,
+    "mixed_primary_descendant": 42,
+    "nonprimary_no_family_coverage": 3,
+    "primary_uncertain_window": 8,
+    "primary_resolved": 4,
+    "nonprimary_partial_family_coverage": 7,
+    "descendant_uncertain_window": 1
+  },
+  "changed_reviewed_level_or_window_status": [],
+  "ope_rows": 845,
+  "max_recontraction_difference": 5.048709793414476e-29,
+  "strict_ope": 177,
+  "strict_flags_changed": [],
+  "N12_current_metadata_fields_changed": [
+    "raw_binary_read_sha256",
+    "versions"
+  ],
+  "phi_phi_J_common_lambda": 0.8574003792250015
+}

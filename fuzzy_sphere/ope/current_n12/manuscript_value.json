@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-06",
+  "status": "adopted_finite_N_value",
+  "channel": "phi_phi_J",
+  "N": 12,
+  "g": 1.0092383457693275,
+  "intended_use": "Table III finite-N data",
+  "values": {
+    "abs_ME": 0.10847631565638495,
+    "f_production": 0.7623487202676921,
+    "lambda_iso": 1.078123899460343
+  },
+  "normalization": {
+    "Z_phi": 0.24645740871548036,
+    "c1": 1.7320508075688772,
+    "abs_CG_iso": 0.7071067811865475
+  },
+  "current_identity_evidence": {
+    "L": 1,
+    "C2": 3,
+    "P": 1,
+    "raw_index": 2,
+    "K2_in_saved_windows": 0.0,
+    "primary_weight_in_saved_windows": 1.0,
+    "L2_prefixes_with_identical_result": [
+      81,
+      54,
+      27
+    ],
+    "L2_complement_certificate_present": false
+  },
+  "routes": [
+    "3663_raw_forward",
+    "6436_prelim81_blind_projection"
+  ],
+  "source": "run/RESULT.json",
+  "source_sha256": "8141efa079f69c08011cddaa55b38db4e2450ebec5ce40ee83fe04a9a68dad12",
+  "replay": "run/REPLAY.json",
+  "analysis_directory": "E:/CodeXFiles/fuzzy sphere\u8ba1\u7b97\u4e8b\u52a1/N12_phiphiJ_blind_20261106",
+  "source_chat": "codex://threads/01a180eb-4e62-7fc3-8bab-911805ea5d3c",
+  "replay_status": "PASS",
+  "manuscript": {
+    "f_in_manuscript_unit_tensor_convention": 1.078123899460343,
+    "lambda_iso_to_mixed_crossing_factor": 0.7952707287670506,
+    "lambda_mixed_crossing": 0.8574003792250015,
+    "lambda_display": "0.857",
+    "lambda_bootstrap": 0.863643105426421,
+    "relative_difference_percent": 0.722836338551814,
+    "table_labels": [
+      "tab:ope",
+      "tab:opecomparison"
+    ],
+    "lambda_bootstrap_source": "L23_Skydiving_minS_ver4"
+  }
+}

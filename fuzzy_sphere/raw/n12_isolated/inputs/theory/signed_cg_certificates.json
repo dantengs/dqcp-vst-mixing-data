@@ -1,0 +1,647 @@
+{
+  "schema": "signed-diagonal-tensor-CG-v1",
+  "all_geometry_checks_passed": true,
+  "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+  "proof": "A_R(Q)=B_R^T sum_slot(Q) B_R; unique R in R x 14; Schur-normalized isometric CG; simultaneous SO4 Casimir sector",
+  "scope": "diagonal spatial-spin-zero R x tensor14 -> R only; no multiplicity resolution or odd-spatial-spin certificate",
+  "magnitude_cg_sha256": "3d7fba137cce6a5737bc4e1e290e8d4025155f214fc80257db877fe471ef8ce6",
+  "numeric_basis_sha256": "38c52c32c33dc4ca9d8ef39afe6d6f6ba2cca5f4aa376908659476d1472a65b0",
+  "numeric_basis_file": "signed_cg_numeric_bases_v1.npz",
+  "numeric_basis_loading": "allow_pickle=False",
+  "geometry_checks": {
+    "1": {
+      "orthogonality_max": 0.0,
+      "Casimir_max": 0.0,
+      "generator_subspace_invariance_max": 0.0,
+      "target_eigenspace_dim": 0,
+      "target_dimension": 1,
+      "multiplicity": 0.0
+    },
+    "5": {
+      "orthogonality_max": 0.0,
+      "Casimir_max": 0.0,
+      "generator_subspace_invariance_max": 0.0,
+      "target_eigenspace_dim": 5,
+      "target_dimension": 5,
+      "multiplicity": 1.0,
+      "Schur_isometry_max": 2.220446049250313e-16,
+      "covariance_max": 6.661338147750939e-16,
+      "Schur_scale": 1.673320053068151
+    },
+    "10": {
+      "orthogonality_max": 4.440892098500626e-16,
+      "Casimir_max": 2.220446049250313e-15,
+      "generator_subspace_invariance_max": 5.551115123125783e-16,
+      "target_eigenspace_dim": 10,
+      "target_dimension": 10,
+      "multiplicity": 1.0,
+      "Schur_isometry_max": 4.440892098500626e-16,
+      "covariance_max": 1.3322676295501878e-15,
+      "Schur_scale": 2.049390153191919
+    },
+    "14": {
+      "orthogonality_max": 7.771561172376096e-16,
+      "Casimir_max": 5.329070518200751e-15,
+      "generator_subspace_invariance_max": 1.2212453270876722e-15,
+      "target_eigenspace_dim": 14,
+      "target_dimension": 14,
+      "multiplicity": 1.0,
+      "Schur_isometry_max": 9.992007221626409e-16,
+      "covariance_max": 1.6653345369377348e-15,
+      "Schur_scale": 2.3237900077244498
+    },
+    "30": {
+      "orthogonality_max": 3.744652507638018e-15,
+      "Casimir_max": 3.194666753358888e-14,
+      "generator_subspace_invariance_max": 2.6645352591003757e-15,
+      "target_eigenspace_dim": 30,
+      "target_dimension": 30,
+      "multiplicity": 1.0,
+      "Schur_isometry_max": 4.2083690628823214e-15,
+      "covariance_max": 5.7887891612368874e-15,
+      "Schur_scale": 2.913024937365673
+    },
+    "35": {
+      "orthogonality_max": 4.940706194209465e-15,
+      "Casimir_max": 2.927345865710862e-14,
+      "generator_subspace_invariance_max": 1.9984014443252818e-15,
+      "target_eigenspace_dim": 70,
+      "target_dimension": 35,
+      "multiplicity": 2.0
+    },
+    "35p": {
+      "orthogonality_max": 2.5118795932144167e-15,
+      "Casimir_max": 1.9904217163357885e-14,
+      "generator_subspace_invariance_max": 2.639381768698712e-15,
+      "target_eigenspace_dim": 35,
+      "target_dimension": 35,
+      "multiplicity": 1.0,
+      "Schur_isometry_max": 2.4575249243004772e-15,
+      "covariance_max": 3.3029134982598407e-15,
+      "Schur_scale": 2.1908902300206643
+    },
+    "55": {
+      "orthogonality_max": 1.1879386363489175e-14,
+      "Casimir_max": 1.5787371410169726e-13,
+      "generator_subspace_invariance_max": 3.2751579226442118e-15,
+      "target_eigenspace_dim": 55,
+      "target_dimension": 55,
+      "multiplicity": 1.0,
+      "Schur_isometry_max": 1.2107988604411308e-14,
+      "covariance_max": 1.9206858326015208e-14,
+      "Schur_scale": 3.4832934606968347
+    },
+    "81": {
+      "orthogonality_max": 1.8963997039378455e-14,
+      "Casimir_max": 1.8562928971732617e-13,
+      "generator_subspace_invariance_max": 2.886579864025407e-15,
+      "target_eigenspace_dim": 162,
+      "target_dimension": 81,
+      "multiplicity": 2.0
+    }
+  },
+  "entries": {
+    "1|14|1|s0_s0": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "1|14|1|half": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "1|14|1|s1_s1": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "1|14|1|s2_s2": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "1|14|1|s0_s1": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "1|14|1|s0_s2": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "1|14|1|s1_s2": {
+      "status": "representation_forbidden",
+      "multiplicity": 0.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "5|14|5|s0_s0": {
+      "status": "certified_unique_invariant",
+      "factor": 0.5345224838248488,
+      "signed_factor": 0.5345224838248488,
+      "sector_dimension": 1,
+      "expected_sector_dimension": 1,
+      "multiplicity": 1,
+      "sector_scalar_max": 0.0,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R5_14_R5",
+      "magnitude_reference_error": 2.220446049250313e-16
+    },
+    "5|14|5|half": {
+      "status": "certified_unique_invariant",
+      "factor": 0.1336306209562122,
+      "signed_factor": -0.1336306209562122,
+      "sector_dimension": 4,
+      "expected_sector_dimension": 4,
+      "multiplicity": 1,
+      "sector_scalar_max": 0.0,
+      "sign": -1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R5_14_R5",
+      "magnitude_reference_error": 1.3877787807814457e-16
+    },
+    "5|14|5|s1_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 9,
+      "multiplicity": 1
+    },
+    "5|14|5|s2_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 25,
+      "multiplicity": 1
+    },
+    "5|14|5|s0_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 3,
+      "multiplicity": 1
+    },
+    "5|14|5|s0_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 5,
+      "multiplicity": 1
+    },
+    "5|14|5|s1_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 15,
+      "multiplicity": 1
+    },
+    "10|14|10|s0_s0": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 1,
+      "multiplicity": 1
+    },
+    "10|14|10|half": {
+      "status": "certified_unique_invariant",
+      "factor": 0.32732683535398865,
+      "signed_factor": 0.32732683535398865,
+      "sector_dimension": 4,
+      "expected_sector_dimension": 4,
+      "multiplicity": 1,
+      "sector_scalar_max": 1.1102230246251565e-16,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R10_14_R10",
+      "magnitude_reference_error": 0.0
+    },
+    "10|14|10|s1_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 9,
+      "multiplicity": 1
+    },
+    "10|14|10|s2_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 25,
+      "multiplicity": 1
+    },
+    "10|14|10|s0_s1": {
+      "status": "certified_unique_invariant",
+      "factor": 0.21821789023599247,
+      "signed_factor": -0.21821789023599247,
+      "sector_dimension": 3,
+      "expected_sector_dimension": 3,
+      "multiplicity": 1,
+      "sector_scalar_max": 1.6653345369377348e-16,
+      "sign": -1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R10_14_R10",
+      "magnitude_reference_status": "not_in_previous_table"
+    },
+    "10|14|10|s0_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 5,
+      "multiplicity": 1
+    },
+    "10|14|10|s1_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 15,
+      "multiplicity": 1
+    },
+    "14|14|14|s0_s0": {
+      "status": "certified_unique_invariant",
+      "factor": 0.5773502691896254,
+      "signed_factor": 0.5773502691896254,
+      "sector_dimension": 1,
+      "expected_sector_dimension": 1,
+      "multiplicity": 1,
+      "sector_scalar_max": 0.0,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R14_14_R14",
+      "magnitude_reference_error": 1.1102230246251565e-16
+    },
+    "14|14|14|half": {
+      "status": "certified_unique_invariant",
+      "factor": 0.28867513459481287,
+      "signed_factor": 0.28867513459481287,
+      "sector_dimension": 4,
+      "expected_sector_dimension": 4,
+      "multiplicity": 1,
+      "sector_scalar_max": 4.996003610813204e-16,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R14_14_R14",
+      "magnitude_reference_error": 5.551115123125783e-17
+    },
+    "14|14|14|s1_s1": {
+      "status": "certified_unique_invariant",
+      "factor": 0.19245008972987504,
+      "signed_factor": -0.19245008972987504,
+      "sector_dimension": 9,
+      "expected_sector_dimension": 9,
+      "multiplicity": 1,
+      "sector_scalar_max": 3.0531133177191805e-16,
+      "sign": -1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R14_14_R14",
+      "magnitude_reference_error": 6.661338147750939e-16
+    },
+    "14|14|14|s2_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 25,
+      "multiplicity": 1
+    },
+    "14|14|14|s0_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 3,
+      "multiplicity": 1
+    },
+    "14|14|14|s0_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 5,
+      "multiplicity": 1
+    },
+    "14|14|14|s1_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 15,
+      "multiplicity": 1
+    },
+    "30|14|30|s0_s0": {
+      "status": "certified_unique_invariant",
+      "factor": 0.5921565254637918,
+      "signed_factor": 0.5921565254637918,
+      "sector_dimension": 1,
+      "expected_sector_dimension": 1,
+      "multiplicity": 1,
+      "sector_scalar_max": 0.0,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R30_14_R30",
+      "magnitude_reference_error": 3.3306690738754696e-16
+    },
+    "30|14|30|half": {
+      "status": "certified_unique_invariant",
+      "factor": 0.4276686017238498,
+      "signed_factor": 0.4276686017238498,
+      "sector_dimension": 4,
+      "expected_sector_dimension": 4,
+      "multiplicity": 1,
+      "sector_scalar_max": 3.3306690738754696e-16,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R30_14_R30",
+      "magnitude_reference_error": 1.1102230246251565e-16
+    },
+    "30|14|30|s1_s1": {
+      "status": "certified_unique_invariant",
+      "factor": 0.15352206215727954,
+      "signed_factor": 0.15352206215727954,
+      "sector_dimension": 9,
+      "expected_sector_dimension": 9,
+      "multiplicity": 1,
+      "sector_scalar_max": 1.942890293094024e-16,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R30_14_R30",
+      "magnitude_reference_error": 2.7755575615628914e-16
+    },
+    "30|14|30|s2_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 25,
+      "multiplicity": 1
+    },
+    "30|14|30|s0_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 3,
+      "multiplicity": 1
+    },
+    "30|14|30|s0_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 5,
+      "multiplicity": 1
+    },
+    "30|14|30|s1_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 15,
+      "multiplicity": 1
+    },
+    "35|14|35|s0_s0": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35|14|35|half": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35|14|35|s1_s1": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35|14|35|s2_s2": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35|14|35|s0_s1": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35|14|35|s0_s2": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35|14|35|s1_s2": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "35p|14|35p|s0_s0": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 1,
+      "multiplicity": 1
+    },
+    "35p|14|35p|half": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 4,
+      "multiplicity": 1
+    },
+    "35p|14|35p|s1_s1": {
+      "status": "certified_unique_invariant",
+      "factor": 0.27216552697590873,
+      "signed_factor": 0.27216552697590873,
+      "sector_dimension": 9,
+      "expected_sector_dimension": 9,
+      "multiplicity": 1,
+      "sector_scalar_max": 4.996003610813204e-16,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R35p_14_R35p",
+      "magnitude_reference_error": 1.6653345369377348e-16
+    },
+    "35p|14|35p|s2_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 25,
+      "multiplicity": 1
+    },
+    "35p|14|35p|s0_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 3,
+      "multiplicity": 1
+    },
+    "35p|14|35p|s0_s2": {
+      "status": "certified_unique_invariant",
+      "factor": 0.40824829046386324,
+      "signed_factor": -0.40824829046386324,
+      "sector_dimension": 5,
+      "expected_sector_dimension": 5,
+      "multiplicity": 1,
+      "sector_scalar_max": 3.1108538710032933e-16,
+      "sign": -1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R35p_14_R35p",
+      "magnitude_reference_status": "not_in_previous_table"
+    },
+    "35p|14|35p|s1_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 15,
+      "multiplicity": 1
+    },
+    "55|14|55|s0_s0": {
+      "status": "certified_unique_invariant",
+      "factor": 0.599144689515278,
+      "signed_factor": 0.599144689515278,
+      "sector_dimension": 1,
+      "expected_sector_dimension": 1,
+      "multiplicity": 1,
+      "sector_scalar_max": 0.0,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R55_14_R55",
+      "magnitude_reference_error": 1.1102230246251565e-16
+    },
+    "55|14|55|half": {
+      "status": "certified_unique_invariant",
+      "factor": 0.4921545663875496,
+      "signed_factor": 0.4921545663875496,
+      "sector_dimension": 4,
+      "expected_sector_dimension": 4,
+      "multiplicity": 1,
+      "sector_scalar_max": 8.326672684688674e-16,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R55_14_R55",
+      "magnitude_reference_error": 5.551115123125783e-16
+    },
+    "55|14|55|s1_s1": {
+      "status": "certified_unique_invariant",
+      "factor": 0.31383769450800314,
+      "signed_factor": 0.31383769450800314,
+      "sector_dimension": 9,
+      "expected_sector_dimension": 9,
+      "multiplicity": 1,
+      "sector_scalar_max": 1.0547118733938987e-15,
+      "sign": 1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R55_14_R55",
+      "magnitude_reference_error": 3.885780586188048e-16
+    },
+    "55|14|55|s2_s2": {
+      "status": "certified_unique_invariant",
+      "factor": 0.25677629550654774,
+      "signed_factor": -0.25677629550654774,
+      "sector_dimension": 25,
+      "expected_sector_dimension": 25,
+      "multiplicity": 1,
+      "sector_scalar_max": 2.1649348980190553e-15,
+      "sign": -1,
+      "phase_definition": "positive projected tensor-sum of G=diag(-1,-1,-1,-1,4)/sqrt(20); STF trace phase positive",
+      "invariant_id": "projected_tensor_sum_R55_14_R55",
+      "magnitude_reference_error": 7.216449660063518e-16
+    },
+    "55|14|55|s0_s1": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 3,
+      "multiplicity": 1
+    },
+    "55|14|55|s0_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 5,
+      "multiplicity": 1
+    },
+    "55|14|55|s1_s2": {
+      "status": "sector_component_absent_or_nonunique",
+      "factor": null,
+      "signed_factor": null,
+      "sector_dimension": 0,
+      "expected_sector_dimension": 15,
+      "multiplicity": 1
+    },
+    "81|14|81|s0_s0": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "81|14|81|half": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "81|14|81|s1_s1": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "81|14|81|s2_s2": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "81|14|81|s0_s1": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "81|14|81|s0_s2": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    },
+    "81|14|81|s1_s2": {
+      "status": "irrep_multiplicity_unresolved",
+      "multiplicity": 2.0,
+      "signed_factor": null,
+      "factor": null
+    }
+  }
+}
