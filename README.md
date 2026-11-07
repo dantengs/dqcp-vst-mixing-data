@@ -1,31 +1,33 @@
-# SO(5) DQCP VST mixing 数据归档
+# SO(5) DQCP VST mixing data archive
 
-这是作者组的私有归档，对应 2026-11-06 的 37 页稿件 `manuscript_skydive_efm_20261106`。稿件取值、修复后盲分析和原始计算文件分别存放。各文件的来源、完整性校验和版本见 [数据清单](manifests/file_manifest.csv) 与 [快照摘要](manifests/dataset_summary.json)。
+English | [简体中文](README.zh-CN.md)
 
-| 路径 | 内容 |
+This repository archives the data for the 37-page manuscript snapshot `manuscript_skydive_efm_20261106`, dated 6 November 2026. The manuscript data, the rerun with corrected blind-analysis code, and the original calculation files have separate directories. The [file manifest](manifests/file_manifest.csv) records sources and SHA-256 checksums. The [dataset summary](manifests/dataset_summary.json) identifies each dataset's version and scope.
+
+| Directory | Contents |
 | --- | --- |
-| [bootstrap/](bootstrap/) | 自包含的 Wolfram Notebook。主 Λ=23 混合候选的 971 条通道谱记录、1 条固定外场归一化记录、1,834 个带符号 OPE 分量，以及外场维数和比值 |
-| [fuzzy_sphere/spectra/](fuzzy_sphere/spectra/) | UTF-8 CSV。按稿件和 v0.5.5 复跑分目录，保留原始能级、投影模式、物理能级分类及跨尺寸续接 |
-| [fuzzy_sphere/ope/](fuzzy_sphere/ope/) | UTF-8 CSV 和 JSON。整数精确收缩、StageB 收缩、半整数生产路线分表，共 37,689 行逐尺寸路线记录。另列稿件 OPE 目录与 N=12 current |
-| [fuzzy_sphere/raw/](fuzzy_sphere/raw/) | v0.5.5 的 1,447 个原始输入、N=12 独立分析的 458 个输入、307 个权威生产文件，以及 current 原始检查点包和原始扫描数据 |
-| [comparison/](comparison/) | 已核对的图 2、4–6 数据，bootstrap cutoff 候选坐标、OPE 分量、调谐及固定耦合 singlet 序列 |
-| [manifests/](manifests/) | 文件 SHA-256、逐文件来源、复跑记录、重型检查点的外部存放位置和归档校验凭据 |
+| [bootstrap/](bootstrap/) | Self-contained Wolfram Notebook for the main mixed-correlator candidate at Λ = 23. It contains 971 spectrum records, one fixed external-normalization record, 1,834 signed OPE components, and the external scaling dimensions and OPE ratios. |
+| [fuzzy_sphere/spectra/](fuzzy_sphere/spectra/) | UTF-8 CSV files for the manuscript and v0.5.5 rerun, with separate records for raw levels, projected modes, physical-level classifications, and tracks across sizes. |
+| [fuzzy_sphere/ope/](fuzzy_sphere/ope/) | CSV and JSON files. Separate tables hold exact integer-sector contractions, Stage B contractions, and half-integer production routes, with 37,689 rows in total. The manuscript OPE catalogue and the N = 12 current result have their own directories. |
+| [fuzzy_sphere/raw/](fuzzy_sphere/raw/) | The 1,447 input files for the v0.5.5 rerun, 458 inputs for the separate N = 12 analysis, 307 authoritative production files, the original current checkpoint bundle, and scan data. |
+| [comparison/](comparison/) | Verified data for Figures 2 and 4–6, bootstrap candidate coordinates at different cutoffs, OPE components, and tuned and fixed-coupling singlet sequences. |
+| [manifests/](manifests/) | File checksums, provenance, rerun records, and storage locations and verification records for external checkpoints. |
 
-## 数据约定
+## Data conventions
 
-- **Bootstrap**。打开 Notebook 后先运行数据读取单元，再运行相应的 `Dataset` 单元。十进制数以字符串保存完整位数。每条谱记录标明外场对顺序、施加的 gap 和暂定幅度。整根向量相位与分量间相对符号应分别处理。
-- **球面谱**。`N` 是轨道数，`L` 是空间自旋。`C2` 是内部 Casimir，`P` 是物理宇称，`X` 是段交换量子数。`energy` 与 `Delta` 分别保留原始能量和按当前 gap 定标的维数。投影模式、原始能级与跨尺寸轨迹各有独立身份。`sigma_Delta` 表示能量基展宽。稿件 N=12 目录有 264 行，其中 45 个 strict P（含真空）、154 个 D、65 个未定。
-- **球面 OPE**。各路线保留插入算符和秩、端点身份、归一化、可用性与相位字段。等距 CG 约定的 `lambda_iso` 和混合 crossing 的 `lambda` 分列使用。N=12 current 的共同约定幅度是 0.8574003792250015，L=2 补空间证书状态记录在数据文件中。
-- **版本和比较**。稿件 76 条保留 OPE 路线和 v0.5.5 的 699 条聚合序列分别存储。图 2 的五条虚线对应未定原始能级。附表的最近根与距离已按 ver4 数据统一。
+- **Bootstrap.** Evaluate the data-loading cell in the Notebook first, then the relevant `Dataset` cell. Decimal strings preserve the full precision. Each spectrum record gives the external-pair order and flags imposed gaps and provisional amplitudes. A common sign change of the entire OPE vector preserves its relative component signs.
+- **Fuzzy-sphere spectra.** `N` is the orbital count, `L` is spatial spin, `C2` is the internal Casimir, `P` is physical parity, and `X` is segment-exchange parity. `energy` stores the raw energy, while `Delta` is the dimension calibrated by the gap of the conserved current. Raw levels, projected modes, and tracks across sizes have separate identifiers. `sigma_Delta` is the energy-basis spread. The manuscript N = 12 catalogue contains 264 levels, with 45 strict primaries (including the vacuum), 154 descendants, and 65 unresolved levels.
+- **Fuzzy-sphere OPE.** Each route retains the insertion and its rank, endpoint states, normalization, availability flag, and phase convention. We use `lambda_iso` for the isometric Clebsch–Gordan convention and `lambda` for the common mixed-crossing convention. The N = 12 current amplitude in the latter convention is 0.8574003792250015. Its data file records the status of the L = 2 complement-space certificate.
+- **Versioned comparisons.** The 76 retained manuscript OPE routes and the 699 aggregated v0.5.5 series are stored separately. The five dashed markers in Figure 2 denote unresolved raw levels. Their nearest bootstrap roots and distances in the archived companion table use ver4.
 
-## 原始文件的读法
+## Reading the original files
 
-`raw/replay_v055/` 和 `raw/n12_isolated/` 保存按字节校验的输入。二进制 `.f64` 文件与同目录的 `meta.json` 或导出元数据配套，形状、布局、态顺序及二进制哈希以对应元数据为准。归档名与运行清单里原路径的对应关系见 `file_manifest.csv` 的 `archive_path`、`source_key` 和 `local_source`。
+[Replay inputs](fuzzy_sphere/raw/replay_v055/) and [separate N = 12 inputs](fuzzy_sphere/raw/n12_isolated/) preserve the checked input bytes. Use each `.f64` file with its `meta.json` or export metadata for the shape, layout, state order, and binary checksum. The [file manifest](manifests/file_manifest.csv) maps the archived files to their original locations through `archive_path`, `source_key`, and `local_source`.
 
-`raw/current_n12/n12phiJ.tar` 保存原始小型检查点包。解包后可用包内 `SHA256SUMS` 核验 93 个成员。`supplemental/` 是随后保存的生产文本，`decoded_replay/` 是对应检查点的二进制读出，附元数据以便跨工具使用。
+The [N = 12 current bundle](fuzzy_sphere/raw/current_n12/n12phiJ.tar) preserves the original small checkpoint files. After extraction, use the bundle's `SHA256SUMS` to verify its 93 members. The [supplemental directory](fuzzy_sphere/raw/current_n12/supplemental/) contains production text files saved later. The [decoded replay directory](fuzzy_sphere/raw/current_n12/decoded_replay/) contains the extracted binary arrays and their metadata.
 
-## 外部重型检查点
+## External checkpoints
 
-[检查点位置索引](manifests/external_raw_checkpoints.csv) 给出 531 个 payload 的原路径、归档包及成员名、payload SHA-256。八个 NAS 归档包的路径、大小、整体 SHA-256 和既有验证收据见 [NAS 归档凭据](manifests/external_archive_receipts.json)。其中三个 current 相关大窗口的定位为集群上的原始检查点。
+The [checkpoint index](manifests/external_raw_checkpoints.csv) lists 531 payloads with their original paths, archive and member names where available, and payload SHA-256 checksums. The [NAS archive receipts](manifests/external_archive_receipts.json) give the paths, sizes, archive SHA-256 checksums, and verification records for eight NAS archives. The index locates three large windows for the current calculation at their original cluster paths.
 
-从仓库根目录可用 `sha256sum -c SHA256SUMS` 校验入库文件。
+Run `sha256sum -c SHA256SUMS` from the repository root to verify the files in this repository.
