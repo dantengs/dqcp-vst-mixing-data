@@ -24,6 +24,8 @@
 
 2026 年 11 月 8 日的转换表覆盖 15 个外部标量通道，交换自旋 $\ell=0$–$4$，其中 52 项允许，23 项由 Bose 对称性禁戒。CSV 中 `v` 表示 $\phi$。`tt->35` 对应 $\mathbf{35}'$，与 `vt->35` 的 $\mathbf{35}$ 是不同的表示。请在允许行读取 `total_STF_to_solver_exact` 或 `total_STF_to_solver_numeric`。[转换表](comparison/fs_to_bootstrap_conversion_factors.csv)
 
+另有 $s,t,J,T_{\mu\nu}$ 的固定分量换算，以及单矢量 crossing 到 VST 的逐表示因子。[固定分量因子](comparison/conversion_factors_key.csv) · [单矢量到 VST 因子](comparison/vsinglet_vst_by_rep.csv)
+
 与解析后的 $\Lambda=23$ Skydiving minS ver4 谱比较时，采用等距 Clebsch–Gordan 和单位空间对称无迹张量（STF）归一化的球面系数按下式转换。
 
 $$

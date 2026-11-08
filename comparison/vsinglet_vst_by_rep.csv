@@ -1,0 +1,4 @@
+external_pair,d_R,vsinglet_crossing_label,vst_crossing_label,vsinglet_to_vst_amplitude_exact,vsinglet_to_vst_amplitude_numeric,vsinglet_to_vst_squared_exact,vsinglet_to_vst_squared_numeric
+phiphi,1,"v[0,0]",S,1/sqrt(5),0.44721359549995794,1/5,0.20000000000000000
+phiphi,14,"v[2,0]",T,1/(sqrt(5)*14**(1/4)),0.23119742295813956,1/(5*sqrt(14)),0.053452248382484877
+phiphi,10,"v[1,1]",A,1/(sqrt(5)*10**(1/4)),0.25148668593658708,1/(5*sqrt(10)),0.063245553203367587

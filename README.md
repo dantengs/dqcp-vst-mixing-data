@@ -24,6 +24,8 @@ This repository archives the data for the 37-page manuscript snapshot `manuscrip
 
 The 8 November 2026 conversion table covers 15 external-scalar channels at exchange spin $\ell=0$–$4$, with 52 allowed and 23 Bose-forbidden rows. The CSV uses `v` for $\phi$. Its `tt->35` denotes $\mathbf{35}'$, which is distinct from the $\mathbf{35}$ in `vt->35`. Use `total_STF_to_solver_exact` or `total_STF_to_solver_numeric` on the allowed rows. [Conversion table](comparison/fs_to_bootstrap_conversion_factors.csv)
 
+The compact tables give factors into the fixed-component convention for $s,t,J,T_{\mu\nu}$ and factors from the single-vector crossing to VST by exchanged representation. [Fixed-component factors](comparison/conversion_factors_key.csv) · [Single-vector to VST factors](comparison/vsinglet_vst_by_rep.csv)
+
 For the parsed $\Lambda=23$ Skydiving minS ver4 spectrum, an OPE amplitude in the isometric Clebsch–Gordan convention with a unit spatial symmetric traceless (STF) tensor converts as
 
 $$

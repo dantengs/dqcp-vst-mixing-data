@@ -1,0 +1,5 @@
+quantity,external_pair,d_R,ell,f_convention,vsinglet_to_f_exact,vsinglet_to_f_numeric,vst_to_f_exact,vst_to_f_numeric,lambda_iso_to_f_exact,lambda_iso_to_f_numeric,fs_stored_field,fs_stored_to_f_exact,fs_stored_to_f_numeric,fs_alternate_field,fs_alternate_to_f_exact,fs_alternate_to_f_numeric
+s,phiphi,1,0,singlet_delta,1/sqrt(5),0.44721359549995794,1,1.0000000000000000,1/sqrt(5),0.44721359549995794,ope3_named.csv:phi_phi_S_Gamma2,1,1.0000000000000000,ope3_named.csv:phi_phi_S_Os,1,1.0000000000000000
+t,phiphi,14,0,traceless_symmetric_projector,1/sqrt(14),0.26726124191242438,(25/14)**(1/4),1.1559871147906978,1,1.0000000000000000,ope3_named.csv:phi_phi_T14_Gamma2,1,1.0000000000000000,,,
+J,phiphi,10,1,unit_current_fixed_component,1/sqrt(20),0.22360679774997897,(5/8)**(1/4),0.88913970501946140,1/sqrt(2),0.70710678118654752,ope.toml:f_phi_phi_J,1,1.0000000000000000,,,
+T_munu,phiphi,1,2,canonical_unit_STF,1/sqrt(5),0.44721359549995794,1,1.0000000000000000,1/sqrt(5),0.44721359549995794,ope3_named.csv:phi_phi_stress_canonical,1,1.0000000000000000,ope.toml:raw:phi_phi_stress,2,2.0000000000000000

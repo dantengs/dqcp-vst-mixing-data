@@ -41,6 +41,8 @@
     "date": "2026-11-08",
     "reference_dataset": "L23_Skydiving_minS_ver4",
     "table": "comparison/fs_to_bootstrap_conversion_factors.csv",
+    "fixed_component_table": "comparison/conversion_factors_key.csv",
+    "vsinglet_to_vst_table": "comparison/vsinglet_vst_by_rep.csv",
     "input_convention": "unit spatial STF with isometric Clebsch-Gordan tensors",
     "numeric_factor_column": "total_STF_to_solver_numeric",
     "external_scalar_channels": 15,
