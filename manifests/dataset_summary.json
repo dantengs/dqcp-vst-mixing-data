@@ -7,10 +7,61 @@
   },
   "bootstrap": {
     "dataset": "L23_Skydiving_minS_ver4",
-    "spectrum_source_sha256": "2595d96104a203b66ad94c61b3645c599b5e12b0908e44f39ba9b5888ad4dee7",
-    "notebook_channel_records": 971,
+    "spectrum_source_sha256": "0f763b0b1fe27c152a21207d676f7584fd2d203837dcee7dfd1e128b9f2dd7cf",
+    "notebook_channel_records": 985,
     "fixed_external_normalization_records": 1,
-    "signed_components": 1834
+    "signed_components": 1874,
+    "extractor": "spectrum_mod_v3.py",
+    "extraction_date": "2026-11-08",
+    "manuscript_snapshot_spectrum_sha256": "2595d96104a203b66ad94c61b3645c599b5e12b0908e44f39ba9b5888ad4dee7",
+    "notebook_channel_roots": 971,
+    "notebook": "bootstrap/DQCP_bootstrap_CFT_L23.nb",
+    "v3_datasets": {
+      "Skydiving_ver4": {
+        "job": 6888,
+        "point": [
+          "0.613734575252",
+          "2.25838827072",
+          "1.46401737277",
+          "0.294245844525",
+          "1.26168944318",
+          "0.686957170616",
+          "0.267598288143"
+        ],
+        "unique_roots_including_external_normalization": 972,
+        "vector_records_including_external_normalization": 986,
+        "multi_component_roots": 12,
+        "matrix_records_including_candidates": 974,
+        "signed_components_including_external_normalization": 1874,
+        "files": {
+          "spectrum": "bootstrap/efm_v3/Skydiving_ver4/Spectrum_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m",
+          "efm_se": "bootstrap/efm_v3/Skydiving_ver4/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m",
+          "matrices": "bootstrap/efm_v3/Skydiving_ver4/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_matrices.m"
+        }
+      },
+      "Navigator_ver3": {
+        "job": 6889,
+        "point": [
+          "0.613734575266",
+          "2.25838827072",
+          "1.46401737280",
+          "0.294245844527",
+          "1.26168944318",
+          "0.686957170613",
+          "0.267598288075"
+        ],
+        "unique_roots_including_external_normalization": 960,
+        "vector_records_including_external_normalization": 972,
+        "multi_component_roots": 10,
+        "matrix_records_including_candidates": 974,
+        "signed_components_including_external_normalization": 1846,
+        "files": {
+          "spectrum": "bootstrap/efm_v3/Navigator_ver3/Spectrum_0.613734575266_2.25838827072_1.46401737280_0.294245844527_1.26168944318_0.686957170613_0.267598288075.m",
+          "efm_se": "bootstrap/efm_v3/Navigator_ver3/EFM_SE_0.613734575266_2.25838827072_1.46401737280_0.294245844527_1.26168944318_0.686957170613_0.267598288075.m",
+          "matrices": "bootstrap/efm_v3/Navigator_ver3/EFM_SE_0.613734575266_2.25838827072_1.46401737280_0.294245844527_1.26168944318_0.686957170613_0.267598288075_matrices.m"
+        }
+      }
+    }
   },
   "fuzzy_sphere": {
     "replay_version": "blindpd 0.5.5",

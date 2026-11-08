@@ -2,11 +2,11 @@
 
 [English](README.md) | 简体中文
 
-本仓库归档 2026 年 11 月 6 日的 37 页稿件快照 `manuscript_skydive_efm_20261106` 所用数据。稿件数据、修复后的盲分析复跑结果和原始计算文件分别存放。[文件清单](manifests/file_manifest.csv) 记录来源和 SHA-256，[数据摘要](manifests/dataset_summary.json) 记录各数据集的版本与范围。
+本仓库归档 2026 年 11 月 6 日的稿件数据，以及 11 月 8 日用 EFM v3 提取的 $\Lambda=23$ 谱。稿件数据、修复后的盲分析复跑结果和原始计算文件分别存放。[文件清单](manifests/file_manifest.csv) 记录来源和 SHA-256，[数据摘要](manifests/dataset_summary.json) 记录各数据集的版本与范围。
 
 | 目录 | 内容 |
 | --- | --- |
-| [bootstrap/](bootstrap/) | 主 Λ = 23 混合相关函数候选点的自包含 Wolfram Notebook。含 971 条谱记录、1 条固定外场归一化记录、1,834 个带符号 OPE 分量，以及外场维数和 OPE 比值。 |
+| [bootstrap/](bootstrap/) | Λ = 23 的 Skydiving ver4 和 Navigator ver3 EFM v3 谱及完整矩阵。主 Skydiving Notebook 含 971 个通道谱根、985 条 OPE 向量记录，另有 1 条固定外场归一化记录。 |
 | [fuzzy_sphere/spectra/](fuzzy_sphere/spectra/) | 按稿件和 v0.5.5 复跑分目录保存的 UTF-8 CSV，分别记录原始能级、投影模式、物理能级分类及跨尺寸轨迹。 |
 | [fuzzy_sphere/ope/](fuzzy_sphere/ope/) | CSV 和 JSON。整数扇区精确收缩、Stage B 收缩和半整数生产路线分表，共 37,689 行。另有稿件 OPE 目录和 N = 12 current 结果。 |
 | [fuzzy_sphere/raw/](fuzzy_sphere/raw/) | v0.5.5 复跑的 1,447 个输入、N = 12 独立分析的 458 个输入、307 个权威生产文件，以及 current 原始检查点包和扫描数据。 |
@@ -15,10 +15,12 @@
 
 ## 数据约定
 
-- **Bootstrap**。打开 Notebook 后先运行数据读取单元，再运行相应的 `Dataset` 单元。十进制值以字符串保存完整精度。每条谱记录给出外场对顺序，并标记施加的 gap 和暂定幅度。整根 OPE 向量整体变号时，各分量的相对符号保持一致。
+- **Bootstrap**。打开 Notebook 后先运行数据读取单元，再运行相应的 `Dataset` 单元。按 `channel_index` 和 `root_index` 聚合同一根的记录，`component_index` 区分同根分解中的向量。十进制值以字符串保存原有精度。每条记录给出外场对顺序，并标记施加的 gap 和暂定幅度。[Skydiving Notebook](bootstrap/DQCP_bootstrap_CFT_L23.nb)
 - **球面谱**。`N` 是轨道数，`L` 是空间自旋。`C2` 是内部 Casimir，`P` 是物理宇称，`X` 是段交换宇称。`energy` 保存原始能量，`Delta` 保存按守恒流能隙定标的维数。原始能级、投影模式和跨尺寸轨迹使用不同的标识。`sigma_Delta` 表示能量基展宽。稿件 N = 12 目录含 264 个能级，其中 45 个严格 primary（含真空）、154 个 descendant、65 个未定。
 - **球面 OPE**。各路线保留插入算符及其秩、端点态、归一化、可用性和相位字段。`lambda_iso` 表示等距 Clebsch–Gordan 约定，`lambda` 表示共同的混合 crossing 约定。后者给出的 N = 12 current 幅度为 0.8574003792250015。L = 2 补空间证书状态见对应数据文件。
-- **版本和比较**。稿件保留的 76 条 OPE 路线与 v0.5.5 的 699 条聚合序列分开保存。图 2 的五个虚线标记对应未定原始能级，附表中的最近 bootstrap 根与距离采用 ver4。
+- **版本和比较**。图表数据和 bootstrap OPE 分量 CSV 对应 11 月 6 日的稿件快照。稿件保留的 76 条 OPE 路线与 v0.5.5 的 699 条聚合序列分开保存。图 2 的五个虚线标记对应未定原始能级。
+
+原始文件包括解析后的 `Spectrum`、带提谱缩放的 `EFM_SE` 向量及完整矩阵。计入固定归一化记录时，Skydiving 有 972 个根和 986 条向量记录，Navigator 有 960 个根和 972 条向量记录。Notebook 的 `matrix_index` 是原始矩阵块内从零开始的索引。每条矩阵记录包含平移后的根坐标、按列排列的上三角元、本征值及输出向量数。原始矩阵除以 prefactor 得到谱归一化下的矩阵，原始向量则除以其平方根。[Skydiving ver4](bootstrap/efm_v3/Skydiving_ver4/) · [Navigator ver3](bootstrap/efm_v3/Navigator_ver3/)
 
 ## OPE 转换因子
 
@@ -37,9 +39,9 @@ $d_A,d_B,d_R$ 为 SO(5) 表示维数。谱振幅 $b$ 对应论文采用的 mixed
 
 当归档路线 $X\otimes Y\to Z$ 需要置换标量腿时，先取不变量振幅 $\sqrt{d_Z}|\lambda_{\mathrm{iso,STF}}(X\otimes Y\to Z)|$，再按 bootstrap 配对除以 $(d_A d_B d_R)^{1/4}$。各微观插入路线分别保留。带符号比较需要对齐算符相位、内部张量取向和插入点顺序。
 
-$\phi\phi T_{\mu\nu}$ 的 singlet 群因子为 $1/\sqrt{5}$，转换后振幅为 $\sqrt{15/2}\,|M_{20}/M_{00}|$。$N=10,11,12$ 的有限尺寸结果分别是 $0.254$、$0.264$ 和 $0.273$。ver4 谱中解析出的 bootstrap 振幅模长为 $0.203064$，仍标为暂定。Bootstrap 分量 CSV 分列保存 `amplitude` 和 `amplitude_squared`，优化得到的外部标量比值保留各自的分母。[球面插入路线](fuzzy_sphere/ope/manuscript/) · [解析后的 bootstrap 分量](comparison/bootstrap_ab_ope_components.csv)
+$\phi\phi T_{\mu\nu}$ 的 singlet 群因子为 $1/\sqrt{5}$，转换后振幅为 $\sqrt{15/2}\,|M_{20}/M_{00}|$。$N=10,11,12$ 的有限尺寸结果分别是 $0.254$、$0.264$ 和 $0.273$。Skydiving v3 的 $\Delta=3$ 根总振幅为 $\sqrt{\Gamma_{\phi\phi,\phi\phi}}=0.349994$。在该矩阵上，单个应力张量耦合的 Ward 上限为 $0.349770$。稿件快照的 $0.203064$ 是第一个向量的 $\phi\phi$ 分量模长。[球面插入路线](fuzzy_sphere/ope/manuscript/) · [稿件快照的 bootstrap 分量](comparison/bootstrap_ab_ope_components.csv)
 
-旧单矢量 $\phi\phi$ crossing 使用内部张量 $P_R/d_R$，mixed crossing 使用 $5P_R/\sqrt{d_R}$。两边采用相同的卷积块约定时，旧谱的振幅平方先除以 $5\sqrt{d_R}$，再开方。其中 $J$ 的平方除以 $5\sqrt{10}$，$T_{\mu\nu}$ 的平方除以 $5$。旧 $\Lambda=23$ Navigator 的 stress 值转到 mixed 约定后为 $0.349456$。ver4 秩一投影前对角元给出的约 $0.350$ 是同一 ver4 作业中的另一项诊断量。
+旧单矢量 $\phi\phi$ crossing 使用内部张量 $P_R/d_R$，mixed crossing 使用 $5P_R/\sqrt{d_R}$。两边采用相同的卷积块约定时，旧谱的振幅平方先除以 $5\sqrt{d_R}$，再开方。其中 $J$ 的平方除以 $5\sqrt{10}$，$T_{\mu\nu}$ 的平方除以 $5$。旧单矢量 $\Lambda=23$ Navigator 的 stress 值转到 mixed 约定后为 $0.349456$。
 
 ## 读取原始文件
 
