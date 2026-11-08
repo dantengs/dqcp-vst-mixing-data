@@ -37,6 +37,17 @@
     "manuscript_ope_catalogue_routes": 76,
     "replay_cross_size_ope_curves": 699
   },
+  "ope_conversion": {
+    "date": "2026-11-08",
+    "reference_dataset": "L23_Skydiving_minS_ver4",
+    "table": "comparison/fs_to_bootstrap_conversion_factors.csv",
+    "input_convention": "unit spatial STF with isometric Clebsch-Gordan tensors",
+    "numeric_factor_column": "total_STF_to_solver_numeric",
+    "external_scalar_channels": 15,
+    "exchange_spins": [0, 1, 2, 3, 4],
+    "allowed_rows": 52,
+    "bose_forbidden_rows": 23
+  },
   "external": {
     "archive_count": 8,
     "indexed_checkpoint_payloads": 531
