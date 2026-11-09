@@ -141,7 +141,8 @@
           0.355,
           0.369
         ]
-      }
+      },
+      "series_file": "comparison/table3_finite_size_series.csv"
     },
     "primary_counts": {
       "file": "fuzzy_sphere/spectra/manuscript/primary_counts.csv",
@@ -151,6 +152,10 @@
       "N12_L3_D5.5_nonvacuum": 33
     },
     "complete_root_weights": "comparison/bootstrap_complete_root_weights.csv",
-    "core_published_coefficients": "comparison/core_ope_coefficients_published.csv"
+    "core_published_coefficients": "comparison/core_ope_coefficients_published.csv",
+    "data_guide": [
+      "DATA_GUIDE.md",
+      "DATA_GUIDE.zh-CN.md"
+    ]
   }
 }

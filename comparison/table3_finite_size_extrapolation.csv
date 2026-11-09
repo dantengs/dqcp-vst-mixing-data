@@ -1,29 +1,13 @@
-quantity,convention,fit,N_range,n_points,intercept_a,slope_b,max_abs_residual,quadratic_intercept,displayed,bootstrap_L23
-phiphi_J,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,5-12,8,0.774966467,-0.170048966,1.553e-03,0.785781435,,0.7678993760009396
-phiphi_J,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,6-12,7,0.776478066,-0.184054934,1.209e-03,0.792328622,,0.7678993760009396
-phiphi_J,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,7-12,6,0.778624285,-0.205151048,8.204e-04,0.798075018,,0.7678993760009396
-phiphi_J,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,8-12,5,0.781045416,-0.230178672,4.849e-04,0.803077463,0.78,0.7678993760009396
-phiphi_J,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,9-12,4,0.783554137,-0.257274926,2.415e-04,0.807325662,,0.7678993760009396
-phiphi_J,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,10-12,3,0.786028741,-0.285061598,1.377e-04,,,0.7678993760009396
-phiphi_T,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,5-12,8,0.350213631,-0.961619981,2.943e-03,0.377706155,,0.3499938220419509 (complete root); 0.3497700270673308 (isolated Ward block)
-phiphi_T,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,6-12,7,0.354980925,-1.005792132,1.857e-03,0.382650147,,0.3499938220419509 (complete root); 0.3497700270673308 (isolated Ward block)
-phiphi_T,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,7-12,6,0.359072534,-1.046010329,1.117e-03,0.387173703,,0.3499938220419509 (complete root); 0.3497700270673308 (isolated Ward block)
-phiphi_T,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,8-12,5,0.362715094,-1.083664069,6.120e-04,0.391269530,0.36,0.3499938220419509 (complete root); 0.3497700270673308 (isolated Ward block)
-phiphi_T,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,9-12,4,0.366025069,-1.119414521,2.979e-04,0.394832716,,0.3499938220419509 (complete root); 0.3497700270673308 (isolated Ward block)
-phiphi_T,"published (LiShen2026 Table II): J fixed-component, T canonical",a+b/N,10-12,3,0.369041763,-1.153288175,1.602e-04,,,0.3499938220419509 (complete root); 0.3497700270673308 (isolated Ward block)
-phiphi_J,finite-N input,data,5,1,0.7418586567108089,,,,,
-phiphi_J,finite-N input,data,6,1,0.7467051408729861,,,,,
-phiphi_J,finite-N input,data,7,1,0.7499842736608829,,,,,
-phiphi_J,finite-N input,data,8,1,0.752679832835651,,,,,
-phiphi_J,finite-N input,data,9,1,0.7551645055626829,,,,,
-phiphi_J,finite-N input,data,10,1,0.7575851749502315,,,,0.758,
-phiphi_J,finite-N input,data,11,1,0.759976345098973,,,,0.760,
-phiphi_J,finite-N input,data,12,1,0.7623487202677025,,,,0.762,
-phiphi_T,finite-N input,data,5,1,0.16073431562018417,,,,,
-phiphi_T,finite-N input,data,6,1,0.18907021023521295,,,,,
-phiphi_T,finite-N input,data,7,1,0.21064640333948598,,,,,
-phiphi_T,finite-N input,data,8,1,0.22779374790943152,,,,,
-phiphi_T,finite-N input,data,9,1,0.24188518874421702,,,,,
-phiphi_T,finite-N input,data,10,1,0.25378574751815175,,,,0.254,
-phiphi_T,finite-N input,data,11,1,0.2640372202210466,,,,0.264,
-phiphi_T,finite-N input,data,12,1,0.27302177743532086,,,,0.273,
+quantity,N_min,N_max,n_points,intercept_a,slope_b,max_abs_residual,quadratic_fit_intercept,displayed_in_table3
+phiphi_J,5,12,8,0.774966467,-0.170048966,1.553e-03,0.785781435,
+phiphi_J,6,12,7,0.776478066,-0.184054934,1.209e-03,0.792328622,
+phiphi_J,7,12,6,0.778624285,-0.205151048,8.204e-04,0.798075018,
+phiphi_J,8,12,5,0.781045416,-0.230178672,4.849e-04,0.803077463,0.78
+phiphi_J,9,12,4,0.783554137,-0.257274926,2.415e-04,0.807325662,
+phiphi_J,10,12,3,0.786028741,-0.285061598,1.377e-04,,
+phiphi_T,5,12,8,0.350213631,-0.961619981,2.943e-03,0.377706155,
+phiphi_T,6,12,7,0.354980925,-1.005792132,1.857e-03,0.382650147,
+phiphi_T,7,12,6,0.359072534,-1.046010329,1.117e-03,0.387173703,
+phiphi_T,8,12,5,0.362715094,-1.083664069,6.120e-04,0.391269530,0.36
+phiphi_T,9,12,4,0.366025069,-1.119414521,2.979e-04,0.394832716,
+phiphi_T,10,12,3,0.369041763,-1.153288175,1.602e-04,,

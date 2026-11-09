@@ -2,7 +2,7 @@
 
 [English](README.md) | 简体中文
 
-本仓库归档 2026 年 11 月 6 日的稿件数据、11 月 8 日用 EFM v3 提取的 $\Lambda=23$ 谱，以及下文列出的 11 月 9 日更新。稿件数据、修复后的盲分析复跑结果和原始计算文件分别存放。[文件清单](manifests/file_manifest.csv) 记录来源和 SHA-256，[数据摘要](manifests/dataset_summary.json) 记录各数据集的版本与范围。
+本仓库归档 2026 年 11 月 6 日的稿件数据、11 月 8 日用 EFM v3 提取的 $\Lambda=23$ 谱，以及下文列出的 11 月 9 日更新。稿件数据、修复后的盲分析复跑结果和原始计算文件分别存放。[数据指南](DATA_GUIDE.zh-CN.md) 给出稿件各表、各图对应的文件及列说明。部分路径超过 Windows 默认的 260 字符限制，在 Windows 上请用 `git clone -c core.longpaths=true …` 克隆。[文件清单](manifests/file_manifest.csv) 记录来源和 SHA-256，[数据摘要](manifests/dataset_summary.json) 记录各数据集的版本与范围。
 
 | 目录 | 内容 |
 | --- | --- |
