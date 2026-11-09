@@ -13,6 +13,16 @@ This repository archives the 6 November 2026 manuscript data, the 8 November $\L
 | [comparison/](comparison/) | Verified data for Figures 2 and 4–6, bootstrap candidate coordinates at different cutoffs, OPE components and conversion factors, and tuned and fixed-coupling singlet sequences. |
 | [manifests/](manifests/) | File checksums, provenance, rerun records, and storage locations and verification records for external checkpoints. |
 
+## Authors, contributors and license
+
+**Authors:** Tinghong Shen and Zhijin Li, School of Physics, Southeast University, and Shing-Tung Yau Center of Southeast University.
+
+**Repository contributors:** dantengs (data curation and maintenance), Claude Code (Anthropic), and Codex / GPT (OpenAI). The AI tools assisted with data auditing, conversion and documentation under the authors' direction.
+
+**License:** the data are released under [CC BY 4.0](LICENSE-DATA); the code, currently the Mathematica notebook, under the [MIT License](LICENSE). Anyone may use, adapt and redistribute the material with attribution.
+
+**Citation:** see [CITATION.cff](CITATION.cff). A DOI will be added here once the Zenodo archive is created.
+
 ## Updates of 9 November 2026
 
 | Item | Value | File |

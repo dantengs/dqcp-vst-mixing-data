@@ -1,0 +1,19 @@
+{
+  "upload_type": "dataset",
+  "title": "SO(5) deconfined multicriticality: mixed-correlator bootstrap and fuzzy-sphere data",
+  "version": "1.0.0",
+  "publication_date": "2026-11-09",
+  "description": "Spectra, OPE coefficients, extremal-functional matrices and raw inputs for the SO(5) mixed vector-singlet-tensor conformal bootstrap at derivative order 23 and the SO(5) fuzzy-sphere model up to N=12 orbitals, including primary identifications from special conformal generators and conversion factors to a common OPE convention. Data files are licensed under CC BY 4.0; code (the Mathematica notebook) under MIT. See README.md and DATA_GUIDE.md.",
+  "creators": [
+    {"name": "Shen, Tinghong", "affiliation": "School of Physics, Southeast University; Shing-Tung Yau Center of Southeast University"},
+    {"name": "Li, Zhijin", "affiliation": "School of Physics, Southeast University; Shing-Tung Yau Center of Southeast University"}
+  ],
+  "contributors": [
+    {"name": "dantengs", "type": "DataCurator"},
+    {"name": "Claude Code (Anthropic)", "type": "Other"},
+    {"name": "Codex / GPT (OpenAI)", "type": "Other"}
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "keywords": ["conformal bootstrap", "fuzzy sphere", "deconfined quantum criticality", "SO(5)", "OPE coefficients"]
+}

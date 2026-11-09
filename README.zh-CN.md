@@ -13,6 +13,16 @@
 | [comparison/](comparison/) | 已核对的图 2、4–6 数据，各截断阶数的 bootstrap 候选坐标、OPE 分量和转换因子，以及调谐与固定耦合的 singlet 序列。 |
 | [manifests/](manifests/) | 文件校验值、来源、复跑记录，以及外部检查点的存放位置和验证收据。 |
 
+## 作者、贡献者与许可
+
+**作者：** Tinghong Shen、Zhijin Li，东南大学物理学院、东南大学丘成桐中心。
+
+**仓库贡献者：** dantengs（数据整理与维护）、Claude Code（Anthropic）、Codex / GPT（OpenAI）。AI 工具在作者指导下协助数据核对、换算和文档撰写。
+
+**许可：** 数据采用 [CC BY 4.0](LICENSE-DATA)，代码（目前为 Mathematica notebook）采用 [MIT 许可](LICENSE)。任何人均可在注明出处的前提下使用、修改和再发布。
+
+**引用：** 见 [CITATION.cff](CITATION.cff)。Zenodo 存档创建后将在此处补充 DOI。
+
 ## 2026 年 11 月 9 日更新
 
 | 项目 | 数值 | 文件 |

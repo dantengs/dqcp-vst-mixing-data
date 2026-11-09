@@ -18,7 +18,7 @@ git clone -c core.longpaths=true https://github.com/dantengs/dqcp-vst-mixing-dat
 sha256sum -c SHA256SUMS
 ```
 
-`manifests/file_manifest.csv` 给出归档文件的大小、SHA-256 和本地来源。以下文件不在其中：清单本身、两份 README、两份指南、`SHA256SUMS` 和 Git 配置文件。
+`manifests/file_manifest.csv` 给出归档文件的大小、SHA-256 和本地来源。以下文件不在其中：清单本身、两份 README、两份指南、`SHA256SUMS`、许可与引用文件（`LICENSE`、`LICENSE-DATA`、`CITATION.cff`、`.zenodo.json`）和 Git 配置文件。
 
 ## 稿件条目与文件对照
 

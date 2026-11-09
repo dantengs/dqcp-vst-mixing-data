@@ -18,7 +18,7 @@ git clone -c core.longpaths=true https://github.com/dantengs/dqcp-vst-mixing-dat
 sha256sum -c SHA256SUMS
 ```
 
-`manifests/file_manifest.csv` gives the size, SHA-256 and local origin of every archived file except itself, the two READMEs, the two guides, `SHA256SUMS` and the Git configuration files.
+`manifests/file_manifest.csv` gives the size, SHA-256 and local origin of every archived file except itself, the two READMEs, the two guides, `SHA256SUMS`, the license and citation files (`LICENSE`, `LICENSE-DATA`, `CITATION.cff`, `.zenodo.json`) and the Git configuration files.
 
 ## Manuscript items
 

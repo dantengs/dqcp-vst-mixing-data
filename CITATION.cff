@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite them as below."
+type: dataset
+title: "SO(5) deconfined multicriticality: mixed-correlator bootstrap and fuzzy-sphere data"
+version: 1.0.0
+date-released: 2026-11-09
+authors:
+  - family-names: Shen
+    given-names: Tinghong
+    affiliation: "School of Physics, Southeast University; Shing-Tung Yau Center of Southeast University"
+  - family-names: Li
+    given-names: Zhijin
+    affiliation: "School of Physics, Southeast University; Shing-Tung Yau Center of Southeast University"
+license:
+  - CC-BY-4.0
+  - MIT
+repository-code: "https://github.com/dantengs/dqcp-vst-mixing-data"
+abstract: >-
+  Spectra, OPE coefficients, extremal-functional matrices and raw inputs for the
+  SO(5) mixed vector-singlet-tensor conformal bootstrap at derivative order 23 and
+  the SO(5) fuzzy-sphere model up to N=12 orbitals, including primary
+  identifications from special conformal generators and conversion factors to a
+  common OPE convention.
+keywords:
+  - conformal bootstrap
+  - fuzzy sphere
+  - deconfined quantum criticality
+  - SO(5)
+  - OPE coefficients
