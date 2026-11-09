@@ -1,0 +1,8 @@
+N,window,levels,strict_primaries_including_identity,nonvacuum_strict_primaries,descendants,unassigned,classification_field,source
+10,"L<=3, Delta<=5.5",129,40,39,73,16,derived_reviewed_class_N12_priority == primary,n10_n11_formal_low_spin_spectrum.csv
+10,"L<=3, Delta<=6.25",269,53,52,151,65,derived_reviewed_class_N12_priority == primary,n10_n11_formal_low_spin_spectrum.csv
+11,"L<=3, Delta<=5.5",128,36,35,73,19,derived_reviewed_class_N12_priority == primary,n10_n11_formal_low_spin_spectrum.csv
+11,"L<=3, Delta<=6.25",266,51,50,153,62,derived_reviewed_class_N12_priority == primary,n10_n11_formal_low_spin_spectrum.csv
+12,"L<=3, Delta<=5.5",126,34,33,70,22,A_publication == P,n12_two_scheme_levels.csv
+12,"L<=3, Delta<=6.25",264,45,44,154,65,A_publication == P,n12_two_scheme_levels.csv
+10,"Zhou2024 Table VI (129 levels; equals L<=3, Delta<=5.5)",129,40,39,73,16,present K-generator classification,N10_paper_comparison.csv

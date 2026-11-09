@@ -97,7 +97,13 @@
     "input_convention": "unit spatial STF with isometric Clebsch-Gordan tensors",
     "numeric_factor_column": "total_STF_to_solver_numeric",
     "external_scalar_channels": 15,
-    "exchange_spins": [0, 1, 2, 3, 4],
+    "exchange_spins": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
     "allowed_rows": 52,
     "bose_forbidden_rows": 23
   },
@@ -105,5 +111,46 @@
     "archive_count": 8,
     "indexed_checkpoint_payloads": 531
   },
-  "figure2": "The five unresolved-weight proximity fields were refreshed against the saved ver4 roots."
+  "figure2": "The five unresolved-weight proximity fields were refreshed against the saved ver4 roots.",
+  "update_20261109": {
+    "isolated_stress": {
+      "jobs": {
+        "solve": 6878,
+        "efm_v3": 6953,
+        "free_point": 6909
+      },
+      "directory": "bootstrap/efm_v3/isolated_stress_20261109",
+      "phiphiT_isolated": "0.3497700270673307958",
+      "ssT": "1.2870653836874957733",
+      "ttT": "0.8343499238073845317",
+      "phiphiT_complete_root": "0.3499938220419509427",
+      "fixed_matrix_ward_bound": "0.3497699413820911488",
+      "spectrum_sha256": "ee14019357621261ffaf780f1718ac4d15d0556306d99a5204a267e710c2cb46"
+    },
+    "table3_extrapolation": {
+      "file": "comparison/table3_finite_size_extrapolation.csv",
+      "displayed_fit": "a+b/N over N=8-12",
+      "phiphiJ": "0.78",
+      "phiphiT": "0.36",
+      "window_range_N6_12_to_N10_12": {
+        "phiphiJ": [
+          0.776,
+          0.786
+        ],
+        "phiphiT": [
+          0.355,
+          0.369
+        ]
+      }
+    },
+    "primary_counts": {
+      "file": "fuzzy_sphere/spectra/manuscript/primary_counts.csv",
+      "N10_Zhou_window_L3_D5.5_nonvacuum": 39,
+      "N10_L3_D6.25_nonvacuum": 52,
+      "N12_L3_D6.25_nonvacuum": 44,
+      "N12_L3_D5.5_nonvacuum": 33
+    },
+    "complete_root_weights": "comparison/bootstrap_complete_root_weights.csv",
+    "core_published_coefficients": "comparison/core_ope_coefficients_published.csv"
+  }
 }

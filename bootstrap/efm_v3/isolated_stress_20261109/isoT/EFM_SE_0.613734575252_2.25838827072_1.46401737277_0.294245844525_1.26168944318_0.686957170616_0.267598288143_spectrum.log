@@ -1,0 +1,749 @@
+INFO:    gocryptfs not found, will not be able to use gocryptfs
+mpmath 1.3.0 backend gmpy | python 3.8.10 | pylib /work/EFMAnalysis/pylib38
+reading sdp file     : /home/scratch/sb-sth-6953/Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.xml
+reading out directory: ./Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/SDPBFiles/0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_Nov08_08h19m40s.out
+terminateReason      : found primal-dual optimal solution
+primalObjective      : 1.00798e-17
+dualObjective        : 1.00798e-17
+dualityGap           : 6.58492e-31
+primalError          : 3.77878e-257
+dualError            : 1.88302e-138
+len(y)+1 = 2262, x files = 224, thresholds = [1e-10, 1e-12, 1e-08], workers = 128, rankFactor = 1e+06
+xml parsed and checked: 224 blocks in 20.8 s
+---- j = 0  rows=1 samples=1 deg(det)=0 minima=0 min(det/det'')=- xMax=1.179e+00  0.0s
+deltas = [0.0]
+error  = 1.6330252207878255e-201 (1 entries) errFull = 0.000000e+00 errRank1 = 1.633025e-201
+---- j = 1  rows=2 samples=51 deg(det)=100 minima=9 min(det/det'')=5.591e-25 xMax=4.652e+07  1.6s
+deltas = [0.0, 0.5613867623620177, 2.860944533062928, 3.6571151552513466, 5.815886507478744, 7.806925132716505, 9.841563934560451, 10.693369387514213, 17.264019275053563, 33.48338644058979]
+error  = 4.604583642991405e-47 (10 entries) errFull = 4.842945e-49 errRank1 = 4.604584e-47
+rankdiag    x = 9.841563934560451: kept 1, eigenvalue ratios 2.243e-07, significance 8.006e+00
+rankdiag    x = 33.48338644058979: kept 1, eigenvalue ratios 2.399e-02, significance 3.503e+00
+---- j = 2  rows=2 samples=53 deg(det)=104 minima=11 min(det/det'')=3.738e-25 xMax=1.924e+09  1.7s
+deltas = [0.8672278548400136, 1.7536211001410882, 2.6331832387948095, 3.495336687008536, 5.266318107319808, 6.481054194393075, 7.359860607253825, 10.292020072122366, 11.132460915820133, 14.505862344552291, 16.02995247843357]
+error  = 3.7240488063691403e-48 (11 entries) errFull = 2.294200e-49 errRank1 = 3.724049e-48
+rankdiag    x = 11.132460915820133: kept 1, eigenvalue ratios 8.285e-06, significance 4.943e+00
+rankdiag    x = 14.505862344552291: kept 1, eigenvalue ratios 5.255e-02, significance 2.190e+01
+rankdiag    x = 16.02995247843357: kept 1, eigenvalue ratios 8.140e-03, significance 1.840e+00
+---- j = 3  rows=2 samples=55 deg(det)=108 minima=12 min(det/det'')=1.885e-23 xMax=1.532e+09  1.8s
+deltas = [0.018319374282450604, 0.3827834725069184, 1.0360263371706595, 1.88732993398643, 3.131849179383193, 3.7636087318342555, 5.060124502766818, 6.985969381544798, 7.80282649459576, 11.493297010026001]
+error  = 4.75268718763711e-51 (10 entries) errFull = 2.469733e-52 errRank1 = 4.752687e-51
+---- j = 4  rows=2 samples=57 deg(det)=112 minima=11 min(det/det'')=4.377e-24 xMax=7.783e+08  1.9s
+deltas = [0.008884265808881365, 0.8777854134941582, 1.2658415178017144, 1.8957875370771795, 2.3656552785276648, 3.8373828313897302, 4.8228430808753275, 6.870037080348248, 8.543394273730831, 10.784448093320584, 15.487388992788643]
+error  = 7.530697538927854e-54 (11 entries) errFull = 1.158640e-55 errRank1 = 7.530698e-54
+rankdiag    x = 10.784448093320584: kept 1, eigenvalue ratios 1.345e-02, significance 8.488e+00
+---- j = 5  rows=2 samples=59 deg(det)=116 minima=10 min(det/det'')=2.054e-23 xMax=1.564e+08  2.0s
+deltas = [0.05147938277890008, 1.0015210398883, 1.8244655867525383, 2.038492961511056, 3.2751178482092023, 4.194858957277592, 6.547827758052592, 6.951552036104307, 10.12153985107706, 12.056787512526473]
+error  = 3.0912202352060435e-60 (10 entries) errFull = 2.742969e-60 errRank1 = 3.091220e-60
+---- j = 6  rows=2 samples=61 deg(det)=120 minima=9 min(det/det'')=2.647e-24 xMax=1.372e+09  2.0s
+deltas = [0.024008819425954356, 0.9953667344055808, 1.8854176191200651, 2.5425055750541876, 2.945887308657058, 4.9136211580392155, 5.607428110517407, 8.905169620873961, 11.803670593592413]
+error  = 1.4501521231993884e-65 (9 entries) errFull = 4.163683e-66 errRank1 = 1.450152e-65
+rankdiag    x = 11.803670593592413: kept 1, eigenvalue ratios 2.844e-01, significance 3.636e+00
+---- j = 7  rows=2 samples=63 deg(det)=124 minima=9 min(det/det'')=6.158e-23 xMax=4.619e+08  2.1s
+deltas = [0.129689552068292, 0.9219022644174906, 1.3603794197360564, 1.880635314586329, 3.550885055142445, 4.2187730749959425, 6.02099458957836, 6.718335789286016, 8.377707185781126]
+error  = 4.772809673321935e-71 (9 entries) errFull = 2.519330e-71 errRank1 = 4.772810e-71
+rankdiag    x = 8.377707185781126: kept 1, eigenvalue ratios 1.290e-08, significance 2.387e+00
+---- j = 8  rows=2 samples=65 deg(det)=128 minima=7 min(det/det'')=1.970e-23 xMax=2.242e+08  2.0s
+deltas = [0.055472973680034864, 1.043399412603474, 1.7070712390277056, 2.2495893639790827, 3.282349415287963, 5.4192458560361585]
+error  = 2.091767424406288e-73 (6 entries) errFull = 8.584775e-75 errRank1 = 2.091767e-73
+---- j = 9  rows=2 samples=67 deg(det)=132 minima=6 min(det/det'')=1.649e-23 xMax=3.958e+08  2.1s
+deltas = [0.3931489105643166, 1.0047917680330816, 1.9142439489935983, 2.891526414261202, 4.571248415794155, 37.16892232995046]
+error  = 1.684380810506252e-77 (6 entries) errFull = 3.667980e-78 errRank1 = 1.684381e-77
+rankdiag    x = 37.16892232995046: kept 1, eigenvalue ratios 2.485e-02, significance 4.483e+00
+---- j = 10  rows=2 samples=69 deg(det)=136 minima=4 min(det/det'')=8.339e-23 xMax=2.144e+08  2.1s
+deltas = [0.9751201166278671, 1.9124388818590115, 4.088989881527053, 6.991894202812954]
+error  = 3.0653821033299764e-79 (4 entries) errFull = 1.157183e-79 errRank1 = 3.065382e-79
+rankdiag    x = 6.991894202812954: kept 1, eigenvalue ratios 5.381e-04, significance 2.520e+00
+---- j = 11  rows=2 samples=69 deg(det)=136 minima=5 min(det/det'')=4.462e-23 xMax=2.593e+07  2.0s
+deltas = [1.183871732247499, 1.2680859980096961, 1.8990124260979513, 7.2469289673069515]
+error  = 1.508964912955362e-78 (4 entries) errFull = 4.625771e-79 errRank1 = 1.508965e-78
+---- j = 12  rows=2 samples=69 deg(det)=136 minima=4 min(det/det'')=2.950e-21 xMax=1.369e+07  1.9s
+deltas = [0.23348506473189432, 1.2383159878907986]
+error  = 2.9975808695179485e-77 (2 entries) errFull = 2.660938e-77 errRank1 = 2.997581e-77
+---- j = 13  rows=2 samples=69 deg(det)=136 minima=3 min(det/det'')=1.235e-21 xMax=2.232e+06  1.9s
+deltas = [0.18430943318061732, 3.545997542062698]
+error  = 2.980937897568195e-77 (2 entries) errFull = 2.849654e-77 errRank1 = 2.980938e-77
+---- j = 14  rows=2 samples=69 deg(det)=136 minima=2 min(det/det'')=4.417e-03 xMax=2.878e+04  1.9s
+deltas = []
+error  = 5.0012820015717696e-76 (0 entries) errFull = 5.001282e-76 errRank1 = 5.001282e-76
+---- j = 15  rows=2 samples=69 deg(det)=136 minima=1 min(det/det'')=1.990e-20 xMax=5.548e+05  1.9s
+deltas = [1.5777566216648697]
+error  = 1.8464444887111115e-75 (1 entries) errFull = 1.843619e-75 errRank1 = 1.846444e-75
+---- j = 16  rows=2 samples=69 deg(det)=136 minima=1 min(det/det'')=3.055e-21 xMax=1.036e+07  1.9s
+deltas = [1.5260037292622055]
+error  = 7.390971550759291e-75 (1 entries) errFull = 7.390614e-75 errRank1 = 7.390972e-75
+---- j = 17  rows=2 samples=69 deg(det)=136 minima=1 min(det/det'')=2.270e-21 xMax=1.071e+12  1.9s
+deltas = []
+error  = 1.8234085468224509e-72 (0 entries) errFull = 1.586998e-72 errRank1 = 1.823409e-72
+---- j = 18  rows=2 samples=69 deg(det)=136 minima=2 min(det/det'')=6.505e-20 xMax=3.417e+20  2.0s
+deltas = [0.0]
+error  = 2.680046648631217e-68 (1 entries) errFull = 1.156180e-70 errRank1 = 2.680047e-68
+---- j = 19  rows=3 samples=42 deg(det)=123 minima=11 min(det/det'')=2.752e-22 xMax=2.226e+00  2.6s
+deltas = [0.0, 1.1302109807069873, 2.25543889796652, 3.3816827621572143, 3.6761946581473435, 5.5770795690089185, 8.041097180665671, 9.498921245937927, 10.94627685619854, 11.898593886898233, 16.027693147932805, 19.946053455442833]
+error  = 1.1644090452648079e-39 (12 entries) errFull = 4.218895e-40 errRank1 = 1.164409e-39
+rankdiag    x = 10.94627685619854: kept 1, eigenvalue ratios 1.423e-13, -9.163e-17, significance 1.873e+00
+rankdiag    x = 19.946053455442833: kept 1, eigenvalue ratios 7.871e-08, -9.421e-12, significance 5.639e+01
+---- j = 20  rows=1 samples=1 deg(det)=0 minima=0 min(det/det'')=- xMax=3.248e-01  0.0s
+deltas = [0.0]
+error  = 4.082563051969564e-202 (1 entries) errFull = 0.000000e+00 errRank1 = 4.082563e-202
+---- j = 21  rows=3 samples=43 deg(det)=126 minima=13 min(det/det'')=8.035e-25 xMax=2.934e+03  2.9s
+deltas = [0.0, 0.0, 1.3105930573054718, 2.6541332298242755, 3.340995532653922, 4.509934586054757, 5.041082000130029, 6.7738919291978945, 7.273918275786159, 8.074020440231152, 8.893699004776229, 10.596051908581035, 12.584727923090448, 13.309617658308646, 16.383690354999352]
+error  = 2.2331814191411755e-37 (15 entries) errFull = 9.971401e-38 errRank1 = 9.612237e-21
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 5.176e-04, 7.642e-22, significance 9.640e+16, 1.421e-01
+rankdiag    x = 13.309617658308646: kept 1, eigenvalue ratios 9.752e-10, 8.832e-14, significance 1.094e+01, 9.904e-04
+---- j = 22  rows=3 samples=44 deg(det)=129 minima=15 min(det/det'')=8.202e-26 xMax=1.019e+04  3.1s
+deltas = [0.0, 0.0, 0.16969757163682272, 1.2674407281875493, 1.8081158294059738, 2.2677297504943312, 4.319868085001172, 4.6348502666135944, 5.055121227140328, 5.8624856111228905, 8.62631201079213, 9.174346178388946, 9.454204291175918, 13.781579116038323, 14.17899877884609, 14.766528915528696, 21.827475303132886]
+error  = 6.746520675072554e-41 (17 entries) errFull = 2.671291e-41 errRank1 = 1.291785e-22
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 2.234e-02, 2.501e-25, significance 4.836e+18, 5.297e-05
+rankdiag    x = 14.17899877884609: kept 1, eigenvalue ratios 4.850e-10, 8.967e-12, significance 2.576e+00, 4.762e-02
+---- j = 23  rows=3 samples=45 deg(det)=132 minima=14 min(det/det'')=6.460e-25 xMax=3.401e+01  3.1s
+deltas = [0.0, 0.0, 0.0, 0.23231721567297067, 1.689336283699583, 2.0341881620998774, 2.3770034203178754, 3.543625279932622, 3.756185130528901, 5.51431348204848, 6.055448378566104, 7.447500662171335, 8.248870146552429, 10.998043338390692, 13.22782666825547, 15.99488268858534, 19.76058214070677]
+error  = 2.2539410051316855e-43 (17 entries) errFull = 4.740540e-44 errRank1 = 7.590604e-26
+rank>1 root x = 0.0: kept 3, eigenvalue ratios 1.246e-02, 2.350e-04, significance 1.604e+18, 3.008e+16
+rankdiag    x = 3.756185130528901: kept 1, eigenvalue ratios 1.987e-15, 2.925e-19, significance 1.180e+00, 1.420e-04
+rankdiag    x = 15.99488268858534: kept 1, eigenvalue ratios 1.856e-07, 8.264e-11, significance 9.982e+01, 4.444e-02
+rankdiag    x = 19.76058214070677: kept 1, eigenvalue ratios 4.601e-06, 2.034e-09, significance 8.207e+01, 3.627e-02
+---- j = 24  rows=3 samples=46 deg(det)=135 minima=14 min(det/det'')=5.565e-24 xMax=5.493e+02  3.2s
+deltas = [0.0, 0.0, 0.19112133450766466, 0.8694822880728393, 1.8840535508746494, 2.092749469219777, 2.844345582677189, 4.2622298072051565, 4.406204941584826, 4.694350833143586, 6.292279636919634, 7.900318171158511, 9.91198244476951, 10.376121958747152, 16.056157677601238, 65.29490161881498]
+error  = 9.108272710150724e-45 (16 entries) errFull = 6.539415e-45 errRank1 = 1.144545e-30
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 3.803e-04, 5.211e-25, significance 1.750e+14, 2.361e-07
+---- j = 25  rows=3 samples=47 deg(det)=138 minima=13 min(det/det'')=5.421e-24 xMax=4.847e+01  3.3s
+deltas = [0.0, 0.0, 0.18081692382125356, 0.24190590714896223, 1.632767508165789, 2.1904786211632605, 2.4462222061310652, 3.0956274381075413, 3.778320978523712, 4.465723760037048, 5.774680019488732, 6.10119721268445, 9.255977328701892, 12.54059883741332, 14.753547742865713]
+error  = 2.4433421080595477e-46 (15 entries) errFull = 1.362292e-46 errRank1 = 1.866079e-32
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 1.226e-02, 8.832e-21, significance 1.370e+14, 9.645e-05
+rankdiag    x = 14.753547742865713: kept 1, eigenvalue ratios 5.107e-07, -5.207e-13, significance 4.101e+00
+---- j = 26  rows=3 samples=48 deg(det)=141 minima=10 min(det/det'')=3.074e-25 xMax=5.313e+01  3.2s
+deltas = [0.0, 0.0, 0.21294006815181016, 1.4475475040794166, 2.0448174241892407, 2.2710822054824193, 4.2766758695294165, 4.508149013327264, 5.05776437005548, 7.6915439566375605, 8.829107716600818, 11.065241165513067]
+error  = 1.1025492511895457e-46 (12 entries) errFull = 9.617594e-47 errRank1 = 8.716192e-36
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 7.927e-04, -9.834e-19, significance 9.063e+10
+---- j = 27  rows=3 samples=49 deg(det)=144 minima=9 min(det/det'')=9.276e-25 xMax=1.376e+01  3.2s
+deltas = [0.0, 0.20604422315105736, 1.1323917811180109, 1.6464486273615808, 1.9787482822235272, 3.3258826219261217, 4.093956285882159, 5.182671706370734, 7.074246701221284, 8.239269946964383]
+error  = 5.946727281167907e-47 (10 entries) errFull = 5.657342e-47 errRank1 = 5.946727e-47
+---- j = 28  rows=3 samples=50 deg(det)=147 minima=8 min(det/det'')=3.940e-23 xMax=6.398e+00  3.2s
+deltas = [0.0, 0.2071673423327027, 0.6517325079121005, 1.6462036946388783, 1.9764885969329842, 2.598352649074995, 3.7811958559289396, 5.326406119944386, 6.680326788561091]
+error  = 1.2587835981442217e-47 (9 entries) errFull = 1.257304e-47 errRank1 = 1.258784e-47
+---- j = 29  rows=3 samples=51 deg(det)=150 minima=5 min(det/det'')=1.607e-23 xMax=1.042e+00  3.1s
+deltas = [0.0, 0.22396842643738796, 1.5684506346137306, 2.579051530898743, 3.5494056721352933, 4.600550387633582]
+error  = 5.637925634755215e-48 (6 entries) errFull = 5.569338e-48 errRank1 = 5.637926e-48
+---- j = 30  rows=3 samples=51 deg(det)=150 minima=4 min(det/det'')=1.039e-22 xMax=5.619e-01  3.1s
+deltas = [0.0, 0.3221827309932243, 1.9194385042884905, 3.3491285700836397, 3.793722096532417]
+error  = 2.0027727581760755e-45 (5 entries) errFull = 3.795519e-47 errRank1 = 2.002773e-45
+rankdiag    x = 0.0: kept 1, eigenvalue ratios 1.233e-03, 6.880e-10, significance 5.275e+01, 2.941e-05
+---- j = 31  rows=3 samples=51 deg(det)=150 minima=3 min(det/det'')=1.601e-22 xMax=2.861e-01  3.1s
+deltas = [0.0, 0.33509131196526665, 1.9525415937769097, 2.6487249864040887]
+error  = 2.7663049057465176e-46 (4 entries) errFull = 2.762748e-46 errRank1 = 2.766305e-46
+---- j = 32  rows=3 samples=51 deg(det)=150 minima=2 min(det/det'')=1.548e-20 xMax=5.692e+00  3.0s
+deltas = [2.1100611950571655, 3.978730830303876]
+error  = 5.42687285019799e-46 (2 entries) errFull = 5.426867e-46 errRank1 = 5.426873e-46
+---- j = 33  rows=3 samples=51 deg(det)=150 minima=1 min(det/det'')=2.168e-20 xMax=9.616e+01  3.0s
+deltas = [4.062742941398914]
+error  = 1.7260673763910946e-45 (1 entries) errFull = 1.726065e-45 errRank1 = 1.726067e-45
+---- j = 34  rows=3 samples=51 deg(det)=150 minima=0 min(det/det'')=- xMax=1.595e+03  2.9s
+deltas = []
+error  = 3.9035779427301097e-44 (0 entries) errFull = 3.903578e-44 errRank1 = 3.903578e-44
+---- j = 35  rows=3 samples=51 deg(det)=150 minima=0 min(det/det'')=- xMax=2.599e+04  2.9s
+deltas = []
+error  = 1.5299975319981622e-43 (0 entries) errFull = 1.529998e-43 errRank1 = 1.529998e-43
+---- j = 36  rows=3 samples=51 deg(det)=150 minima=1 min(det/det'')=6.876e-20 xMax=1.505e+09  2.9s
+deltas = [0.0]
+error  = 3.624505084396211e-41 (1 entries) errFull = 4.955385e-43 errRank1 = 3.624505e-41
+---- j = 37  rows=3 samples=51 deg(det)=150 minima=2 min(det/det'')=4.924e-19 xMax=1.796e+17  3.0s
+deltas = [63.742103453423944]
+error  = 2.0626895939069748e-39 (1 entries) errFull = 1.902758e-39 errRank1 = 2.062690e-39
+---- j = 38  rows=3 samples=51 deg(det)=150 minima=11 min(det/det'')=3.927e-23 xMax=5.231e+05  3.4s
+deltas = [0.0, 0.0, 1.0033761230908624, 1.8754799717164563, 3.2823482247005766, 4.343572462143555, 4.983237506464433, 6.507412430535382, 9.553361133402186, 11.549556761412127, 12.68421642318977, 17.327880689275812, 23.073548811164944]
+error  = 4.21385950396161e-45 (13 entries) errFull = 4.628373e-48 errRank1 = 2.561174e-31
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 2.861e-04, -5.804e-25, significance 5.534e+16
+rankdiag    x = 6.507412430535382: kept 1, eigenvalue ratios 2.941e-12, 1.039e-18, significance 2.088e+00, 6.801e-07
+rankdiag    x = 12.68421642318977: kept 1, eigenvalue ratios 1.400e-03, 3.614e-10, significance 3.066e+02, 6.468e-05
+---- j = 39  rows=3 samples=53 deg(det)=156 minima=17 min(det/det'')=6.619e-25 xMax=4.397e+14  4.0s
+deltas = [0.0, 0.17641022411207766, 0.23839208889753308, 1.5767894032641534, 2.355674606264357, 2.5679648867546505, 3.2058020356866126, 4.337686080120974, 4.73512574161955, 5.530674461618192, 7.534957110986774, 8.268629166785031, 8.886874719564046, 10.66736747331143, 11.650581134528396, 12.930180492572914, 15.935529609498726]
+error  = 5.250837513398068e-40 (17 entries) errFull = 1.737701e-43 errRank1 = 5.250838e-40
+rankdiag    x = 8.268629166785031: kept 1, eigenvalue ratios 5.658e-03, 7.928e-09, significance 1.074e+00, 1.350e-06
+---- j = 40  rows=3 samples=55 deg(det)=162 minima=19 min(det/det'')=9.797e-26 xMax=3.547e+13  4.5s
+deltas = [0.0, 0.0, 0.028051839341379937, 0.23819338786036734, 1.5985069347902867, 1.9669065450524181, 2.3349307602999327, 3.403025420355151, 3.4343472600901688, 4.923794410687885, 5.473677739297656, 6.396864430541042, 7.522124917852762, 8.26267280325597, 9.79170556878666, 10.51926688541884, 12.050894794643582, 14.480719400549098, 15.83789144430302, 17.122370826953922, 57.020200762351514]
+error  = 1.1420866053764842e-45 (21 entries) errFull = 2.461922e-48 errRank1 = 2.925099e-31
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 1.725e-03, -7.780e-23, significance 1.188e+17
+rankdiag    x = 0.028051839341379937: kept 1, eigenvalue ratios 2.922e-16, 9.914e-19, significance 9.372e+00, 3.071e-02
+rankdiag    x = 3.403025420355151: kept 1, eigenvalue ratios 3.987e-10, 2.250e-12, significance 7.464e+00, 3.477e-02
+rankdiag    x = 8.26267280325597: kept 1, eigenvalue ratios 3.765e-05, 1.312e-07, significance 2.513e+00, 8.282e-03
+rankdiag    x = 9.79170556878666: kept 1, eigenvalue ratios 8.072e-03, 2.633e-05, significance 2.343e+01, 7.640e-02
+rankdiag    x = 15.83789144430302: kept 1, eigenvalue ratios 3.261e-03, -3.190e-03, significance 1.192e+01
+rankdiag    x = 17.122370826953922: kept 1, eigenvalue ratios 3.261e-03, -3.181e-03, significance 1.651e+01
+rankdiag    x = 57.020200762351514: kept 1, eigenvalue ratios 3.261e-03, -3.144e-03, significance 3.083e+00
+---- j = 41  rows=3 samples=57 deg(det)=168 minima=18 min(det/det'')=2.066e-25 xMax=6.673e+13  4.6s
+deltas = [0.0, 0.0, 0.0182900023040047, 0.2413491958217205, 1.783911045976092, 2.0414485066075185, 2.171329450133644, 2.738717565994222, 3.1694128346702093, 3.943604240813086, 4.4703460362383565, 5.546546779529657, 6.752325460471058, 8.2047703040758, 8.80658581282697, 11.173885442215328, 12.740910785897583, 16.15419199390464, 18.8222011603744, 28.484778735974853]
+error  = 6.631796114397566e-50 (20 entries) errFull = 4.039678e-53 errRank1 = 3.175606e-34
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 3.120e-02, -1.976e-23, significance 7.861e+18
+rankdiag    x = 0.0182900023040047: kept 1, eigenvalue ratios 2.477e-16, 3.642e-18, significance 1.667e+01, 2.441e-01
+rankdiag    x = 2.0414485066075185: kept 1, eigenvalue ratios 4.318e-12, 7.951e-14, significance 1.498e+01, 2.401e-01
+rankdiag    x = 2.738717565994222: kept 1, eigenvalue ratios 4.611e-12, 6.791e-14, significance 2.746e+00, 4.026e-02
+rankdiag    x = 5.546546779529657: kept 1, eigenvalue ratios 3.239e-07, 4.924e-09, significance 1.438e+00, 2.114e-02
+rankdiag    x = 8.80658581282697: kept 1, eigenvalue ratios 1.263e-03, 2.234e-05, significance 8.495e+00, 1.329e-01
+rankdiag    x = 11.173885442215328: kept 1, eigenvalue ratios 3.114e-01, 4.660e-03, significance 1.057e+02, 1.539e+00
+rankdiag    x = 12.740910785897583: kept 1, eigenvalue ratios 3.537e-01, 1.458e-02, significance 2.229e+00, 9.200e-02
+rankdiag    x = 16.15419199390464: kept 1, eigenvalue ratios 1.466e-02, -7.983e-04, significance 2.403e+01
+---- j = 42  rows=3 samples=59 deg(det)=174 minima=13 min(det/det'')=5.717e-24 xMax=9.546e+10  4.2s
+deltas = [0.004442556585770535, 0.23063391900754002, 0.25060077269176395, 1.7269098340031672, 2.2168881323413716, 2.3491923503686265, 3.028816758677323, 4.266176161631373, 4.999887593386783, 5.949772943962331, 8.066452676392716, 10.12795284772712, 12.78148202578992]
+error  = 1.025696542558034e-54 (13 entries) errFull = 1.091464e-55 errRank1 = 1.025697e-54
+rankdiag    x = 0.004442556585770535: kept 1, eigenvalue ratios 1.347e-14, 5.026e-22, significance 2.174e+00, 6.623e-08
+rankdiag    x = 0.23063391900754002: kept 1, eigenvalue ratios 2.347e-14, -9.009e-18, significance 3.822e+00
+---- j = 43  rows=3 samples=61 deg(det)=180 minima=15 min(det/det'')=1.153e-24 xMax=5.889e+10  4.6s
+deltas = [0.004094607937002765, 0.10457280512241765, 0.23945396280092923, 1.718302238187811, 2.159416230369717, 2.6436090940342853, 2.9823765462560603, 3.532917269289626, 4.242808142605999, 5.794669193937228, 7.325083514559538, 8.976972750755014, 9.731866548088433, 15.97804058219678, 24.858591474680352]
+error  = 1.4797367467668562e-60 (15 entries) errFull = 2.979558e-61 errRank1 = 1.479737e-60
+rankdiag    x = 0.004094607937002765: kept 1, eigenvalue ratios 3.695e-16, 5.214e-19, significance 2.675e+00, 3.599e-03
+rankdiag    x = 9.731866548088433: kept 1, eigenvalue ratios 2.241e-02, -2.353e-05, significance 6.819e+00
+---- j = 44  rows=3 samples=63 deg(det)=186 minima=12 min(det/det'')=2.529e-24 xMax=2.021e+13  4.6s
+deltas = [0.0, 0.009044652109396704, 0.2310632418447342, 1.8293114122402556, 1.915647150940737, 2.3207324374195846, 3.4005516999701966, 3.8218235188106116, 5.184071710477908, 5.497717349267993, 6.365228221523086, 9.356155352435465, 13.57976888972001]
+error  = 8.11860331343588e-65 (13 entries) errFull = 2.684131e-66 errRank1 = 8.118603e-65
+rankdiag    x = 0.009044652109396704: kept 1, eigenvalue ratios 2.824e-16, 1.080e-24, significance 2.456e+01, 9.027e-08
+rankdiag    x = 1.8293114122402556: kept 1, eigenvalue ratios 3.562e-13, -1.209e-18, significance 2.091e+00
+rankdiag    x = 3.4005516999701966: kept 1, eigenvalue ratios 5.441e-12, -1.879e-17, significance 1.086e+00
+rankdiag    x = 9.356155352435465: kept 1, eigenvalue ratios 1.019e-03, -5.626e-09, significance 3.660e+01
+---- j = 45  rows=3 samples=65 deg(det)=192 minima=8 min(det/det'')=2.633e-26 xMax=9.516e+10  4.4s
+deltas = [0.22847190933920455, 1.7451057993908916, 2.037319861976652, 2.6813106279077576, 3.6334280205810026, 3.95133640275557, 5.591243032437866, 7.485196066592323]
+error  = 3.1957275671985805e-71 (8 entries) errFull = 1.657693e-71 errRank1 = 3.195728e-71
+rankdiag    x = 7.485196066592323: kept 1, eigenvalue ratios 1.440e-06, 1.585e-10, significance 2.141e+00, 2.174e-04
+---- j = 46  rows=3 samples=67 deg(det)=198 minima=10 min(det/det'')=6.954e-26 xMax=7.530e+10  4.7s
+deltas = [0.0031216803740696302, 0.2264077177362032, 1.4932258928187374, 2.022616369648047, 2.386332101079693, 2.7520373831797085, 3.5430977760717837, 4.382691452750062, 5.711481078515558, 7.390116421309711]
+error  = 5.4145052192202344e-74 (10 entries) errFull = 2.516498e-74 errRank1 = 5.414505e-74
+---- j = 47  rows=3 samples=69 deg(det)=204 minima=6 min(det/det'')=6.407e-25 xMax=3.007e+11  4.6s
+deltas = [0.018852867666831648, 0.22733435773402502, 2.038472184653114, 2.638748658684933, 3.086501246308761, 5.064171010866076]
+error  = 2.7417964924063645e-76 (6 entries) errFull = 2.541514e-76 errRank1 = 2.741796e-76
+---- j = 48  rows=3 samples=69 deg(det)=204 minima=4 min(det/det'')=1.851e-23 xMax=1.164e+10  4.5s
+deltas = [0.029124031303259187, 0.31096763030733043, 1.9628144485252204, 3.0423789043063136]
+error  = 1.4227265728927537e-75 (4 entries) errFull = 1.396794e-75 errRank1 = 1.422727e-75
+---- j = 49  rows=3 samples=69 deg(det)=204 minima=5 min(det/det'')=2.348e-24 xMax=3.061e+09  4.5s
+deltas = [0.0035659022418107126, 0.36038278013346897, 1.9699282642022664, 2.6432066967515433, 5.43785523846379]
+error  = 2.610713702306002e-75 (5 entries) errFull = 1.677552e-75 errRank1 = 2.610714e-75
+rankdiag    x = 5.43785523846379: kept 1, eigenvalue ratios 3.210e-02, 3.518e-08, significance 1.134e+00, 1.209e-06
+---- j = 50  rows=3 samples=69 deg(det)=204 minima=3 min(det/det'')=2.335e-20 xMax=7.807e+05  4.4s
+deltas = [1.947379072212765, 2.3129157527790385, 9.672103475347951]
+error  = 2.620217336016616e-75 (3 entries) errFull = 2.247384e-75 errRank1 = 2.620217e-75
+---- j = 51  rows=3 samples=69 deg(det)=204 minima=1 min(det/det'')=1.280e-20 xMax=1.762e+07  4.3s
+deltas = [10.465682432202101]
+error  = 9.942511384077672e-75 (1 entries) errFull = 9.293659e-75 errRank1 = 9.942511e-75
+---- j = 52  rows=3 samples=69 deg(det)=204 minima=0 min(det/det'')=- xMax=3.390e+08  4.3s
+deltas = []
+error  = 1.2127269777566598e-72 (0 entries) errFull = 1.212727e-72 errRank1 = 1.212727e-72
+---- j = 53  rows=3 samples=69 deg(det)=204 minima=1 min(det/det'')=1.789e-17 xMax=6.362e+09  4.3s
+deltas = []
+error  = 4.756757199555282e-72 (0 entries) errFull = 3.006448e-74 errRank1 = 4.756757e-72
+---- j = 54  rows=3 samples=69 deg(det)=204 minima=1 min(det/det'')=6.418e-20 xMax=6.596e+14  4.3s
+deltas = []
+error  = 1.134647091133884e-69 (0 entries) errFull = 8.698687e-70 errRank1 = 1.134647e-69
+---- j = 55  rows=3 samples=69 deg(det)=204 minima=1 min(det/det'')=3.885e-21 xMax=2.114e+23  4.3s
+deltas = []
+error  = 1.6766862576394672e-65 (0 entries) errFull = 1.495434e-65 errRank1 = 1.676686e-65
+---- j = 56  rows=1 samples=51 deg(det)=50 minima=5 min(det/det'')=2.524e-26 xMax=1.192e+10  0.6s
+deltas = [0.493246257010153, 3.3946354329404005, 6.282368784978915, 11.13999147106893]
+error  = 4.4023465266962e-47 (4 entries) errFull = 1.268704e-48 errRank1 = 4.402347e-47
+---- j = 57  rows=1 samples=53 deg(det)=52 minima=6 min(det/det'')=4.260e-24 xMax=1.247e+09  0.7s
+deltas = [1.2143963468474661, 1.5460098871126315, 4.0542584138830176, 7.25968946986851, 9.64173140445168, 14.059666569133052]
+error  = 1.9129605894992697e-52 (6 entries) errFull = 1.912961e-52 errRank1 = 1.912961e-52
+---- j = 58  rows=1 samples=55 deg(det)=54 minima=6 min(det/det'')=1.430e-23 xMax=1.933e+09  0.7s
+deltas = [0.6657016286100604, 1.2375685798361533, 3.029136515617308, 4.786281044255358, 8.669702633625294, 12.651856919044677]
+error  = 8.80769125461103e-56 (6 entries) errFull = 8.807691e-56 errRank1 = 8.807691e-56
+---- j = 59  rows=1 samples=57 deg(det)=56 minima=6 min(det/det'')=1.933e-24 xMax=7.244e+08  0.7s
+deltas = [1.188882340371224, 3.0450627165630157, 4.952007576198058, 6.892249287034944, 10.484887092268783, 16.879417214061096]
+error  = 3.334433720560203e-59 (6 entries) errFull = 3.334434e-59 errRank1 = 3.334434e-59
+---- j = 60  rows=1 samples=59 deg(det)=58 minima=7 min(det/det'')=8.211e-23 xMax=4.704e+08  0.8s
+deltas = [0.13767836285687593, 1.184867925443959, 2.5874686793623387, 3.603693201359085, 5.578488048384648, 9.386051496942342, 15.166383025685455]
+error  = 1.2158639029838102e-63 (7 entries) errFull = 1.215864e-63 errRank1 = 1.215864e-63
+---- j = 61  rows=1 samples=61 deg(det)=60 minima=3 min(det/det'')=8.176e-25 xMax=5.699e+08  0.7s
+deltas = [1.1594588462678233, 2.997338336344874, 5.7239173899233196]
+error  = 3.5883439223519896e-68 (3 entries) errFull = 3.588344e-68 errRank1 = 3.588344e-68
+---- j = 62  rows=1 samples=63 deg(det)=62 minima=4 min(det/det'')=7.133e-24 xMax=5.837e+08  0.7s
+deltas = [1.1485331331199857, 2.1841421615951435, 3.9270959949628654, 7.701443681656584]
+error  = 1.9281382483591793e-73 (4 entries) errFull = 1.928138e-73 errRank1 = 1.928138e-73
+---- j = 63  rows=1 samples=65 deg(det)=64 minima=4 min(det/det'')=2.165e-23 xMax=5.007e+08  0.8s
+deltas = [0.0734806260562177, 1.1591768835557992, 3.3652215390566353, 7.472741057635348]
+error  = 4.996945088519306e-75 (4 entries) errFull = 4.996945e-75 errRank1 = 4.996945e-75
+---- j = 64  rows=1 samples=67 deg(det)=66 minima=3 min(det/det'')=5.070e-24 xMax=6.360e+08  0.7s
+deltas = [1.1449962254246735, 3.433231255953675, 7.185804353697806]
+error  = 1.1371167830812893e-79 (3 entries) errFull = 1.137117e-79 errRank1 = 1.137117e-79
+---- j = 65  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.058e-23 xMax=5.135e+08  0.7s
+deltas = [1.1428068162137544, 3.345139778035604]
+error  = 4.398907566120802e-81 (2 entries) errFull = 4.398908e-81 errRank1 = 4.398908e-81
+---- j = 66  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=3.182e-23 xMax=4.982e+07  0.7s
+deltas = [1.132679609701881]
+error  = 2.2496828215073755e-80 (1 entries) errFull = 2.249683e-80 errRank1 = 2.249683e-80
+---- j = 67  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=1.335e-22 xMax=6.939e+06  0.7s
+deltas = [1.1066704524166677]
+error  = 8.013149910153785e-80 (1 entries) errFull = 8.013150e-80 errRank1 = 8.013150e-80
+---- j = 68  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=3.441e-04 xMax=5.120e+00  0.7s
+deltas = []
+error  = 4.484966516652667e-79 (0 entries) errFull = 4.484967e-79 errRank1 = 4.484967e-79
+---- j = 69  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=6.956e-03 xMax=1.010e+02  0.7s
+deltas = []
+error  = 1.7536314452416576e-78 (0 entries) errFull = 1.753631e-78 errRank1 = 1.753631e-78
+---- j = 70  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=8.154e-03 xMax=1.940e+03  0.7s
+deltas = []
+error  = 6.864309720603676e-78 (0 entries) errFull = 6.864310e-78 errRank1 = 6.864310e-78
+---- j = 71  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.983e-20 xMax=2.729e+04  0.7s
+deltas = [0.3206462771500203, 1.6681877502947435]
+error  = 1.490148321065308e-77 (2 entries) errFull = 1.490148e-77 errRank1 = 1.490148e-77
+---- j = 72  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=7.203e-20 xMax=3.777e+09  0.7s
+deltas = []
+error  = 6.426971868045026e-75 (0 entries) errFull = 3.667819e-75 errRank1 = 6.426972e-75
+---- j = 73  rows=1 samples=69 deg(det)=68 minima=0 min(det/det'')=- xMax=1.210e+18  0.7s
+deltas = []
+error  = 9.49109714297835e-71 (0 entries) errFull = 9.491097e-71 errRank1 = 9.491097e-71
+---- j = 74  rows=1 samples=51 deg(det)=50 minima=5 min(det/det'')=2.102e-22 xMax=2.099e+04  0.6s
+deltas = [0.0, 2.189777281104827, 3.770952130883859, 6.47119049344761, 9.917075819685135, 11.090254798941631]
+error  = 3.246493274223019e-49 (6 entries) errFull = 3.246493e-49 errRank1 = 3.246493e-49
+---- j = 75  rows=1 samples=53 deg(det)=52 minima=7 min(det/det'')=5.701e-24 xMax=4.945e+10  0.7s
+deltas = [0.4967663733698394, 1.3424029148483108, 3.5933611969059656, 5.639967498690113, 8.451788232190017, 13.069318231925275, 16.309353709839176]
+error  = 2.598403703485524e-50 (7 entries) errFull = 2.598404e-50 errRank1 = 2.598404e-50
+---- j = 76  rows=1 samples=55 deg(det)=54 minima=6 min(det/det'')=1.502e-24 xMax=4.097e+09  0.6s
+deltas = [0.764884407003848, 1.692695925919108, 4.218916877958889, 7.626177397508964, 10.901355730592817]
+error  = 2.95151189265332e-54 (5 entries) errFull = 4.439868e-55 errRank1 = 2.951512e-54
+---- j = 77  rows=1 samples=57 deg(det)=56 minima=5 min(det/det'')=1.366e-22 xMax=2.092e+09  0.6s
+deltas = [0.47603736286222365, 0.9774610716273887, 2.550780773799854, 5.269922137172802, 9.674119280795477]
+error  = 4.641421757692552e-59 (5 entries) errFull = 4.641422e-59 errRank1 = 4.641422e-59
+---- j = 78  rows=1 samples=59 deg(det)=58 minima=5 min(det/det'')=4.141e-22 xMax=7.558e+08  0.7s
+deltas = [0.7313385660610672, 1.1563341809945875, 3.43084284259504, 7.441043528170802]
+error  = 1.4825044127762294e-59 (4 entries) errFull = 9.620277e-60 errRank1 = 1.482504e-59
+---- j = 79  rows=1 samples=61 deg(det)=60 minima=5 min(det/det'')=1.327e-22 xMax=9.242e+08  0.7s
+deltas = [0.8954597917069469, 1.528491809654478, 2.7210749870914066, 4.993775301018391, 10.960426046625722]
+error  = 1.9080713240245035e-68 (5 entries) errFull = 1.908071e-68 errRank1 = 1.908071e-68
+---- j = 80  rows=1 samples=63 deg(det)=62 minima=4 min(det/det'')=1.348e-23 xMax=1.247e+08  0.7s
+deltas = [0.9965668787207043, 3.0554105388910604, 4.7703022290864645, 8.222408896373825]
+error  = 9.201894155214392e-73 (4 entries) errFull = 9.201894e-73 errRank1 = 9.201894e-73
+---- j = 81  rows=1 samples=65 deg(det)=64 minima=4 min(det/det'')=6.691e-22 xMax=9.247e+08  0.7s
+deltas = [0.5497554715345196, 1.12818863984846, 3.114126642538759, 6.473429717953829]
+error  = 2.1875673305097207e-76 (4 entries) errFull = 2.187567e-76 errRank1 = 2.187567e-76
+---- j = 82  rows=1 samples=67 deg(det)=66 minima=2 min(det/det'')=1.294e-23 xMax=6.290e+08  0.6s
+deltas = [1.0228290885910818, 3.384498720401854]
+error  = 1.1791085301886283e-78 (2 entries) errFull = 1.179109e-78 errRank1 = 1.179109e-78
+---- j = 83  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=2.908e-23 xMax=6.328e+08  0.7s
+deltas = [1.0160490712500025, 3.0654168187308324]
+error  = 1.444094688727388e-81 (2 entries) errFull = 1.444095e-81 errRank1 = 1.444095e-81
+---- j = 84  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=4.049e-23 xMax=1.052e+08  0.7s
+deltas = [1.0061267906094828]
+error  = 1.4571856372758741e-80 (1 entries) errFull = 1.457186e-80 errRank1 = 1.457186e-80
+---- j = 85  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=6.379e-21 xMax=1.094e+03  0.7s
+deltas = [2.354796652453429]
+error  = 7.60626492936992e-80 (1 entries) errFull = 7.606265e-80 errRank1 = 7.606265e-80
+---- j = 86  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=7.458e-04 xMax=3.455e+00  0.6s
+deltas = []
+error  = 3.02656754874607e-79 (0 entries) errFull = 3.026568e-79 errRank1 = 3.026568e-79
+---- j = 87  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=8.295e-21 xMax=1.934e+05  0.7s
+deltas = [0.836750257292512]
+error  = 9.158150410789755e-79 (1 entries) errFull = 9.158150e-79 errRank1 = 9.158150e-79
+---- j = 88  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=1.315e-20 xMax=6.127e+04  0.6s
+deltas = [0.7091727844137824]
+error  = 4.0135607496364515e-78 (1 entries) errFull = 4.013561e-78 errRank1 = 4.013561e-78
+---- j = 89  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=2.083e-02 xMax=2.461e+04  0.6s
+deltas = []
+error  = 1.820022175111371e-77 (0 entries) errFull = 1.820022e-77 errRank1 = 1.820022e-77
+---- j = 90  rows=1 samples=69 deg(det)=68 minima=0 min(det/det'')=- xMax=2.552e+09  0.6s
+deltas = []
+error  = 4.3413576331298605e-75 (0 entries) errFull = 4.341358e-75 errRank1 = 4.341358e-75
+---- j = 91  rows=1 samples=69 deg(det)=68 minima=0 min(det/det'')=- xMax=8.171e+17  0.6s
+deltas = []
+error  = 6.409702019250207e-71 (0 entries) errFull = 6.409702e-71 errRank1 = 6.409702e-71
+---- j = 92  rows=1 samples=42 deg(det)=41 minima=5 min(det/det'')=2.163e-22 xMax=1.416e+01  0.3s
+deltas = [1.684901973577781, 3.071242465823099, 6.34915511462235, 10.791573685661119, 20.17000202516807]
+error  = 2.6962020690835077e-40 (5 entries) errFull = 2.696202e-40 errRank1 = 2.696202e-40
+---- j = 93  rows=1 samples=43 deg(det)=42 minima=6 min(det/det'')=2.374e-23 xMax=1.310e+03  0.3s
+deltas = [1.8651923368544006, 4.224633762676041, 6.722336131466361, 9.404961805738514, 13.909818375401574, 18.818769532457146]
+error  = 3.634844047259655e-41 (6 entries) errFull = 3.634844e-41 errRank1 = 3.634844e-41
+---- j = 94  rows=1 samples=44 deg(det)=43 minima=5 min(det/det'')=8.385e-23 xMax=5.514e+01  0.3s
+deltas = [0.0, 1.9323250058173695, 4.405950269505296, 7.741873387574568, 11.701613824871728, 16.249489716835164]
+error  = 6.892271526652032e-43 (6 entries) errFull = 6.892272e-43 errRank1 = 6.892272e-43
+---- j = 95  rows=1 samples=45 deg(det)=44 minima=6 min(det/det'')=7.115e-21 xMax=2.865e+01  0.3s
+deltas = [0.9418389352089617, 2.146282794909682, 4.058020402721398, 5.020496988545412, 8.953089969870883, 15.206925119096754]
+error  = 2.6443129826501514e-45 (6 entries) errFull = 2.644313e-45 errRank1 = 2.644313e-45
+---- j = 96  rows=1 samples=46 deg(det)=45 minima=6 min(det/det'')=6.648e-21 xMax=1.827e+01  0.3s
+deltas = [0.16408467575129757, 1.7162693888665683, 3.3565698030765803, 6.079994976196114, 8.636273807160347, 13.090889090437006]
+error  = 1.0601559869197333e-46 (6 entries) errFull = 1.060156e-46 errRank1 = 1.060156e-46
+---- j = 97  rows=1 samples=47 deg(det)=46 minima=3 min(det/det'')=9.857e-22 xMax=6.579e+00  0.3s
+deltas = [0.0, 1.9121443404673184, 4.549796207263117, 9.297167390496929]
+error  = 3.011861864074102e-49 (4 entries) errFull = 3.011862e-49 errRank1 = 3.011862e-49
+---- j = 98  rows=1 samples=48 deg(det)=47 minima=4 min(det/det'')=2.278e-21 xMax=9.600e-01  0.3s
+deltas = [1.3389646637523127, 2.598589195047569, 5.278341624426937, 8.324573359346891]
+error  = 6.185963747710832e-50 (4 entries) errFull = 6.185964e-50 errRank1 = 6.185964e-50
+---- j = 99  rows=1 samples=49 deg(det)=48 minima=3 min(det/det'')=2.772e-20 xMax=9.580e-01  0.3s
+deltas = [1.8927919878635728, 2.2095064019954678, 4.484726720867212]
+error  = 4.501029410875429e-50 (3 entries) errFull = 4.501029e-50 errRank1 = 4.501029e-50
+---- j = 100  rows=1 samples=50 deg(det)=49 minima=3 min(det/det'')=1.638e-20 xMax=1.246e-01  0.3s
+deltas = [1.3783310678006602, 2.129374859628773, 4.356067367087992]
+error  = 6.531920225482045e-51 (3 entries) errFull = 6.531920e-51 errRank1 = 6.531920e-51
+---- j = 101  rows=1 samples=51 deg(det)=50 minima=2 min(det/det'')=5.354e-21 xMax=1.180e-01  0.3s
+deltas = [0.15863111315066725, 1.9510748331190577]
+error  = 3.0858398083804855e-51 (2 entries) errFull = 3.085840e-51 errRank1 = 3.085840e-51
+---- j = 102  rows=1 samples=51 deg(det)=50 minima=1 min(det/det'')=6.272e-21 xMax=5.952e-03  0.2s
+deltas = [2.162500084780573]
+error  = 1.8890971375424478e-50 (1 entries) errFull = 1.889097e-50 errRank1 = 1.889097e-50
+---- j = 103  rows=1 samples=51 deg(det)=50 minima=3 min(det/det'')=8.971e-21 xMax=1.734e-03  0.3s
+deltas = [2.1610294571097057]
+error  = 1.5758046574816806e-49 (1 entries) errFull = 2.056176e-51 errRank1 = 1.575805e-49
+---- j = 104  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=8.392e-04  0.2s
+deltas = []
+error  = 3.747221280725363e-49 (0 entries) errFull = 3.747221e-49 errRank1 = 3.747221e-49
+---- j = 105  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=1.422e-02  0.2s
+deltas = []
+error  = 1.4703400953043622e-48 (0 entries) errFull = 1.470340e-48 errRank1 = 1.470340e-48
+---- j = 106  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.361e-01  0.2s
+deltas = []
+error  = 5.767350177021064e-48 (0 entries) errFull = 5.767350e-48 errRank1 = 5.767350e-48
+---- j = 107  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=3.855e+00  0.2s
+deltas = [0.0]
+error  = 1.848985915377848e-47 (1 entries) errFull = 1.848986e-47 errRank1 = 1.848986e-47
+---- j = 108  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.249e+05  0.2s
+deltas = []
+error  = 5.4200553469236094e-45 (0 entries) errFull = 5.420055e-45 errRank1 = 5.420055e-45
+---- j = 109  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.700e+13  0.2s
+deltas = []
+error  = 7.996464375118004e-41 (0 entries) errFull = 7.996464e-41 errRank1 = 7.996464e-41
+---- j = 110  rows=1 samples=42 deg(det)=41 minima=4 min(det/det'')=3.005e-24 xMax=2.172e+02  0.2s
+deltas = [0.6923804138563934, 4.408333992849006, 8.253412493250433, 13.612276656539152]
+error  = 8.054233172699244e-40 (4 entries) errFull = 8.054233e-40 errRank1 = 8.054233e-40
+---- j = 111  rows=1 samples=43 deg(det)=42 minima=6 min(det/det'')=1.162e-22 xMax=6.893e+02  0.3s
+deltas = [0.0, 2.4047904931476975, 3.6538031001423255, 6.249496072191445, 9.697540766380254, 13.11766557047148, 19.370108703654374]
+error  = 6.307278423973367e-40 (7 entries) errFull = 6.307278e-40 errRank1 = 6.307278e-40
+---- j = 112  rows=1 samples=44 deg(det)=43 minima=5 min(det/det'')=2.426e-22 xMax=2.769e+02  0.3s
+deltas = [0.0, 2.266258756866453, 4.160372532782421, 6.992065029178001, 10.565913997268497, 15.827470189309052]
+error  = 5.037628166867754e-43 (6 entries) errFull = 5.037628e-43 errRank1 = 5.037628e-43
+---- j = 113  rows=1 samples=45 deg(det)=44 minima=5 min(det/det'')=1.912e-20 xMax=4.020e+01  0.3s
+deltas = [0.0, 1.8309785095336244, 2.5015405108612403, 4.5343803897498125, 5.893064063393692, 9.488269968105689]
+error  = 2.4109625719972345e-45 (6 entries) errFull = 2.410963e-45 errRank1 = 2.410963e-45
+---- j = 114  rows=1 samples=46 deg(det)=45 minima=4 min(det/det'')=8.562e-22 xMax=2.567e+01  0.3s
+deltas = [0.0, 2.046040475476322, 3.6643085053773827, 6.711871292669286, 12.116949157613847]
+error  = 4.773478907632978e-48 (5 entries) errFull = 4.773479e-48 errRank1 = 4.773479e-48
+---- j = 115  rows=1 samples=47 deg(det)=46 minima=5 min(det/det'')=1.766e-21 xMax=6.756e+00  0.3s
+deltas = [0.07948833788777125, 2.125416900434736, 4.296952150836851, 6.388589182419843, 10.670791270096714]
+error  = 2.730995326517543e-49 (5 entries) errFull = 2.730995e-49 errRank1 = 2.730995e-49
+---- j = 116  rows=1 samples=48 deg(det)=47 minima=5 min(det/det'')=3.354e-20 xMax=3.946e-01  0.3s
+deltas = [1.7609282587474604, 2.3099701531366414, 4.289540210092288, 7.869482909718038, 18.854952232858846]
+error  = 1.082418799335182e-50 (5 entries) errFull = 1.082419e-50 errRank1 = 1.082419e-50
+---- j = 117  rows=1 samples=49 deg(det)=48 minima=3 min(det/det'')=3.245e-21 xMax=3.961e-01  0.3s
+deltas = [0.9101459681493976, 2.2518511381313178, 4.616238004168848]
+error  = 1.662886599411983e-49 (3 entries) errFull = 1.662887e-49 errRank1 = 1.662887e-49
+---- j = 118  rows=1 samples=50 deg(det)=49 minima=2 min(det/det'')=1.837e-21 xMax=1.633e-01  0.3s
+deltas = [0.0, 2.0657090148972608, 4.764424888612753]
+error  = 6.144337861743829e-51 (3 entries) errFull = 6.144338e-51 errRank1 = 6.144338e-51
+---- j = 119  rows=1 samples=51 deg(det)=50 minima=1 min(det/det'')=2.239e-21 xMax=1.336e-01  0.2s
+deltas = [1.8824217060554398]
+error  = 3.4734133645549256e-51 (1 entries) errFull = 3.473413e-51 errRank1 = 3.473413e-51
+---- j = 120  rows=1 samples=51 deg(det)=50 minima=2 min(det/det'')=4.827e-21 xMax=3.167e-03  0.2s
+deltas = [2.1203512248337644, 10.724517458126668]
+error  = 9.322167770170797e-52 (2 entries) errFull = 9.322168e-52 errRank1 = 9.322168e-52
+---- j = 121  rows=1 samples=51 deg(det)=50 minima=1 min(det/det'')=4.467e-20 xMax=7.753e-04  0.2s
+deltas = [3.0920754803167476]
+error  = 5.907437166281401e-50 (1 entries) errFull = 5.907437e-50 errRank1 = 5.907437e-50
+---- j = 122  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=9.681e-04  0.2s
+deltas = []
+error  = 4.3224916638677346e-49 (0 entries) errFull = 4.322492e-49 errRank1 = 4.322492e-49
+---- j = 123  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=1.639e-02  0.2s
+deltas = [0.0]
+error  = 1.3840728735968395e-48 (1 entries) errFull = 1.384073e-48 errRank1 = 1.384073e-48
+---- j = 124  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.726e-01  0.2s
+deltas = [0.0]
+error  = 5.436449656802548e-48 (1 entries) errFull = 5.436450e-48 errRank1 = 5.436450e-48
+---- j = 125  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=4.457e+00  0.2s
+deltas = []
+error  = 2.6178720386851745e-47 (0 entries) errFull = 2.617872e-47 errRank1 = 2.617872e-47
+---- j = 126  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.598e+05  0.2s
+deltas = []
+error  = 6.260472457670584e-45 (0 entries) errFull = 6.260472e-45 errRank1 = 6.260472e-45
+---- j = 127  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=3.119e+13  0.2s
+deltas = []
+error  = 9.23743008346658e-41 (0 entries) errFull = 9.237430e-41 errRank1 = 9.237430e-41
+---- j = 128  rows=2 samples=42 deg(det)=82 minima=12 min(det/det'')=1.029e-23 xMax=3.123e+03  1.1s
+deltas = [0.0, 0.36188603773092515, 0.7792862706093607, 2.345030967354575, 2.4783650181206798, 3.8593492765398163, 5.217738873353237, 6.531108768234835, 8.574693270655143, 9.88332927049065, 12.379289394198585, 12.969158306532703, 18.91595637057642]
+error  = 3.708421950579565e-37 (13 entries) errFull = 8.909880e-38 errRank1 = 3.708422e-37
+rankdiag    x = 8.574693270655143: kept 1, eigenvalue ratios 8.664e-09, significance 4.161e+00
+---- j = 129  rows=2 samples=43 deg(det)=84 minima=11 min(det/det'')=7.642e-26 xMax=1.371e+03  1.1s
+deltas = [0.0, 0.1850849224669852, 1.2500511071486902, 1.68806563081716, 2.7471991424487863, 3.7143528997115927, 4.96387790866131, 6.069574209142715, 7.583671622550642, 10.271862382509966, 12.374520120245519, 15.470030433716715]
+error  = 5.585235408423249e-41 (12 entries) errFull = 5.570616e-41 errRank1 = 5.585235e-41
+---- j = 130  rows=2 samples=44 deg(det)=86 minima=10 min(det/det'')=3.605e-25 xMax=7.893e+01  1.1s
+deltas = [0.0, 0.0, 0.21551085617459145, 1.6849135870753509, 1.9795729289959534, 3.08271236088587, 3.778043352289418, 5.0451799302990885, 7.731766464850994, 8.718295796499493, 13.110885889792304, 15.529200540426068]
+error  = 9.206374044031638e-44 (12 entries) errFull = 8.945661e-44 errRank1 = 1.006451e-25
+rank>1 root x = 0.0: kept 2, eigenvalue ratios 2.321e-02, significance 1.125e+18
+---- j = 131  rows=2 samples=45 deg(det)=88 minima=10 min(det/det'')=2.212e-24 xMax=1.131e+01  1.1s
+deltas = [0.2110958958712666, 0.9734301928164115, 1.5936850705232823, 2.348884022267136, 3.3295204266481218, 5.4684690346062235, 5.977770002894251, 9.654699520852374, 10.845509492597309, 14.088393453793175]
+error  = 4.438848871192452e-47 (10 entries) errFull = 4.323924e-47 errRank1 = 4.438849e-47
+---- j = 132  rows=2 samples=46 deg(det)=90 minima=9 min(det/det'')=6.840e-24 xMax=2.886e+00  1.1s
+deltas = [0.06191500334962526, 0.21887980471202254, 1.8274828587857659, 2.054098899426628, 3.8534192879675877, 4.0818955398031855, 6.381849971889191, 8.635270391111643, 10.246525289565488]
+error  = 2.514661351376689e-47 (9 entries) errFull = 2.514154e-47 errRank1 = 2.514661e-47
+---- j = 133  rows=2 samples=47 deg(det)=92 minima=7 min(det/det'')=1.800e-25 xMax=5.484e-01  1.0s
+deltas = [0.21849111044062608, 1.3637564893461864, 1.7160419231298472, 2.484824333441493, 3.6287946585694013, 6.30284704471831, 6.808420321941893]
+error  = 5.056140444228681e-49 (7 entries) errFull = 5.053665e-49 errRank1 = 5.056140e-49
+---- j = 134  rows=2 samples=48 deg(det)=94 minima=9 min(det/det'')=4.257e-23 xMax=7.146e-02  1.2s
+deltas = [0.08909633740885434, 0.2309405886312158, 0.8113398143524773, 1.876601680957668, 2.2163536872238563, 3.650864521336061, 4.9312186995535265, 6.175956664582442, 9.581200331531127]
+error  = 3.987981564765663e-50 (9 entries) errFull = 3.939078e-50 errRank1 = 3.987982e-50
+---- j = 135  rows=2 samples=49 deg(det)=96 minima=6 min(det/det'')=1.178e-24 xMax=1.298e-01  1.1s
+deltas = [0.0, 0.21990533368059756, 1.9390992731284635, 2.0742138589222585, 5.038782669331942, 10.519364457109084]
+error  = 5.591580968037482e-51 (6 entries) errFull = 5.591418e-51 errRank1 = 5.591581e-51
+---- j = 136  rows=2 samples=50 deg(det)=98 minima=5 min(det/det'')=1.642e-24 xMax=1.048e-02  1.1s
+deltas = [0.22661201959786173, 1.7244407302837022, 1.969658626020572, 3.3498507232698342, 4.31682894256134]
+error  = 6.822491263274521e-51 (5 entries) errFull = 6.789974e-51 errRank1 = 6.822491e-51
+---- j = 137  rows=2 samples=51 deg(det)=100 minima=4 min(det/det'')=8.999e-24 xMax=1.520e-02  1.1s
+deltas = [0.22638974313823865, 1.5753767775367242, 2.0222173373681738, 2.6669328821479676]
+error  = 3.601790947556044e-51 (4 entries) errFull = 3.600957e-51 errRank1 = 3.601791e-51
+---- j = 138  rows=2 samples=51 deg(det)=100 minima=3 min(det/det'')=1.852e-23 xMax=2.745e-03  1.1s
+deltas = [0.21167244901597965, 1.48559631690145, 2.9946275085054825]
+error  = 8.66079821663764e-51 (3 entries) errFull = 8.660568e-51 errRank1 = 8.660798e-51
+---- j = 139  rows=2 samples=51 deg(det)=100 minima=2 min(det/det'')=6.584e-20 xMax=8.726e-05  1.0s
+deltas = [2.6267465283086695]
+error  = 1.1098429423010376e-49 (1 entries) errFull = 1.109843e-49 errRank1 = 1.109843e-49
+---- j = 140  rows=2 samples=51 deg(det)=100 minima=1 min(det/det'')=6.319e-21 xMax=2.010e-03  1.0s
+deltas = [1.144318445390516]
+error  = 3.2937904486056626e-49 (1 entries) errFull = 3.293646e-49 errRank1 = 3.293790e-49
+---- j = 141  rows=2 samples=51 deg(det)=100 minima=1 min(det/det'')=1.190e-02 xMax=3.542e-02  1.0s
+deltas = [0.0]
+error  = 1.4547667829164335e-48 (1 entries) errFull = 1.454705e-48 errRank1 = 1.454767e-48
+---- j = 142  rows=2 samples=51 deg(det)=100 minima=0 min(det/det'')=- xMax=5.864e-01  1.0s
+deltas = []
+error  = 7.002567768414218e-48 (0 entries) errFull = 7.002568e-48 errRank1 = 7.002568e-48
+---- j = 143  rows=2 samples=51 deg(det)=100 minima=0 min(det/det'')=- xMax=3.238e+11  1.0s
+deltas = [0.0]
+error  = 5.08556045744779e-42 (1 entries) errFull = 5.085560e-42 errRank1 = 5.085560e-42
+---- j = 144  rows=2 samples=52 deg(det)=102 minima=11 min(det/det'')=2.975e-24 xMax=6.751e+09  1.6s
+deltas = [1.7726786698249333, 3.171941559012556, 4.3990420895748645, 5.3878062962491695, 6.557241906277087, 8.22369946992887, 9.053268574553927, 11.738177074004758, 13.773318336423403, 17.515172528307396, 20.2732072156809]
+error  = 1.216303436068834e-42 (11 entries) errFull = 1.724410e-45 errRank1 = 1.216303e-42
+rankdiag    x = 9.053268574553927: kept 1, eigenvalue ratios 1.067e-05, significance 3.033e+00
+rankdiag    x = 13.773318336423403: kept 1, eigenvalue ratios 3.244e-02, significance 4.785e+00
+---- j = 145  rows=2 samples=54 deg(det)=106 minima=10 min(det/det'')=2.038e-24 xMax=5.072e+09  1.7s
+deltas = [0.30795562652782715, 0.6823184894302192, 1.7316384988526161, 2.0439326185809708, 4.267308966804484, 4.634953591875942, 7.060490609032552, 8.233446518712753, 10.661795933670568, 13.401965610266654]
+error  = 5.115821157773319e-51 (10 entries) errFull = 2.754834e-51 errRank1 = 5.115821e-51
+rankdiag    x = 13.401965610266654: kept 1, eigenvalue ratios 1.144e-02, significance 1.342e+00
+---- j = 146  rows=2 samples=56 deg(det)=110 minima=12 min(det/det'')=1.537e-23 xMax=3.286e+09  1.9s
+deltas = [0.03163464859951141, 0.8160390741900079, 1.3805973300678183, 1.7745581931722587, 2.0561459347463305, 2.92278234257718, 5.036736754893708, 5.585809913164574, 8.618224276318504, 9.806433045973389, 14.168157400871962]
+error  = 1.0411419520665674e-54 (11 entries) errFull = 2.561071e-55 errRank1 = 1.041142e-54
+---- j = 147  rows=2 samples=58 deg(det)=114 minima=11 min(det/det'')=1.216e-22 xMax=2.273e+08  2.0s
+deltas = [0.13545471522971875, 0.7873381474556911, 1.3389294223478532, 1.4383680475244809, 1.8882462527363746, 3.537945624998237, 4.031878559830865, 6.653605258438133, 7.691390263920114, 11.315906432504844, 14.476833078794899]
+error  = 1.2615942536738255e-58 (11 entries) errFull = 5.809278e-59 errRank1 = 1.261594e-58
+---- j = 148  rows=2 samples=60 deg(det)=118 minima=9 min(det/det'')=4.497e-23 xMax=4.918e+08  1.9s
+deltas = [0.2082489836430264, 0.93046304511604, 1.7587880648913174, 2.4160002769548785, 2.646536913445732, 5.045504802912415, 5.4390227543430205, 9.147855593066165, 11.107631037876224]
+error  = 1.0245109375976714e-62 (9 entries) errFull = 1.014692e-62 errRank1 = 1.024511e-62
+---- j = 149  rows=2 samples=62 deg(det)=122 minima=8 min(det/det'')=2.565e-23 xMax=4.267e+08  1.9s
+deltas = [0.8215987906635759, 1.2446604653835975, 1.8538667763701517, 3.309149087489049, 4.307322784517766, 4.4337743077656855, 7.394504647808881, 8.692733170331627]
+error  = 1.0115424949023729e-67 (8 entries) errFull = 9.730640e-68 errRank1 = 1.011542e-67
+---- j = 150  rows=2 samples=64 deg(det)=126 minima=8 min(det/det'')=1.573e-22 xMax=5.881e+08  2.0s
+deltas = [0.06564549060544758, 0.8633996167085989, 1.2031316516014985, 1.8633412533782383, 3.017236961400321, 4.513921183338312, 6.283098559888224, 7.719467161706177]
+error  = 6.170066040029261e-73 (8 entries) errFull = 6.023142e-73 errRank1 = 6.170066e-73
+---- j = 151  rows=2 samples=66 deg(det)=130 minima=6 min(det/det'')=2.940e-24 xMax=2.843e+08  2.0s
+deltas = [0.01099744092885186, 0.9714813551454996, 1.8341070900722463, 2.4437376589388875, 4.255154063821492, 5.607239881141563]
+error  = 9.226518699338908e-76 (6 entries) errFull = 8.563562e-76 errRank1 = 9.226519e-76
+---- j = 152  rows=2 samples=68 deg(det)=134 minima=4 min(det/det'')=5.049e-23 xMax=5.782e+08  2.0s
+deltas = [0.9424633409306875, 1.7498930921078775, 2.1207661131670816, 3.9359290077393787]
+error  = 1.2829335952669097e-77 (4 entries) errFull = 1.267999e-77 errRank1 = 1.282934e-77
+---- j = 153  rows=2 samples=69 deg(det)=136 minima=4 min(det/det'')=4.760e-22 xMax=1.381e+08  2.0s
+deltas = [0.9219412439348573, 1.5991589195078013, 1.8401692245061252, 4.8856119234701385]
+error  = 6.385171132382132e-79 (4 entries) errFull = 5.846046e-79 errRank1 = 6.385171e-79
+---- j = 154  rows=2 samples=69 deg(det)=136 minima=4 min(det/det'')=8.157e-22 xMax=1.562e+07  2.0s
+deltas = [1.0238108499954224, 1.7918936393678064, 2.5612958567584068, 4.868844530025081]
+error  = 2.5282892249402753e-78 (4 entries) errFull = 2.198107e-78 errRank1 = 2.528289e-78
+---- j = 155  rows=2 samples=69 deg(det)=136 minima=2 min(det/det'')=1.382e-21 xMax=1.627e+06  1.9s
+deltas = [1.3475571005525655, 2.0972245973453867]
+error  = 2.7825809704046525e-77 (2 entries) errFull = 2.722315e-77 errRank1 = 2.782581e-77
+---- j = 156  rows=2 samples=69 deg(det)=136 minima=1 min(det/det'')=5.380e-21 xMax=2.246e+04  1.8s
+deltas = [1.2137216542325941]
+error  = 2.6001852159910536e-76 (1 entries) errFull = 2.600175e-76 errRank1 = 2.600185e-76
+---- j = 157  rows=2 samples=69 deg(det)=136 minima=1 min(det/det'')=1.212e-21 xMax=1.325e+06  1.9s
+deltas = [0.24771747272655217]
+error  = 9.417653600499111e-76 (1 entries) errFull = 9.412503e-76 errRank1 = 9.417654e-76
+---- j = 158  rows=2 samples=69 deg(det)=136 minima=0 min(det/det'')=- xMax=2.475e+06  1.8s
+deltas = []
+error  = 3.9949715772302627e-75 (0 entries) errFull = 3.994972e-75 errRank1 = 3.994972e-75
+---- j = 159  rows=2 samples=69 deg(det)=136 minima=2 min(det/det'')=3.723e-20 xMax=5.638e+18  1.9s
+deltas = []
+error  = 3.544790248797556e-69 (0 entries) errFull = 2.487409e-71 errRank1 = 3.544790e-69
+---- j = 160  rows=1 samples=52 deg(det)=51 minima=7 min(det/det'')=2.045e-23 xMax=3.282e+10  0.4s
+deltas = [0.22864872039640302, 3.528906657289676, 6.012348479263454, 9.038462283410592, 12.316281567562235, 16.439452455868206]
+error  = 3.559306859305795e-45 (6 entries) errFull = 7.493035e-47 errRank1 = 3.559307e-45
+---- j = 161  rows=1 samples=54 deg(det)=53 minima=6 min(det/det'')=3.043e-22 xMax=2.583e+08  0.4s
+deltas = [2.3677222394945168, 3.8962545517236777, 6.7092126666945635, 10.392175762766426, 14.627457909381341, 19.825861330208113]
+error  = 9.296953913216414e-52 (6 entries) errFull = 9.296954e-52 errRank1 = 9.296954e-52
+---- j = 162  rows=1 samples=56 deg(det)=55 minima=6 min(det/det'')=3.181e-22 xMax=1.893e+08  0.4s
+deltas = [0.18294227873444877, 2.872326853828075, 4.919619592714186, 8.124356477305598, 12.31912310849992, 17.61906674512096]
+error  = 2.5916469745948756e-55 (6 entries) errFull = 2.591647e-55 errRank1 = 2.591647e-55
+---- j = 163  rows=1 samples=58 deg(det)=57 minima=6 min(det/det'')=2.992e-21 xMax=2.255e+09  0.4s
+deltas = [0.06378550006325369, 2.0807540361001573, 3.384368187608478, 6.157901938499728, 10.556513076255563, 15.98527318652202]
+error  = 3.343137390111666e-58 (6 entries) errFull = 3.343137e-58 errRank1 = 3.343137e-58
+---- j = 164  rows=1 samples=60 deg(det)=59 minima=5 min(det/det'')=2.691e-21 xMax=1.012e+09  0.4s
+deltas = [0.2234042236159085, 2.6582481720458544, 4.643950952871139, 8.07161317766981, 14.373617385918012]
+error  = 6.97277612374809e-64 (5 entries) errFull = 6.972776e-64 errRank1 = 6.972776e-64
+---- j = 165  rows=1 samples=62 deg(det)=61 minima=5 min(det/det'')=4.335e-22 xMax=5.590e+09  0.4s
+deltas = [0.05396504191277598, 2.927915752369263, 3.9560009453621623, 6.437547880178142, 11.876777741669486]
+error  = 1.9588512393943857e-67 (5 entries) errFull = 1.958851e-67 errRank1 = 1.958851e-67
+---- j = 166  rows=1 samples=64 deg(det)=63 minima=4 min(det/det'')=1.016e-20 xMax=5.699e+08  0.4s
+deltas = [0.4967927824673289, 2.738198182083911, 5.361448655003875, 9.51381992985544]
+error  = 1.7310650757079522e-71 (4 entries) errFull = 1.731065e-71 errRank1 = 1.731065e-71
+---- j = 167  rows=1 samples=66 deg(det)=65 minima=3 min(det/det'')=1.115e-19 xMax=9.478e+07  0.4s
+deltas = [1.7046602315222745, 3.1415586461864593, 4.79642474693807]
+error  = 1.2607262473182956e-73 (3 entries) errFull = 1.260726e-73 errRank1 = 1.260726e-73
+---- j = 168  rows=1 samples=68 deg(det)=67 minima=3 min(det/det'')=1.128e-20 xMax=3.217e+09  0.4s
+deltas = [0.8686278547563167, 2.999427698655812, 6.505747918582499]
+error  = 7.420400297877309e-76 (3 entries) errFull = 7.420400e-76 errRank1 = 7.420400e-76
+---- j = 169  rows=1 samples=69 deg(det)=68 minima=3 min(det/det'')=7.986e-21 xMax=1.677e+08  0.4s
+deltas = [2.999364297138522, 6.70156750398339]
+error  = 1.8224953623011646e-77 (2 entries) errFull = 1.822495e-77 errRank1 = 1.822495e-77
+---- j = 170  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=2.439e-02 xMax=1.306e+03  0.3s
+deltas = []
+error  = 1.333791589159617e-75 (0 entries) errFull = 1.333792e-75 errRank1 = 1.333792e-75
+---- j = 171  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=3.170e-20 xMax=8.432e+05  0.4s
+deltas = [3.3757390814733435]
+error  = 2.524141932094981e-75 (1 entries) errFull = 2.524142e-75 errRank1 = 2.524142e-75
+---- j = 172  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=7.436e-19 xMax=5.239e+05  0.4s
+deltas = []
+error  = 2.031260821336409e-74 (0 entries) errFull = 1.696719e-75 errRank1 = 2.031261e-74
+---- j = 173  rows=1 samples=69 deg(det)=68 minima=0 min(det/det'')=- xMax=1.021e+07  0.3s
+deltas = []
+error  = 7.979157590714237e-74 (0 entries) errFull = 7.979158e-74 errRank1 = 7.979158e-74
+---- j = 174  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=1.827e-19 xMax=1.912e+08  0.4s
+deltas = [0.4174540133871421]
+error  = 2.917772234588136e-73 (1 entries) errFull = 2.917772e-73 errRank1 = 2.917772e-73
+---- j = 175  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=7.776e-19 xMax=4.442e+20  0.4s
+deltas = [0.7231899504379095]
+error  = 2.267639901327761e-67 (1 entries) errFull = 2.267640e-67 errRank1 = 2.267640e-67
+---- j = 176  rows=1 samples=52 deg(det)=51 minima=4 min(det/det'')=6.176e-24 xMax=1.710e+05  0.5s
+deltas = [3.8995154174566746, 6.323382339585787, 9.805035217865338, 15.230197593515612]
+error  = 5.1759126950636435e-49 (4 entries) errFull = 5.175913e-49 errRank1 = 5.175913e-49
+---- j = 177  rows=1 samples=54 deg(det)=53 minima=6 min(det/det'')=2.639e-25 xMax=3.019e+09  0.7s
+deltas = [0.9556526457939407, 3.4042722052802508, 5.976539513464982, 9.2653111259238, 12.01480092367826]
+error  = 4.4283327581097905e-51 (5 entries) errFull = 1.376805e-52 errRank1 = 4.428333e-51
+---- j = 178  rows=1 samples=56 deg(det)=55 minima=6 min(det/det'')=4.165e-22 xMax=5.439e+08  0.7s
+deltas = [0.8676966361146179, 1.1131753706722458, 3.6072502827417137, 6.794350539969859, 10.194353231362081]
+error  = 8.90202401696624e-56 (5 entries) errFull = 6.346607e-57 errRank1 = 8.902024e-56
+---- j = 179  rows=1 samples=58 deg(det)=57 minima=5 min(det/det'')=2.389e-24 xMax=7.255e+08  0.7s
+deltas = [0.9938645854504154, 2.931465641919076, 4.930030375417056, 8.757710434906954, 12.559470287405869]
+error  = 6.916472891372034e-62 (5 entries) errFull = 6.916473e-62 errRank1 = 6.916473e-62
+---- j = 180  rows=1 samples=60 deg(det)=59 minima=4 min(det/det'')=4.400e-22 xMax=3.644e+08  0.7s
+deltas = [0.9336910294089941, 1.16589635179808, 3.475607499939085, 6.711137708703745]
+error  = 1.8522051059477915e-64 (4 entries) errFull = 1.852205e-64 errRank1 = 1.852205e-64
+---- j = 181  rows=1 samples=62 deg(det)=61 minima=4 min(det/det'')=2.525e-24 xMax=6.713e+07  0.7s
+deltas = [1.017107578402112, 3.23052508396263, 5.9641910685302415, 10.677501645806064]
+error  = 3.0911004831614916e-71 (4 entries) errFull = 3.091100e-71 errRank1 = 3.091100e-71
+---- j = 182  rows=1 samples=64 deg(det)=63 minima=5 min(det/det'')=1.882e-21 xMax=6.018e+07  0.8s
+deltas = [0.3711843962024625, 1.0118248578835904, 2.47903702312654, 4.6619985424994015, 8.99198000180295]
+error  = 2.3596044359057258e-73 (5 entries) errFull = 2.359604e-73 errRank1 = 2.359604e-73
+---- j = 183  rows=1 samples=66 deg(det)=65 minima=3 min(det/det'')=1.510e-23 xMax=4.200e+08  0.7s
+deltas = [1.0369475034464133, 3.483375729739624, 8.072105717925249]
+error  = 1.1264588127530255e-78 (3 entries) errFull = 1.126459e-78 errRank1 = 1.126459e-78
+---- j = 184  rows=1 samples=68 deg(det)=67 minima=3 min(det/det'')=1.371e-23 xMax=5.973e+08  0.7s
+deltas = [1.0193282958678103, 3.256978510108498]
+error  = 4.203205678500641e-80 (2 entries) errFull = 4.203206e-80 errRank1 = 4.203206e-80
+---- j = 185  rows=1 samples=69 deg(det)=68 minima=3 min(det/det'')=4.182e-23 xMax=1.784e+08  0.7s
+deltas = [1.0177279759679416, 7.644873779734818]
+error  = 4.720314698988591e-82 (2 entries) errFull = 4.720315e-82 errRank1 = 4.720315e-82
+---- j = 186  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.765e-22 xMax=1.988e+07  0.7s
+deltas = [1.0341556685505355, 7.679443773126899]
+error  = 1.8458052186021367e-81 (2 entries) errFull = 1.845805e-81 errRank1 = 1.845805e-81
+---- j = 187  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.123e-20 xMax=4.341e+05  0.7s
+deltas = [1.1345386762052403, 1.7731732664553033]
+error  = 8.040274650730259e-80 (2 entries) errFull = 8.040275e-80 errRank1 = 8.040275e-80
+---- j = 188  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=5.979e-20 xMax=1.497e+04  0.7s
+deltas = [1.4299412456122658]
+error  = 4.298007993698681e-79 (1 entries) errFull = 4.298008e-79 errRank1 = 4.298008e-79
+---- j = 189  rows=1 samples=69 deg(det)=68 minima=0 min(det/det'')=- xMax=3.367e+02  0.7s
+deltas = []
+error  = 2.6306482726455145e-78 (0 entries) errFull = 2.630648e-78 errRank1 = 2.630648e-78
+---- j = 190  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=3.031e-21 xMax=2.166e+05  0.7s
+deltas = [0.13625397836421643]
+error  = 1.0237483015067745e-77 (1 entries) errFull = 1.023748e-77 errRank1 = 1.023748e-77
+---- j = 191  rows=1 samples=69 deg(det)=68 minima=0 min(det/det'')=- xMax=1.463e+16  0.7s
+deltas = []
+error  = 9.19088901145646e-72 (0 entries) errFull = 9.190889e-72 errRank1 = 9.190889e-72
+---- j = 192  rows=1 samples=52 deg(det)=51 minima=6 min(det/det'')=1.431e-25 xMax=6.865e+10  0.6s
+deltas = [1.0483462078229642, 2.697333320765602, 4.85562588731558, 7.516669944090347, 10.807561612526868]
+error  = 4.072702697818292e-43 (5 entries) errFull = 1.585102e-44 errRank1 = 4.072703e-43
+---- j = 193  rows=1 samples=54 deg(det)=53 minima=6 min(det/det'')=1.184e-23 xMax=9.787e+08  0.6s
+deltas = [0.6213643861529864, 1.1309862082578541, 3.1841270952380354, 6.042983938352642, 9.986994985180461, 13.639831830550317]
+error  = 2.5945553011606374e-52 (6 entries) errFull = 2.594555e-52 errRank1 = 2.594555e-52
+---- j = 194  rows=1 samples=56 deg(det)=55 minima=5 min(det/det'')=1.781e-23 xMax=2.343e+09  0.6s
+deltas = [0.6740566590215172, 1.2005836539303327, 3.614276590706062, 7.129420418760117, 11.399129181668867]
+error  = 3.4613466293603316e-57 (5 entries) errFull = 3.461347e-57 errRank1 = 3.461347e-57
+---- j = 195  rows=1 samples=58 deg(det)=57 minima=6 min(det/det'')=1.745e-23 xMax=7.099e+08  0.7s
+deltas = [1.039235648938144, 1.9909014278107455, 3.7846039600685457, 5.783129437639878, 10.332248628033213, 18.905939005085788]
+error  = 6.47770208568872e-61 (6 entries) errFull = 6.477702e-61 errRank1 = 6.477702e-61
+---- j = 196  rows=1 samples=60 deg(det)=59 minima=5 min(det/det'')=3.027e-23 xMax=6.486e+08  0.7s
+deltas = [0.5534712165015032, 1.1505909660297642, 3.4873020414697624, 7.095892344979655, 11.249953649586473]
+error  = 1.0911274234716008e-65 (5 entries) errFull = 1.091127e-65 errRank1 = 1.091127e-65
+---- j = 197  rows=1 samples=62 deg(det)=61 minima=3 min(det/det'')=3.259e-24 xMax=3.326e+08  0.6s
+deltas = [1.0730511325074867, 2.771004203948299, 5.4693163650385195]
+error  = 6.274866915070678e-69 (3 entries) errFull = 6.274867e-69 errRank1 = 6.274867e-69
+---- j = 198  rows=1 samples=64 deg(det)=63 minima=4 min(det/det'')=6.136e-23 xMax=3.237e+08  0.7s
+deltas = [0.9641084488410142, 1.5013717080647706, 4.079789176505457, 8.788571999649141]
+error  = 1.3228570319877097e-74 (4 entries) errFull = 1.322857e-74 errRank1 = 1.322857e-74
+---- j = 199  rows=1 samples=66 deg(det)=65 minima=4 min(det/det'')=2.701e-23 xMax=9.294e+08  0.7s
+deltas = [0.0475787037861692, 1.1139123526720287, 3.608083610014239, 8.375883201974197]
+error  = 4.890809125294298e-78 (4 entries) errFull = 4.890809e-78 errRank1 = 4.890809e-78
+---- j = 200  rows=1 samples=68 deg(det)=67 minima=3 min(det/det'')=3.469e-23 xMax=9.138e+08  0.7s
+deltas = [1.054585940482665, 3.126218968368865]
+error  = 5.189177266171295e-80 (2 entries) errFull = 5.189177e-80 errRank1 = 5.189177e-80
+---- j = 201  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.398e-22 xMax=2.922e+08  0.6s
+deltas = [1.0466198692681414]
+error  = 1.4154185821140659e-80 (1 entries) errFull = 1.415419e-80 errRank1 = 1.415419e-80
+---- j = 202  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.772e-21 xMax=3.979e+06  0.7s
+deltas = [1.250909261559555]
+error  = 7.58049662831286e-80 (1 entries) errFull = 7.580497e-80 errRank1 = 7.580497e-80
+---- j = 203  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=1.715e-21 xMax=1.727e+05  0.6s
+deltas = [1.2307711772022412]
+error  = 3.1702476373673394e-79 (1 entries) errFull = 3.170248e-79 errRank1 = 3.170248e-79
+---- j = 204  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=3.166e-22 xMax=4.602e+06  0.7s
+deltas = [0.039312059255016324]
+error  = 1.13160907466706e-78 (1 entries) errFull = 1.131609e-78 errRank1 = 1.131609e-78
+---- j = 205  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=3.397e-03 xMax=6.377e+02  0.6s
+deltas = []
+error  = 4.9822512978125555e-78 (0 entries) errFull = 4.982251e-78 errRank1 = 4.982251e-78
+---- j = 206  rows=1 samples=69 deg(det)=68 minima=1 min(det/det'')=9.752e-21 xMax=2.929e+04  0.6s
+deltas = [1.0458534880965078]
+error  = 1.2988526898898335e-77 (1 entries) errFull = 1.298853e-77 errRank1 = 1.298853e-77
+---- j = 207  rows=1 samples=69 deg(det)=68 minima=2 min(det/det'')=3.346e-20 xMax=2.766e+16  0.6s
+deltas = []
+error  = 1.7376226908888796e-71 (0 entries) errFull = 3.609806e-73 errRank1 = 1.737623e-71
+---- j = 208  rows=1 samples=42 deg(det)=41 minima=5 min(det/det'')=8.261e-24 xMax=1.324e+03  0.4s
+deltas = [0.0, 2.3189487625808893, 4.569283978150283, 7.3813379709002165, 10.66822930825131, 14.740115049873157]
+error  = 1.9370704280355822e-38 (6 entries) errFull = 1.937070e-38 errRank1 = 1.937070e-38
+---- j = 209  rows=1 samples=43 deg(det)=42 minima=6 min(det/det'')=1.588e-22 xMax=5.681e+02  0.4s
+deltas = [0.0, 1.6603666815954379, 2.836927471830288, 5.216236710200827, 8.46342529093559, 12.341362574974951, 17.783245402257414]
+error  = 3.9771313004140865e-41 (7 entries) errFull = 3.977131e-41 errRank1 = 3.977131e-41
+---- j = 210  rows=1 samples=44 deg(det)=43 minima=5 min(det/det'')=1.433e-22 xMax=6.652e+01  0.4s
+deltas = [0.0, 1.8348509176165901, 3.651009197826151, 6.446522403319108, 10.430247053354888, 15.68088580050184]
+error  = 5.313948904201633e-44 (6 entries) errFull = 5.313949e-44 errRank1 = 5.313949e-44
+---- j = 211  rows=1 samples=45 deg(det)=44 minima=6 min(det/det'')=1.334e-20 xMax=3.159e+01  0.4s
+deltas = [0.0, 1.0570578395652956, 2.0459513189491148, 3.538454553166139, 4.870902971223807, 8.344372399089485, 13.478474479802381]
+error  = 1.3594390919253596e-45 (7 entries) errFull = 1.359439e-45 errRank1 = 1.359439e-45
+---- j = 212  rows=1 samples=46 deg(det)=45 minima=4 min(det/det'')=5.681e-22 xMax=2.406e+00  0.4s
+deltas = [0.0, 1.8011757589352648, 3.57209348420327, 6.647653533008015, 11.689169779177167]
+error  = 1.3526323492802622e-48 (5 entries) errFull = 1.352632e-48 errRank1 = 1.352632e-48
+---- j = 213  rows=1 samples=47 deg(det)=46 minima=5 min(det/det'')=3.089e-20 xMax=4.279e+00  0.4s
+deltas = [0.5270983547306388, 1.9999119204755322, 2.923116412317305, 4.813356805596613, 9.796165621964422]
+error  = 2.1981022922096946e-49 (5 entries) errFull = 2.198102e-49 errRank1 = 2.198102e-49
+---- j = 214  rows=1 samples=48 deg(det)=47 minima=3 min(det/det'')=7.868e-22 xMax=1.164e+00  0.4s
+deltas = [1.8839624735214608, 4.177015662954673, 7.72936513478707]
+error  = 5.306857628138226e-50 (3 entries) errFull = 5.306858e-50 errRank1 = 5.306858e-50
+---- j = 215  rows=1 samples=49 deg(det)=48 minima=2 min(det/det'')=1.801e-21 xMax=2.371e-01  0.4s
+deltas = [1.6067886840620205, 2.9231457304527733]
+error  = 6.840530268297494e-50 (2 entries) errFull = 6.840530e-50 errRank1 = 6.840530e-50
+---- j = 216  rows=1 samples=50 deg(det)=49 minima=3 min(det/det'')=7.378e-21 xMax=1.165e-01  0.4s
+deltas = [1.1305052100075899, 2.06239120719143, 5.241938205342792]
+error  = 9.502576108028641e-51 (3 entries) errFull = 9.502576e-51 errRank1 = 9.502576e-51
+---- j = 217  rows=1 samples=51 deg(det)=50 minima=2 min(det/det'')=3.405e-21 xMax=3.331e-02  0.4s
+deltas = [0.0, 2.021109299985617]
+error  = 3.520815628556041e-51 (2 entries) errFull = 3.520816e-51 errRank1 = 3.520816e-51
+---- j = 218  rows=1 samples=51 deg(det)=50 minima=2 min(det/det'')=6.370e-21 xMax=2.952e-03  0.3s
+deltas = [2.0609248792460573]
+error  = 1.94889620691189e-50 (1 entries) errFull = 1.948896e-50 errRank1 = 1.948896e-50
+---- j = 219  rows=1 samples=51 deg(det)=50 minima=2 min(det/det'')=2.235e-20 xMax=2.560e-05  0.4s
+deltas = [2.0921928435730814, 4.949431461726468]
+error  = 9.201172723555497e-51 (2 entries) errFull = 9.201173e-51 errRank1 = 9.201173e-51
+---- j = 220  rows=1 samples=51 deg(det)=50 minima=1 min(det/det'')=4.165e-19 xMax=1.560e-03  0.3s
+deltas = []
+error  = 3.2074359524082043e-49 (0 entries) errFull = 3.756228e-50 errRank1 = 3.207436e-49
+---- j = 221  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.586e-02  0.3s
+deltas = []
+error  = 1.3006851705719259e-48 (0 entries) errFull = 1.300685e-48 errRank1 = 1.300685e-48
+---- j = 222  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=4.274e-01  0.3s
+deltas = [0.0]
+error  = 4.1667342292897277e-48 (1 entries) errFull = 4.166734e-48 errRank1 = 4.166734e-48
+---- j = 223  rows=1 samples=51 deg(det)=50 minima=0 min(det/det'')=- xMax=2.367e+11  0.3s
+deltas = []
+error  = 4.5516075231524284e-42 (0 entries) errFull = 4.551608e-42 errRank1 = 4.551608e-42
+threshold 1e-10: 959 entries, 10 roots with rank > 1 -> Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m
+threshold 1e-12: 959 entries, 10 roots with rank > 1 -> Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_z1e-12.m
+threshold 1e-08: 959 entries, 10 roots with rank > 1 -> Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_z1e-08.m
+candidates -> Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_candidates.m ; poly -> Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_poly.m ; matrices -> Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_matrices.m ; total 29.3 s

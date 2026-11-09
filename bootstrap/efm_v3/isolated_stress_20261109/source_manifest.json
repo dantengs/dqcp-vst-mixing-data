@@ -1,0 +1,42 @@
+{
+  "isoT/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m": {
+    "sha256": "c1bc60d6de21625ca6556a2df1f85a61ac98f6da13a65889106556f8305dffa0",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m",
+    "bytes": 602697
+  },
+  "isoT/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_matrices.m": {
+    "sha256": "aec70cacf73a39478c0246fa7d3d28073ef0687b700071f5d15d4372b20b7059",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_matrices.m",
+    "bytes": 1365121
+  },
+  "isoT/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_spectrum.log": {
+    "sha256": "9e368de7bb5ce39f96cea73ec83835100594257b0f6d61061550c22794d7fb17",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_spectrum.log",
+    "bytes": 71349
+  },
+  "isoT/Spectrum_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m": {
+    "sha256": "ee14019357621261ffaf780f1718ac4d15d0556306d99a5204a267e710c2cb46",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/EFM/Spectrum_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m",
+    "bytes": 624122
+  },
+  "free_L15/EFM_SE_1.00175366160.m": {
+    "sha256": "751c9a207a991c611874aa5476932c531c0c52d12b307ec0dc43ca736328748b",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L15_Evst_free_fixDv0.5001Dt1.0002_maxS_nvg/EFM/EFM_SE_1.00175366160.m",
+    "bytes": 86586
+  },
+  "free_L15/EFM_SE_1.00175366160_matrices.m": {
+    "sha256": "776625af3105d253e07e4a2cb9d0f661b92df0f3c93f8ad288f6cc043a4bace9",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L15_Evst_free_fixDv0.5001Dt1.0002_maxS_nvg/EFM/EFM_SE_1.00175366160_matrices.m",
+    "bytes": 228775
+  },
+  "free_L15/EFM_SE_1.00175366160_spectrum.log": {
+    "sha256": "26642b7c9655cb3aeed4d48a303cc8f5cce94b669b6e3218f7bd0209524f96df",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L15_Evst_free_fixDv0.5001Dt1.0002_maxS_nvg/EFM/EFM_SE_1.00175366160_spectrum.log",
+    "bytes": 45460
+  },
+  "free_L15/Spectrum_1.00175366160.m": {
+    "sha256": "2764918a84776a7912b16f97142df2c0d03284cf12a0e04c85c7f523afa896c6",
+    "remote": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L15_Evst_free_fixDv0.5001Dt1.0002_maxS_nvg/EFM/Spectrum_1.00175366160.m",
+    "bytes": 90914
+  }
+}

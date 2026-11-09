@@ -1,0 +1,203 @@
+{
+  "isolation_sources": {
+    "project": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt",
+    "solver_job": 6878,
+    "efm_job": 6953,
+    "sdpb": {
+      "reading out directory": "./Proj_SO5_3d_L23_Evst_Gvst344_Gt32_Gother3_isoT_OPE_skydive_minS_ver4pt/SDPBFiles/0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_Nov08_08h19m40s.out",
+      "terminateReason": "found primal-dual optimal solution",
+      "primalObjective": "1.00798e-17",
+      "dualObjective": "1.00798e-17",
+      "dualityGap": "6.58492e-31",
+      "primalError": "3.77878e-257",
+      "dualError": "1.88302e-138"
+    },
+    "sha256": {
+      "EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m": "c1bc60d6de21625ca6556a2df1f85a61ac98f6da13a65889106556f8305dffa0",
+      "EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_matrices.m": "aec70cacf73a39478c0246fa7d3d28073ef0687b700071f5d15d4372b20b7059",
+      "EFM_SE_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143_spectrum.log": "9e368de7bb5ce39f96cea73ec83835100594257b0f6d61061550c22794d7fb17",
+      "Spectrum_0.613734575252_2.25838827072_1.46401737277_0.294245844525_1.26168944318_0.686957170616_0.267598288143.m": "ee14019357621261ffaf780f1718ac4d15d0556306d99a5204a267e710c2cb46"
+    }
+  },
+  "free_sources": {
+    "project": "/nfs/work/sth/simpleboot/Proj_SO5_3d_L15_Evst_free_fixDv0.5001Dt1.0002_maxS_nvg",
+    "solver_and_efm_job": 6909,
+    "sdpb": {
+      "reading out directory": "./Proj_SO5_3d_L15_Evst_free_fixDv0.5001Dt1.0002_maxS_nvg/SDPBFiles/0.500100000000_1.00175366160_1.00020000000_Nov08_23h53m21s.out",
+      "terminateReason": "found primal-dual optimal solution",
+      "primalObjective": "-6.38966e-25",
+      "dualObjective": "-6.38966e-25",
+      "dualityGap": "5.32703e-36",
+      "primalError": "4.89258e-198",
+      "dualError": "4.70589e-66"
+    },
+    "sha256": {
+      "EFM_SE_1.00175366160.m": "751c9a207a991c611874aa5476932c531c0c52d12b307ec0dc43ca736328748b",
+      "EFM_SE_1.00175366160_matrices.m": "776625af3105d253e07e4a2cb9d0f661b92df0f3c93f8ad288f6cc043a4bace9",
+      "EFM_SE_1.00175366160_spectrum.log": "26642b7c9655cb3aeed4d48a303cc8f5cce94b669b6e3218f7bd0209524f96df",
+      "Spectrum_1.00175366160.m": "2764918a84776a7912b16f97142df2c0d03284cf12a0e04c85c7f523afa896c6"
+    }
+  },
+  "isolation_replay": {
+    "ward_basis": [
+      "0.6137345752518085500345245",
+      "2.258388270721356406567139",
+      "1.464017372765707329124531"
+    ],
+    "isolated_block": 20,
+    "continuum_block": 21,
+    "original_block": 20,
+    "c": "0.5699043872896096792025392",
+    "isolated_ward_vector": [
+      "0.3497700270673307958029675",
+      "1.287065383687495773291557",
+      "0.8343499238073845316997436"
+    ],
+    "original_diagonal_sqrt": [
+      "0.3499938220419509426535675",
+      "2.410296632179549069259341",
+      "0.8397639706122906525903292"
+    ],
+    "continuum_diagonal_sqrt": [
+      "0.01251414776907792439292344",
+      "2.037888948593460337477057",
+      "0.09521372279803808714486728"
+    ],
+    "continuum_eigenvalues": [
+      "3.179019472059385391906591e-21",
+      "0.002153399176232416870905239",
+      "4.160060224526574768898409"
+    ],
+    "ward_fixed_matrix_phi_max": "0.3497699413820911487953886",
+    "relative_isolated_vs_fixed_matrix_max": "0.0000002449759956742664151543883",
+    "relative_isolated_vs_total_vv": "-0.000639425499897316324979733",
+    "entry_max_absolute_error": "0.00000455061002552159105750619",
+    "entry_max_over_global_max": "0.0000007833009105770976850550021",
+    "entrywise_max_relative_error": "0.00000365550900807269180963746",
+    "frobenius_relative_error": "0.000001107651680498754850738084",
+    "continuum_diag_fraction": [
+      "0.00127844426714858016898744",
+      "0.7148585717778518916394059",
+      "0.01285533603017598887712378"
+    ],
+    "original_Gamma": [
+      [
+        "0.1224956754675328255134097",
+        "0.4400499169592469853104047",
+        "0.2908967785386488593040632"
+      ],
+      [
+        "0.4400499169592469853104047",
+        "5.809529855096076457861288",
+        "1.244863578634929100747398"
+      ],
+      [
+        "0.2908967785386488593040632",
+        "1.244863578634929100747398",
+        "0.7052035263385201588011912"
+      ]
+    ],
+    "isoT_Ward_Gamma": [
+      [
+        "0.1223390718346813175364043",
+        "0.4501768940897998927207046",
+        "0.2918305954337342748000981"
+      ],
+      [
+        "0.4501768940897998927207046",
+        "1.656537301886640710997409",
+        "1.073862904814784236584116"
+      ],
+      [
+        "0.2918305954337342748000981",
+        "1.073862904814784236584116",
+        "0.696139795357388373362014"
+      ]
+    ],
+    "isoT_continuum_Gamma": [
+      [
+        "0.0001566038943863179920967131",
+        "-0.01012702365281263369365924",
+        "-0.0009338080444157048477090607"
+      ],
+      [
+        "-0.01012702365281263369365924",
+        "4.152991366799359229993886",
+        "0.1709961232101193425722248"
+      ],
+      [
+        "-0.0009338080444157048477090607",
+        "0.1709961232101193425722248",
+        "0.009065653009061637786511122"
+      ]
+    ],
+    "original_number_of_rows": 986,
+    "isoT_number_of_rows": 959,
+    "comparison_scope": "Fixed external point, comparing the isolated stress contribution at 3 and the continuum boundary contribution at 3.000001 with the original root at 3.",
+    "thresholds_equal_spectrum_sha256": "ee14019357621261ffaf780f1718ac4d15d0556306d99a5204a267e710c2cb46"
+  },
+  "free_replay": {
+    "raw_vst_s_t_J_T": [
+      "0.6312677226294745581705453",
+      "1.2225568418273606796688",
+      "0.7951611623262312574344485",
+      "0.2739497117880133937585827"
+    ],
+    "f": [
+      "0.6312677226294745581705453",
+      "1.413259956251638158808513",
+      "0.707009361313677323928744",
+      "0.2739497117880133937585827"
+    ],
+    "relative_to_free_theory": [
+      "0.9981219084282781451449498",
+      "0.9993256986449368306254428",
+      "0.9998622274945422997544741",
+      "1.000322911788892327775377"
+    ],
+    "J_dimension": "2.00036018507185427570118266250205990447776672246465870830547426112607348665785251076288719877608192098956984359397964357597931179392009788098070059498472510748961276032841596685341725913965924667018156198",
+    "stress_rank_one_vv_amplitude": "0.12956853621564599",
+    "stress_rank_one_amplitude_relative_loss": "0.5270353256808382182895074",
+    "stress_rank_one_squared_weight_relative_loss": "0.7763044168461692278182112",
+    "number_of_stress_components": 1,
+    "stress_Gamma": [
+      [
+        "0.075048444588735604589551",
+        "0.1508923812874061635194419",
+        "0.1498799247520756497138129"
+      ],
+      [
+        "0.1508923812874061635194419",
+        "2.236462794009449833663614",
+        "0.5442137741794260158546809"
+      ],
+      [
+        "0.1498799247520756497138129",
+        "0.5442137741794260158546809",
+        "1.261256114395726437131008"
+      ]
+    ],
+    "threshold_drift": {
+      "12": "0.0",
+      "08": "0.0"
+    },
+    "stress_rankdiag": {
+      "block": 17,
+      "dimension": "3",
+      "main_spectrum_kept_components": 1,
+      "subleading_eigenvalue_ratios_logged": [
+        0.4103,
+        0.02118
+      ],
+      "component_significances_logged": [
+        370.5,
+        17.01
+      ],
+      "rankFactor": 1000000,
+      "block_full_fit_absolute_residual_logged": "5.826565e-16",
+      "block_rank_one_fit_absolute_residual_logged": "2.146826e-13"
+    }
+  },
+  "date": "2026-11-09",
+  "normalization": "Read the aligned raw and parsed Spectrum blocks, retaining duplicate channels. For each root, infer the single common prefactor scale from the corresponding raw and parsed leading vector norms, check it on all retained components, and apply it to the full matrix. Multiply the isolated one-dimensional amplitude by the Ward direction stored in IndividualOperator."
+}

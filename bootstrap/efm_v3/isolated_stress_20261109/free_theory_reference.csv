@@ -1,0 +1,5 @@
+quantity,f (exact),f,vst_raw,vsinglet_raw,vsinglet numeric free point L27 (Dv=0.5001),numeric/exact,2606 Table-2 factor vsinglet_raw->f used,"vst numeric free point L15 (job 6909, full sqrt(M_vv,vv))",vst numeric/exact
+s,sqrt(2/5),0.63245553,0.63245553,1.41421356,1.3964128,0.987413,1/sqrt(5) (analytic; numeric point would give 0.452907),0.631267723,0.998122
+t,sqrt(2),1.41421356,1.22338177,5.29150262,5.2726704,0.996441,sqrt(2)/5.2726704 = 0.268215,1.222556842,0.999326
+J,1/sqrt(2),0.70710678,0.79527073,3.16227766,3.1631087,1.000263,(1/sqrt2)/3.1631087 = 0.223549,0.795161162,0.999862
+T,sqrt(3/40),0.27386128,0.27386128,0.61237244,0.6125513,1.000292,"either (0.447084 numeric, 0.447214 analytic)",0.273949712,1.000323

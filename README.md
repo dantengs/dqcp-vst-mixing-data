@@ -2,7 +2,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-This repository archives the 6 November 2026 manuscript data and the 8 November $\Lambda=23$ EFM v3 extraction. The manuscript data, the rerun with corrected blind-analysis code, and the original calculation files have separate directories. The [file manifest](manifests/file_manifest.csv) records sources and SHA-256 checksums. The [dataset summary](manifests/dataset_summary.json) identifies each dataset's version and scope.
+This repository archives the 6 November 2026 manuscript data, the 8 November $\Lambda=23$ EFM v3 extraction, and the 9 November updates listed below. The manuscript data, the rerun with corrected blind-analysis code, and the original calculation files have separate directories. The [file manifest](manifests/file_manifest.csv) records sources and SHA-256 checksums. The [dataset summary](manifests/dataset_summary.json) identifies each dataset's version and scope.
 
 | Directory | Contents |
 | --- | --- |
@@ -13,10 +13,24 @@ This repository archives the 6 November 2026 manuscript data and the 8 November 
 | [comparison/](comparison/) | Verified data for Figures 2 and 4–6, bootstrap candidate coordinates at different cutoffs, OPE components and conversion factors, and tuned and fixed-coupling singlet sequences. |
 | [manifests/](manifests/) | File checksums, provenance, rerun records, and storage locations and verification records for external checkpoints. |
 
+## Updates of 9 November 2026
+
+| Item | Value | File |
+| --- | --- | --- |
+| Isolated stress tensor at the fixed $\Lambda=23$ minS point (jobs 6878, 6953) | $\|\lambda_{\phi\phi T}\|=0.349770$; $ss$, $tt$: $1.287065$, $0.834350$ | [isolated_stress_20261109/](bootstrap/efm_v3/isolated_stress_20261109/) |
+| Complete root total at $\Delta=3$ (same point, original solve) | $\sqrt{\Gamma_{\phi\phi,\phi\phi}}=0.349994$ | [stress_coefficients.csv](bootstrap/efm_v3/isolated_stress_20261109/stress_coefficients.csv) |
+| Free-point normalization check (job 6909, $\Lambda=15$) | numerical/free $=0.998122$, $0.999326$, $0.999862$, $1.000323$ for $s,t,J,T$ | [free_theory_reference.csv](bootstrap/efm_v3/isolated_stress_20261109/free_theory_reference.csv) |
+| Complete root weights $\Gamma_{AB,AB}$ (manuscript Appendix EFM table, 141 entries) | mixed-crossing convention | [bootstrap_complete_root_weights.csv](comparison/bootstrap_complete_root_weights.csv) |
+| Core coefficients in the published convention | bootstrap $(0.320, 1.255, 0.768, 0.350)$ for $(s,t,J,T)$; fuzzy sphere $N=5$–12 | [core_ope_coefficients_published.csv](comparison/core_ope_coefficients_published.csv) |
+| Table III $1/N$ extrapolation, $a+b/N$ over $N=8$–12 | $\|\lambda_{\phi\phi J}\|=0.78$, $\|\lambda_{\phi\phi T}\|=0.36$; other windows $0.776$–$0.786$ and $0.355$–$0.369$ | [table3_finite_size_extrapolation.csv](comparison/table3_finite_size_extrapolation.csv) |
+| Strict primary counts | nonvacuum, $\ell\le3$: $N=10$: 39 ($\Delta\le5.5$, the window of Zhou et al. Table VI) and 52 ($\Delta\le6.25$); $N=11$: 35 and 50; $N=12$: 33 and 44 | [primary_counts.csv](fuzzy_sphere/spectra/manuscript/primary_counts.csv) |
+
+The extrapolated intercepts rise as the fit window moves to larger $N$; the spread is a fit-window dependence, not a statistical error. The isolated stress solve holds the external coordinates fixed and starts the remaining spin-two singlet continuum at $3+10^{-6}$. Its Ward contribution plus the near-threshold continuum reproduces the original $\Delta=3$ root matrix to a maximum relative entry error of $3.7\times10^{-6}$.
+
 ## Data conventions
 
 - **Bootstrap.** Evaluate the data-loading cell in the Notebook first, then the relevant `Dataset` cell. Group vector records by `channel_index` and `root_index`. The `component_index` distinguishes vectors in the decomposition of the same root. Decimal strings preserve the reported precision. Each record gives the external-pair order and flags imposed gaps and provisional amplitudes. [Skydiving Notebook](bootstrap/DQCP_bootstrap_CFT_L23.nb)
-- **Fuzzy-sphere spectra.** `N` is the orbital count, `L` is spatial spin, `C2` is the internal Casimir, `P` is physical parity, and `X` is segment-exchange parity. `energy` stores the raw energy, while `Delta` is the dimension calibrated by the gap of the conserved current. Raw levels, projected modes, and tracks across sizes have separate identifiers. `sigma_Delta` is the energy-basis spread. The manuscript N = 12 catalogue contains 264 levels, with 45 strict primaries (including the vacuum), 154 descendants, and 65 unresolved levels.
+- **Fuzzy-sphere spectra.** `N` is the orbital count, `L` is spatial spin, `C2` is the internal Casimir, `P` is physical parity, and `X` is segment-exchange parity. `energy` stores the raw energy, while `Delta` is the dimension calibrated by the gap of the conserved current. Raw levels, projected modes, and tracks across sizes have separate identifiers. `sigma_Delta` is the energy-basis spread. The manuscript N = 12 catalogue contains 264 levels, with 45 strict primaries (the vacuum and 44 nonvacuum primaries), 154 descendants, and 65 unresolved levels.
 - **Fuzzy-sphere OPE.** Each route retains the insertion and its rank, endpoint states, normalization, availability flag, and phase convention. We use `lambda_iso` for the isometric Clebsch–Gordan convention and `lambda` for the common mixed-crossing convention. The N = 12 current amplitude in the latter convention is 0.8574003792250015. Its data file records the status of the L = 2 complement-space certificate.
 - **Versioned comparisons.** The figure files and bootstrap OPE component CSV reproduce the 6 November manuscript snapshot. The 76 retained manuscript OPE routes and the 699 aggregated v0.5.5 series are stored separately. The five dashed markers in Figure 2 denote unresolved raw levels.
 
@@ -39,7 +53,7 @@ Here $d_A,d_B,d_R$ are SO(5) representation dimensions. The spectrum amplitude $
 
 For a compatible scalar-leg permutation of a stored route $X\otimes Y\to Z$, carry the invariant amplitude $\sqrt{d_Z}|\lambda_{\mathrm{iso,STF}}(X\otimes Y\to Z)|$ into the bootstrap pairing and divide by $(d_A d_B d_R)^{1/4}$. Keep microscopic insertions separate. Signed comparisons require matched operator phases, internal tensor orientation, and point ordering.
 
-For $\phi\phi T_{\mu\nu}$ the singlet factor is $1/\sqrt{5}$ and the resulting mixed amplitude is $\sqrt{15/2}\,|M_{20}/M_{00}|$. The finite-size values at $N=10,11,12$ are $0.254$, $0.264$, and $0.273$. At $\Delta=3$ the v3 Skydiving root has total amplitude $\sqrt{\Gamma_{\phi\phi,\phi\phi}}=0.349994$. The Ward upper bound for a single stress coupling at that matrix is $0.349770$. The manuscript-snapshot value $0.203064$ is the magnitude of the first vector's $\phi\phi$ component. [Fuzzy-sphere routes](fuzzy_sphere/ope/manuscript/) · [Manuscript-snapshot components](comparison/bootstrap_ab_ope_components.csv)
+For $\phi\phi T_{\mu\nu}$ the singlet factor is $1/\sqrt{5}$ and the resulting mixed amplitude is $\sqrt{15/2}\,|M_{20}/M_{00}|$. The finite-size values at $N=10,11,12$ are $0.254$, $0.264$, and $0.273$. At $\Delta=3$ the v3 Skydiving root has total amplitude $\sqrt{\Gamma_{\phi\phi,\phi\phi}}=0.349994$. The Ward upper bound for a single stress coupling at that matrix is $0.349770$. The isolated stress-tensor solve gives $0.349770$ directly. The current manuscript displays $0.350$. The 6 November snapshot value $0.203064$ is only the magnitude of the first vector's $\phi\phi$ component. [Fuzzy-sphere routes](fuzzy_sphere/ope/manuscript/) · [Manuscript-snapshot components](comparison/bootstrap_ab_ope_components.csv)
 
 For the older single-vector $\phi\phi$ crossing, the internal tensor is $P_R/d_R$, while the mixed convention uses $5P_R/\sqrt{d_R}$. With the same convolved block convention, divide the old squared spectrum amplitudes by $5\sqrt{d_R}$ before taking square roots. This gives divisors $5\sqrt{10}$ for $J$ and $5$ for $T_{\mu\nu}$. The older single-vector $\Lambda=23$ Navigator stress value converts to $0.349456$ in the mixed convention.
 

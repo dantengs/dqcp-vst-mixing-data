@@ -1,0 +1,53 @@
+source,N,insertion,quantity,beta_vst,vst_to_published_factor,lambda_published,kind
+mixed_L23_Skydiving_ver4,,,phiphi_s,0.3195031366014416869295973618490886952931841519883505939774397840224726,1,0.3195031366014416869295973618490886952931841519883505939774397840224726,coefficient
+mixed_L23_Skydiving_ver4,,,phiphi_t,1.08583737900372569451771796148754179520094895937448419646160733401480756995290558871703623567221775172421572097521451907456932198572213644822858812247917090278272200517659588161252444908163228067582610000000000001,1.155987114790697796133722473133053394135056209372266179996397290996316,1.255214018886410283391045850350366286726247127362069288604442103164507,coefficient
+mixed_L23_Skydiving_ver4,,,phiphi_J,0.863643105426421,0.8891397050194614006127105975963424223678952632011276790059153613881509,0.7678993760009395716069140328851833720346604495143544142276001220858412,coefficient
+mixed_L23_Skydiving_ver4,,,phiphi_T,0.3499938220419509389790636181745742726871987161699132432906445402594459,1,0.3499938220419509389790636181745742726871987161699132432906445402594459,complete_root_total
+fuzzy_sphere_native,5,phi,phiphi_s,,1 (stored canonical field),0.14480378101999314,finite_size_coefficient
+fuzzy_sphere_native,5,s,phiphi_s,,1 (stored canonical field),0.3480981301675712,finite_size_coefficient
+fuzzy_sphere_native,5,phi,phiphi_t,,1 (stored canonical field),1.132324816086149,finite_size_coefficient
+fuzzy_sphere_native,5,t,phiphi_t,,1 (stored canonical field),1.6925684779470929,finite_size_coefficient
+fuzzy_sphere_native,5,phi,phiphi_J,,1 (stored canonical field),0.7418586567108089,finite_size_coefficient
+fuzzy_sphere_native,5,phi,phiphi_T,,1 (stored canonical field),0.16073431562018417,finite_size_coefficient
+fuzzy_sphere_native,6,phi,phiphi_s,,1 (stored canonical field),0.15895707435225412,finite_size_coefficient
+fuzzy_sphere_native,6,s,phiphi_s,,1 (stored canonical field),0.33001504981913854,finite_size_coefficient
+fuzzy_sphere_native,6,phi,phiphi_t,,1 (stored canonical field),1.1515041577314549,finite_size_coefficient
+fuzzy_sphere_native,6,t,phiphi_t,,1 (stored canonical field),1.6052108375278957,finite_size_coefficient
+fuzzy_sphere_native,6,phi,phiphi_J,,1 (stored canonical field),0.7467051408729861,finite_size_coefficient
+fuzzy_sphere_native,6,phi,phiphi_T,,1 (stored canonical field),0.18907021023521295,finite_size_coefficient
+fuzzy_sphere_native,7,phi,phiphi_s,,1 (stored canonical field),0.16967661334274284,finite_size_coefficient
+fuzzy_sphere_native,7,s,phiphi_s,,1 (stored canonical field),0.317147590537985,finite_size_coefficient
+fuzzy_sphere_native,7,phi,phiphi_t,,1 (stored canonical field),1.164471210621178,finite_size_coefficient
+fuzzy_sphere_native,7,t,phiphi_t,,1 (stored canonical field),1.5457760168100103,finite_size_coefficient
+fuzzy_sphere_native,7,phi,phiphi_J,,1 (stored canonical field),0.7499842736608829,finite_size_coefficient
+fuzzy_sphere_native,7,phi,phiphi_T,,1 (stored canonical field),0.21064640333948598,finite_size_coefficient
+fuzzy_sphere_native,8,phi,phiphi_s,,1 (stored canonical field),0.17821690567926504,finite_size_coefficient
+fuzzy_sphere_native,8,s,phiphi_s,,1 (stored canonical field),0.30768014311280467,finite_size_coefficient
+fuzzy_sphere_native,8,phi,phiphi_t,,1 (stored canonical field),1.1737758457902263,finite_size_coefficient
+fuzzy_sphere_native,8,t,phiphi_t,,1 (stored canonical field),1.5029653888670762,finite_size_coefficient
+fuzzy_sphere_native,8,phi,phiphi_J,,1 (stored canonical field),0.752679832835651,finite_size_coefficient
+fuzzy_sphere_native,8,phi,phiphi_T,,1 (stored canonical field),0.22779374790943152,finite_size_coefficient
+fuzzy_sphere_native,9,phi,phiphi_s,,1 (stored canonical field),0.1852523188385627,finite_size_coefficient
+fuzzy_sphere_native,9,s,phiphi_s,,1 (stored canonical field),0.30047909433352515,finite_size_coefficient
+fuzzy_sphere_native,9,phi,phiphi_t,,1 (stored canonical field),1.1807562959154105,finite_size_coefficient
+fuzzy_sphere_native,9,t,phiphi_t,,1 (stored canonical field),1.4708026943221126,finite_size_coefficient
+fuzzy_sphere_native,9,phi,phiphi_J,,1 (stored canonical field),0.7551645055626829,finite_size_coefficient
+fuzzy_sphere_native,9,phi,phiphi_T,,1 (stored canonical field),0.24188518874421702,finite_size_coefficient
+fuzzy_sphere_native,10,phi,phiphi_s,,1 (stored canonical field),0.19119100418623822,finite_size_coefficient
+fuzzy_sphere_native,10,s,phiphi_s,,1 (stored canonical field),0.2948490041292757,finite_size_coefficient
+fuzzy_sphere_native,10,phi,phiphi_t,,1 (stored canonical field),1.186177087226883,finite_size_coefficient
+fuzzy_sphere_native,10,t,phiphi_t,,1 (stored canonical field),1.445844732108699,finite_size_coefficient
+fuzzy_sphere_native,10,phi,phiphi_J,,1 (stored canonical field),0.7575851749502315,finite_size_coefficient
+fuzzy_sphere_native,10,phi,phiphi_T,,1 (stored canonical field),0.25378574751815175,finite_size_coefficient
+fuzzy_sphere_native,11,phi,phiphi_s,,1 (stored canonical field),0.19628735051720775,finite_size_coefficient
+fuzzy_sphere_native,11,s,phiphi_s,,1 (stored canonical field),0.2903288595889819,finite_size_coefficient
+fuzzy_sphere_native,11,phi,phiphi_t,,1 (stored canonical field),1.190503423607773,finite_size_coefficient
+fuzzy_sphere_native,11,t,phiphi_t,,1 (stored canonical field),1.4259595225365316,finite_size_coefficient
+fuzzy_sphere_native,11,phi,phiphi_J,,1 (stored canonical field),0.759976345098973,finite_size_coefficient
+fuzzy_sphere_native,11,phi,phiphi_T,,1 (stored canonical field),0.2640372202210466,finite_size_coefficient
+fuzzy_sphere_native,12,phi,phiphi_s,,1 (stored canonical field),0.2007213668920144,finite_size_coefficient
+fuzzy_sphere_native,12,s,phiphi_s,,1 (stored canonical field),0.28662431678046124,finite_size_coefficient
+fuzzy_sphere_native,12,phi,phiphi_t,,1 (stored canonical field),1.1940338581278866,finite_size_coefficient
+fuzzy_sphere_native,12,t,phiphi_t,,1 (stored canonical field),1.4097747554669724,finite_size_coefficient
+fuzzy_sphere_native,12,phi,phiphi_J,,1 (stored canonical field),0.7623487202677025,finite_size_coefficient
+fuzzy_sphere_native,12,phi,phiphi_T,,1 (stored canonical field),0.27302177743532086,finite_size_coefficient
