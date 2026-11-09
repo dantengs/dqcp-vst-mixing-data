@@ -2,6 +2,8 @@
 
 English | [简体中文](DATA_GUIDE.zh-CN.md)
 
+The manuscript of 9 November 2026 uses (i) the isolated-stress solve of the $\Lambda=23$ minS point as its bootstrap reference and (ii) one OPE convention, the $v$-singlet convention $\lambda$ of LiShen2026 Table II extended to all channels. Both are described below.
+
 This guide maps the manuscript's tables and figures to the archived files and defines the columns of the files used directly in the manuscript. The [README](README.md) describes the archive layout and normalization conventions. Raw inputs under `fuzzy_sphere/raw/` are described by the `meta.json`, `*_meta.json` and `checkpoints.toml` files in their directories.
 
 ## Getting the files
@@ -24,16 +26,16 @@ sha256sum -c SHA256SUMS
 | --- | --- | --- |
 | Table I, bootstrap column | `bootstrap/efm_v3/Skydiving_ver4/Spectrum_*.m` | lowest root in the channel; the external $\phi,s,t$ dimensions are the first three numbers in the file name |
 | Table I, $N=12$ column | `fuzzy_sphere/spectra/manuscript/n12_two_scheme_levels.csv` | `A_publication == "P"`, lowest or second-lowest in `(rep, L, P)` |
-| Table II (revised $N=10$ assignments) | `fuzzy_sphere/spectra/manuscript/additional_primary_continuations.csv`, `n10_zhou_tableVI_comparison.csv`, `comparison/n10_unresolved_bootstrap_candidates.csv` | `Delta_N10`; bootstrap: nearest nonboundary root with $B\ge0.01$ |
-| Table III (OPE), bootstrap | `comparison/core_ope_coefficients_published.csv`; ratios from `comparison/bootstrap_cutoff_candidates.csv` | `source == mixed_L23_Skydiving_ver4` |
-| Table III, fuzzy sphere | `fuzzy_sphere/ope/manuscript/scalar_insertion_routes.csv` (ratios); `comparison/core_ope_coefficients_published.csv` (J, T) | `N = 10, 11, 12`; $N=12$ current from `fuzzy_sphere/ope/current_n12/manuscript_value.json` |
+| Table II (31 additional $N=10$ primaries and 2 unresolved published ones) | `fuzzy_sphere/spectra/manuscript/n10_table2_additional_primaries.csv`; context in `n10_zhou_tableVI_comparison.csv` | all rows |
+| Table III (all columns) | `comparison/table3_ope_lambda.csv` | all rows; `displayed_*` reproduce the table |
+| Table III inputs | bootstrap: `comparison/bootstrap_cutoff_candidates.csv` (scan ratios) and `bootstrap/efm_v3/isolated_stress_20261109/` ($J$, $T$); fuzzy sphere: `fuzzy_sphere/ope/manuscript/scalar_insertion_routes.csv`, `comparison/table3_finite_size_series.csv` | see the convention section |
 | Table III, $1/N\to0$ column | `comparison/table3_finite_size_extrapolation.csv`, input `comparison/table3_finite_size_series.csv` | `N_min = 8`, `N_max = 12` |
 | Tables V, IX, X (candidate coordinates, cutoff dependence, gap sensitivity) | `comparison/bootstrap_cutoff_candidates.csv` | rows by `Lambda`, `next_tensor_gap` |
 | Table VI (tuned singlet sequence) | `comparison/singlet_tuned.csv` | all rows |
-| Table XI (141 complete root weights) | `comparison/bootstrap_complete_root_weights.csv` | all rows |
+| Table XI (144 complete root weights) | `comparison/bootstrap_complete_root_weights.csv` | column `Gamma_lambda` |
 | Table XII (18 additional primary families) | `fuzzy_sphere/spectra/manuscript/additional_primary_continuations.csv` | all rows |
 | Table XIII (complete $N=12$ catalogue, 264 levels) | `fuzzy_sphere/spectra/manuscript/n12_two_scheme_levels.csv` | all rows; label `A_publication` |
-| Table XIV (OPE conversion factors) | `comparison/fs_to_bootstrap_conversion_factors.csv` | `allowed == True` |
+| Table XIV (factors $G$ and $\kappa$ per channel) | `comparison/ope_convention_by_channel.csv`; spin-resolved factors in `comparison/fs_to_bootstrap_conversion_factors.csv` | all rows |
 | Fig. 2 | `comparison/figure2_points.csv`; dashed markers `comparison/figure2_unresolved_weights_ver4.csv` | all rows |
 | Fig. 4 (conformal checks) | `comparison/figure4a_order_parameter_points.csv`, `figure4b_spacing.csv`, `figure4c_raising.csv` | all rows |
 | Figs. 5 and 6(b) (fixed-coupling singlet) | `comparison/fixed_coupling_singlet.csv` | `panel` a or b |
@@ -57,19 +59,33 @@ Table and figure numbers refer to the manuscript of 9 November 2026 and can chan
 
 **Classification.** Strict primaries satisfy $w_P\ge0.90$ for $\kappa_c/3$, $\kappa_c$ and $3\kappa_c$, with consistent symmetry copies and stable retained windows.
 
+## OPE conventions
+
+Three normalizations occur. $\lambda_{\rm iso}(A\otimes B\to R)$ multiplies the isometric Clebsch–Gordan tensor ($\mathcal C\mathcal C^\dagger=1_R$) and is what the fuzzy-sphere extraction yields. The solver amplitude is $\beta=G\,\lambda_{\rm iso}$ with $G=(d_R/d_Ad_B)^{1/4}$. All coefficients in the manuscript are $\lambda=\kappa\beta$:
+
+| Rule | Case | $\lambda$ |
+| --- | --- | --- |
+| (a) | $A$, $B$, or $R$ is a singlet | $\beta$ |
+| (b) | $R=\mathbf{10}$ (fixed-component normalization, as for the current) | $\lambda_{\rm iso}/\sqrt2=(d_Ad_B/40)^{1/4}\beta$ |
+| (c) | otherwise | $\lambda_{\rm iso}=(d_Ad_B/d_R)^{1/4}\beta$ |
+
+The external couplings are defined through $\phi\phi\to s$, $\phi\phi\to t$, $ss\to s$, $st\to t$, and $tt\to t$, so that $\lambda_{\phi\phi s}=\beta_{\phi\phi s}$, $\lambda_{\phi\phi t}=(25/14)^{1/4}\beta_{\phi\phi t}$, $\lambda_{\phi\phi J}=(5/8)^{1/4}\beta_{\phi\phi J}$, $\lambda_{\phi\phi T}=\beta_{\phi\phi T}$ (LiShen2026 Table II), $\lambda_{sss}=\beta_{sss}$, $\lambda_{stt}=\beta_{stt}$, and $\lambda_{ttt}=14^{1/4}\beta_{ttt}$ (isometric normalization of the cubic invariant; a trace normalization would multiply it by $\sqrt{20/27}$). The scanned ratios $r_{XYZ}=\beta_{XYZ}/\beta_{\phi\phi t}$ in `bootstrap_cutoff_candidates.csv` are solver quantities. The selection norm $B$ is always evaluated with $\beta$. [Per-channel factors](comparison/ope_convention_by_channel.csv)
+
 ## Column definitions
 
 ### `comparison/`
 
 | File | Columns |
 | --- | --- |
-| `bootstrap_complete_root_weights.csv` | `AB` external pair; `representation_tex`, `spin`, `Delta` exchanged root; `source_sector`, `source_root_index` position in the Spectrum file; `amplitude_squared` $=\Gamma_{AB,AB}=\sum_a\beta_{AB,a}^2$ in the mixed-crossing convention; `imposed_gap` root fixed by a gap or unitarity bound; `provisional` stress root; `display` value printed in the appendix; `kept_components` number of retained components |
+| `bootstrap_complete_root_weights.csv` | isolated-stress solve: `AB` external pair; `rep`, `spin`, `Delta` exchanged root; `source_sector`, `source_root_index` position in the Spectrum file; `Gamma_beta` $=\sum_a\beta_{AB,a}^2$; `kappa`; `Gamma_lambda` $=\kappa^2\Gamma_\beta$ (printed in Table XI); `multi_component`; `imposed_gap_or_threshold` (gap or $\ell+1+10^{-6}$ continuum threshold); `isolated_stress` marks the Ward block at $\Delta=3$ |
 | `bootstrap_ab_ope_components.csv` | 6 November snapshot: the leading component only (`amplitude`, `amplitude_squared`). Use `bootstrap_complete_root_weights.csv` for the current appendix table. |
 | `bootstrap_cutoff_candidates.csv` | `Lambda`; `next_tensor_gap` $g_t$; optimized `Delta_phi`, `Delta_s`, `Delta_t`; scan ratios $\beta_{\phi\phi s}/\beta_{\phi\phi t}$, $\beta_{ttt}/\beta_{\phi\phi t}$, $\beta_{stt}/\beta_{\phi\phi t}$, $\beta_{sss}/\beta_{\phi\phi t}$ |
-| `core_ope_coefficients_published.csv` | `source`; `N` and `insertion` for fuzzy-sphere rows; `quantity` ($\phi\phi s$, $\phi\phi t$, $\phi\phi J$, $\phi\phi T$); `beta_vst` mixed-crossing value; `vst_to_published_factor`; `lambda_published` in the convention of LiShen2026 Table II; `kind` (`coefficient`, `complete_root_total`, `finite_size_coefficient`) |
+| `core_ope_coefficients_published.csv` | `source` (bootstrap rows: `mixed_L23_Skydiving_ver4`, and `mixed_L23_isolated_stress_6953` for $\phi\phi T$); `N` and `insertion` for fuzzy-sphere rows; `quantity` ($\phi\phi s$, $\phi\phi t$, $\phi\phi J$, $\phi\phi T$); `beta_vst` solver value; `vst_to_published_factor` $=\kappa$; `lambda_published` $=\lambda$; `kind` |
+| `table3_ope_lambda.csv` | each row of Table III: `convention_factor_from_beta_ratio` multiplies the $\beta$ ratio; full-precision `bootstrap`, `N12`, `N11`, `N10`, and the $1/N$ intercept; `fs_insertion` route; `displayed_*` as printed |
+| `ope_convention_by_channel.csv` | `AB`, `R`, dimensions, `rule` (a/b/c), `G` and `kappa` in exact and numerical form, and $\lambda/\lambda_{\rm iso}$ |
 | `table3_finite_size_extrapolation.csv` | `quantity`; fit window `N_min`–`N_max`; `intercept_a`, `slope_b` of $a+b/N$; `max_abs_residual`; `quadratic_fit_intercept` of $a+b/N+c/N^2$ for comparison; `displayed_in_table3` |
 | `table3_finite_size_series.csv` | `N`; `phiphi_J`, `phiphi_T` in the published convention from $\phi$ insertion |
-| `figure2_points.csv` | `method`; `N`; `rep`; `L`; `P`; `Delta`; `B` bootstrap amplitude norm; `kind` (`strong` $B\ge0.10$, `weak` $0.01\le B<0.10$, `external`, `primary`, `unresolved`); `source_id` bootstrap `sector:root` or fuzzy-sphere key; `track_id`; `x` plotted abscissa. The stress point uses the norm of its leading component (2.477; complete root 2.576), which does not change its marker. |
+| `figure2_points.csv` | `method`; `N`; `rep`; `L`; `P`; `Delta`; `B` bootstrap amplitude norm in $\beta$ (isolated-stress solve; the stress point carries its full Ward vector, $B=1.573$); `kind` (`strong` $B\ge0.10$, `weak` $0.01\le B<0.10$, `external`, `primary`, `unresolved`); `source_id` bootstrap `sector:root` or fuzzy-sphere key; `track_id`; `x` plotted abscissa |
 | `figure2_unresolved_weights_ver4.csv` | the five dashed levels: `w_primary`, `w_descendant` at $\kappa_c$, `w_primary_thr_lo/hi` at $\kappa_c/3$ and $3\kappa_c$; `window_status`; `nearest_bootstrap_Delta`, `absolute_distance`, `relative_distance_percent` |
 | `figure4a_order_parameter_points.csv` | `N`, `g`, `sqrt_N_m2` $=N^{1/2}\langle m_i^2\rangle$ |
 | `figure4b_spacing.csv` | `branch` (`dphi`, `dt`, `curlJ`, `dJ`), `N`, `value` $=\epsilon_{\mathcal O,1}$ |
@@ -90,6 +106,7 @@ Table and figure numbers refer to the manuscript of 9 November 2026 and can chan
 | `n10_n11_formal_low_spin_spectrum.csv` | the same level fields for $N=10,11$; `derived_reviewed_class_N12_priority` applies the $N=12$ rules and gives the published counts; `w_primary_thr_lo/hi` at $\kappa_c/3$ and $3\kappa_c$; `parent_*` and `primary_*` link descendants and modes to tracks |
 | `n10_zhou_tableVI_comparison.csv` | the 129 rows of Zhou et al. Table VI: printed values (`paper_*`, `paper_PD` blank where unassigned) and the present labels (`current_label` `P`/`D`/`M`, `current_window`) at the 0.90 and 0.85 gates |
 | `additional_primary_continuations.csv` | the 18 additional families: `Delta_N10`, `Delta_N11`, `Delta_N12` (empty when no continuation passes), `wP_N10`, `wD_N10`, `paper_class` (blank = unassigned in Zhou et al.) |
+| `n10_table2_additional_primaries.csv` | the 33 rows of Table II: `assignment` (`U->P`, `D->P`, `above window` for $5.5<\Delta\le6.25$, `P->U`), `Delta_FS_N10`, `phys_level_key`, `class`, `w_primary`, `in_mixed_channels`, nearest bootstrap root `Delta_bootstrap_nearest` with its `B_bootstrap_beta` and `bootstrap_sector` |
 | `primary_counts.csv` | strict-primary counts by `N` and dimension `window` |
 
 ### `fuzzy_sphere/ope/manuscript/`
@@ -124,5 +141,6 @@ Table and figure numbers refer to the manuscript of 9 November 2026 and can chan
 | File | Status |
 | --- | --- |
 | `comparison/bootstrap_ab_ope_components.csv` | 6 November leading components; the appendix uses `bootstrap_complete_root_weights.csv` |
-| The value 0.203064 in older notes | leading-component $\phi\phi$ stress amplitude; the manuscript uses 0.350 |
+| The values 0.203064 and 0.349994 in older notes | leading-component and complete-root $\phi\phi$ stress amplitudes of the solve without an isolated stress tensor; the manuscript uses the isolated value 0.349770 |
+| ver4 complete root weights (141 entries, $\beta$) | replaced on 9 November by the isolated-stress weights; the ver4 Spectrum and matrices remain in `bootstrap/efm_v3/Skydiving_ver4/` |
 | `fuzzy_sphere/spectra/v055/`, `fuzzy_sphere/ope/v055/` | rerun with corrected blind-analysis code, kept separate from the manuscript catalogue |

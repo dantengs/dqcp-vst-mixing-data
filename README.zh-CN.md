@@ -20,10 +20,11 @@
 | 固定 $\Lambda=23$ minS 点的孤立应力张量（作业 6878、6953） | $\|\lambda_{\phi\phi T}\|=0.349770$；$ss$、$tt$ 为 $1.287065$、$0.834350$ | [isolated_stress_20261109/](bootstrap/efm_v3/isolated_stress_20261109/) |
 | 同一点原求解 $\Delta=3$ 根的完整总量 | $\sqrt{\Gamma_{\phi\phi,\phi\phi}}=0.349994$ | [stress_coefficients.csv](bootstrap/efm_v3/isolated_stress_20261109/stress_coefficients.csv) |
 | 自由点归一化检验（作业 6909，$\Lambda=15$） | $s,t,J,T$ 的数值/自由理论值为 $0.998122$、$0.999326$、$0.999862$、$1.000323$ | [free_theory_reference.csv](bootstrap/efm_v3/isolated_stress_20261109/free_theory_reference.csv) |
-| 完整根权重 $\Gamma_{AB,AB}$（稿件附录 EFM 表，141 项） | mixed crossing 约定 | [bootstrap_complete_root_weights.csv](comparison/bootstrap_complete_root_weights.csv) |
+| 完整根权重（稿件表 XI，144 项，孤立应力求解） | $\Gamma_\beta$ 与 $\Gamma_\lambda=\kappa^2\Gamma_\beta$ | [bootstrap_complete_root_weights.csv](comparison/bootstrap_complete_root_weights.csv) |
 | 发表约定下的核心系数 | bootstrap $(s,t,J,T)=(0.320, 1.255, 0.768, 0.350)$；球面 $N=5$–12 | [core_ope_coefficients_published.csv](comparison/core_ope_coefficients_published.csv) |
 | 表 III 的 $1/N$ 外推，$N=8$–12 拟合 $a+b/N$ | $\|\lambda_{\phi\phi J}\|=0.78$，$\|\lambda_{\phi\phi T}\|=0.36$；其他窗口为 $0.776$–$0.786$、$0.355$–$0.369$ | [table3_finite_size_extrapolation.csv](comparison/table3_finite_size_extrapolation.csv) |
-| 严格 primary 计数 | 非真空、$\ell\le3$：$N=10$ 为 39（$\Delta\le5.5$，即 Zhou 等表 VI 的窗口）和 52（$\Delta\le6.25$）；$N=11$ 为 35 和 50；$N=12$ 为 33 和 44 | [primary_counts.csv](fuzzy_sphere/spectra/manuscript/primary_counts.csv) |
+| 统一约定 $\lambda$ 下的表 III | bootstrap 的 $\lambda_{XYZ}/\lambda_{\phi\phi t}$（$XYZ=\phi\phi s,ttt,stt,sss$）为 $(0.255, 2.111, 0.594, 0.231)$；$\|\lambda_{\phi\phi J}\|=0.768$，$\|\lambda_{\phi\phi T}\|=0.350$ | [table3_ope_lambda.csv](comparison/table3_ope_lambda.csv) · [约定](DATA_GUIDE.zh-CN.md#ope-约定) |
+| 严格 primary 计数与表 II | 非真空、$\ell\le3$、$\Delta\le6.25$：52（$N=10$）、50（$N=11$）、44（$N=12$）；表 II 列出 31 个新增 $N=10$ primary | [primary_counts.csv](fuzzy_sphere/spectra/manuscript/primary_counts.csv) · [n10_table2_additional_primaries.csv](fuzzy_sphere/spectra/manuscript/n10_table2_additional_primaries.csv) |
 
 外推截距随拟合窗口移向大 $N$ 而上升，各窗口间的差别是拟合窗口依赖，不是统计误差。孤立应力求解固定外场坐标，其余自旋 2 单态连续谱从 $3+10^{-6}$ 开始。其 Ward 贡献加上近阈值连续谱可复现原 $\Delta=3$ 根矩阵，逐元相对误差最大 $3.7\times10^{-6}$。
 
@@ -32,7 +33,7 @@
 - **Bootstrap**。打开 Notebook 后先运行数据读取单元，再运行相应的 `Dataset` 单元。按 `channel_index` 和 `root_index` 聚合同一根的记录，`component_index` 区分同根分解中的向量。十进制值以字符串保存原有精度。每条记录给出外场对顺序，并标记施加的 gap 和暂定幅度。[Skydiving Notebook](bootstrap/DQCP_bootstrap_CFT_L23.nb)
 - **球面谱**。`N` 是轨道数，`L` 是空间自旋。`C2` 是内部 Casimir，`P` 是物理宇称，`X` 是段交换宇称。`energy` 保存原始能量，`Delta` 保存按守恒流能隙定标的维数。原始能级、投影模式和跨尺寸轨迹使用不同的标识。`sigma_Delta` 表示能量基展宽。稿件 N = 12 目录含 264 个能级，其中 45 个严格 primary（真空及 44 个非真空 primary）、154 个 descendant、65 个未定。
 - **球面 OPE**。各路线保留插入算符及其秩、端点态、归一化、可用性和相位字段。`lambda_iso` 表示等距 Clebsch–Gordan 约定，`lambda` 表示共同的混合 crossing 约定。后者给出的 N = 12 current 幅度为 0.8574003792250015。L = 2 补空间证书状态见对应数据文件。
-- **版本和比较**。图表数据和 bootstrap OPE 分量 CSV 对应 11 月 6 日的稿件快照。稿件保留的 76 条 OPE 路线与 v0.5.5 的 699 条聚合序列分开保存。图 2 的五个虚线标记对应未定原始能级。
+- **版本和比较**。图 2 数据点与完整根权重采用 11 月 9 日稿件所用的孤立应力求解；`bootstrap_ab_ope_components.csv` 保留 11 月 6 日的首分量。稿件保留的 76 条 OPE 路线与 v0.5.5 的 699 条聚合序列分开保存。图 2 的五个虚线标记对应未定原始能级。
 
 原始文件包括解析后的 `Spectrum`、带提谱缩放的 `EFM_SE` 向量及完整矩阵。计入固定归一化记录时，Skydiving 有 972 个根和 986 条向量记录，Navigator 有 960 个根和 972 条向量记录。Notebook 的 `matrix_index` 是原始矩阵块内从零开始的索引。每条矩阵记录包含平移后的根坐标、按列排列的上三角元、本征值及输出向量数。原始矩阵除以 prefactor 得到谱归一化下的矩阵，原始向量则除以其平方根。[Skydiving ver4](bootstrap/efm_v3/Skydiving_ver4/) · [Navigator ver3](bootstrap/efm_v3/Navigator_ver3/)
 

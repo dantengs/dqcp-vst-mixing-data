@@ -157,5 +157,64 @@
       "DATA_GUIDE.md",
       "DATA_GUIDE.zh-CN.md"
     ]
+  },
+  "update_20261109b": {
+    "bootstrap_reference": "isolated-stress solve (jobs 6878/6953) at the Lambda=23 minS ver4 point",
+    "ope_convention": "v-singlet (LiShen2026 Table II) extended by rules a-c; ttt isometric; B in solver beta",
+    "files": [
+      "comparison/bootstrap_complete_root_weights.csv",
+      "comparison/figure2_points.csv",
+      "comparison/ope_convention_by_channel.csv",
+      "comparison/table3_ope_lambda.csv",
+      "fuzzy_sphere/spectra/manuscript/n10_table2_additional_primaries.csv",
+      "comparison/core_ope_coefficients_published.csv"
+    ],
+    "table3_display": {
+      "phiphis/phiphit": [
+        0.255,
+        0.203,
+        0.204,
+        0.204
+      ],
+      "ttt/phiphit": [
+        2.111,
+        2.118,
+        2.121,
+        2.125
+      ],
+      "stt/phiphit": [
+        0.594,
+        0.549,
+        0.548,
+        0.548
+      ],
+      "sss/phiphit": [
+        0.231,
+        0.256,
+        0.218,
+        0.171
+      ],
+      "phiphiJ": [
+        0.768,
+        0.762,
+        0.76,
+        0.758
+      ],
+      "phiphiT": [
+        0.35,
+        0.273,
+        0.264,
+        0.254
+      ]
+    },
+    "complete_root_weights": {
+      "entries": 144,
+      "roots": 77
+    },
+    "primary_counts_L3_D6.25_nonvacuum": {
+      "N10": 52,
+      "N11": 50,
+      "N12": 44
+    }
   }
 }
