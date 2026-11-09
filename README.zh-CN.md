@@ -1,5 +1,7 @@
 # SO(5) DQCP VST mixing 数据归档
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24073248.svg)](https://doi.org/10.5281/zenodo.24073248)
+
 [English](README.md) | 简体中文
 
 本仓库归档 2026 年 11 月 6 日的稿件数据、11 月 8 日用 EFM v3 提取的 $\Lambda=23$ 谱，以及下文列出的 11 月 9 日更新。稿件数据、修复后的盲分析复跑结果和原始计算文件分别存放。[数据指南](DATA_GUIDE.zh-CN.md) 给出稿件各表、各图对应的文件及列说明。部分路径超过 Windows 默认的 260 字符限制，在 Windows 上请用 `git clone -c core.longpaths=true …` 克隆。[文件清单](manifests/file_manifest.csv) 记录来源和 SHA-256，[数据摘要](manifests/dataset_summary.json) 记录各数据集的版本与范围。
@@ -21,7 +23,7 @@
 
 **许可：** 数据采用 [CC BY 4.0](LICENSE-DATA)，代码（目前为 Mathematica notebook）采用 [MIT 许可](LICENSE)。任何人均可在注明出处的前提下使用、修改和再发布。
 
-**引用：** 见 [CITATION.cff](CITATION.cff)。Zenodo 存档创建后将在此处补充 DOI。
+**引用：** Tinghong Shen、Zhijin Li，*SO(5) deconfined multicriticality: mixed-correlator bootstrap and fuzzy-sphere data*，Zenodo，版本 1.0.0（2026），[doi:10.5281/zenodo.24073249](https://doi.org/10.5281/zenodo.24073249)。引用所有版本请用 concept DOI [10.5281/zenodo.24073248](https://doi.org/10.5281/zenodo.24073248)。机器可读元数据见 [CITATION.cff](CITATION.cff)。
 
 ## 2026 年 11 月 9 日更新
 

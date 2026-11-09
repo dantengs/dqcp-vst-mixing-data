@@ -3,6 +3,14 @@ message: "If you use these data, please cite them as below."
 type: dataset
 title: "SO(5) deconfined multicriticality: mixed-correlator bootstrap and fuzzy-sphere data"
 version: 1.0.0
+doi: 10.5281/zenodo.24073249
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24073249
+    description: "Version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.24073248
+    description: "All versions (concept DOI)"
 date-released: 2026-11-09
 authors:
   - family-names: Shen

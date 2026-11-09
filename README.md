@@ -1,5 +1,7 @@
 # SO(5) DQCP VST mixing data archive
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24073248.svg)](https://doi.org/10.5281/zenodo.24073248)
+
 English | [简体中文](README.zh-CN.md)
 
 This repository archives the 6 November 2026 manuscript data, the 8 November $\Lambda=23$ EFM v3 extraction, and the 9 November updates listed below. The manuscript data, the rerun with corrected blind-analysis code, and the original calculation files have separate directories. The [file manifest](manifests/file_manifest.csv) records sources and SHA-256 checksums. The [data guide](DATA_GUIDE.md) maps each manuscript table and figure to its file and defines the columns. On Windows, clone with `git clone -c core.longpaths=true …`, because some paths exceed the default 260-character limit. The [dataset summary](manifests/dataset_summary.json) identifies each dataset's version and scope.
@@ -21,7 +23,7 @@ This repository archives the 6 November 2026 manuscript data, the 8 November $\L
 
 **License:** the data are released under [CC BY 4.0](LICENSE-DATA); the code, currently the Mathematica notebook, under the [MIT License](LICENSE). Anyone may use, adapt and redistribute the material with attribution.
 
-**Citation:** see [CITATION.cff](CITATION.cff). A DOI will be added here once the Zenodo archive is created.
+**Citation:** Tinghong Shen and Zhijin Li, *SO(5) deconfined multicriticality: mixed-correlator bootstrap and fuzzy-sphere data*, Zenodo, version 1.0.0 (2026), [doi:10.5281/zenodo.24073249](https://doi.org/10.5281/zenodo.24073249). To cite all versions, use the concept DOI [10.5281/zenodo.24073248](https://doi.org/10.5281/zenodo.24073248). Machine-readable metadata: [CITATION.cff](CITATION.cff).
 
 ## Updates of 9 November 2026
 
