@@ -130,8 +130,8 @@
     "table3_extrapolation": {
       "file": "comparison/table3_finite_size_extrapolation.csv",
       "displayed_fit": "a+b/N over N=8-12",
-      "phiphiJ": "0.78",
-      "phiphiT": "0.36",
+      "phiphiJ": "0.781",
+      "phiphiT": "0.363",
       "window_range_N6_12_to_N10_12": {
         "phiphiJ": [
           0.776,
@@ -215,6 +215,16 @@
       "N10": 52,
       "N11": 50,
       "N12": 44
+    }
+  },
+  "update_20261111": {
+    "table3_extrapolation_display": {
+      "phiphiJ": "0.781",
+      "phiphiT": "0.363"
+    },
+    "representation_assignment_from_copies": {
+      "C2=15": "154",
+      "C2=20": "91"
     }
   }
 }

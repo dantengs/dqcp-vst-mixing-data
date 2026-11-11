@@ -34,7 +34,7 @@
 | 自由点归一化检验（作业 6909，$\Lambda=15$） | $s,t,J,T$ 的数值/自由理论值为 $0.998122$、$0.999326$、$0.999862$、$1.000323$ | [free_theory_reference.csv](bootstrap/efm_v3/isolated_stress_20261109/free_theory_reference.csv) |
 | 完整根权重（稿件表 XI，144 项，孤立应力求解） | $\Gamma_\beta$ 与 $\Gamma_\lambda=\kappa^2\Gamma_\beta$ | [bootstrap_complete_root_weights.csv](comparison/bootstrap_complete_root_weights.csv) |
 | 发表约定下的核心系数 | bootstrap $(s,t,J,T)=(0.320, 1.255, 0.768, 0.350)$；球面 $N=5$–12 | [core_ope_coefficients_published.csv](comparison/core_ope_coefficients_published.csv) |
-| 表 III 的 $1/N$ 外推，$N=8$–12 拟合 $a+b/N$ | $\|\lambda_{\phi\phi J}\|=0.78$，$\|\lambda_{\phi\phi T}\|=0.36$；其他窗口为 $0.776$–$0.786$、$0.355$–$0.369$ | [table3_finite_size_extrapolation.csv](comparison/table3_finite_size_extrapolation.csv) |
+| 表 III 的 $1/N$ 外推，$N=8$–12 拟合 $a+b/N$ | $\|\lambda_{\phi\phi J}\|=0.781$，$\|\lambda_{\phi\phi T}\|=0.363$；其他窗口为 $0.776$–$0.786$、$0.355$–$0.369$ | [table3_finite_size_extrapolation.csv](comparison/table3_finite_size_extrapolation.csv) |
 | 统一约定 $\lambda$ 下的表 III | bootstrap 的 $\lambda_{XYZ}/\lambda_{\phi\phi t}$（$XYZ=\phi\phi s,ttt,stt,sss$）为 $(0.255, 2.111, 0.594, 0.231)$；$\|\lambda_{\phi\phi J}\|=0.768$，$\|\lambda_{\phi\phi T}\|=0.350$ | [table3_ope_lambda.csv](comparison/table3_ope_lambda.csv) · [约定](DATA_GUIDE.zh-CN.md#ope-约定) |
 | 严格 primary 计数与表 II | 非真空、$\ell\le3$、$\Delta\le6.25$：52（$N=10$）、50（$N=11$）、44（$N=12$）；表 II 列出 31 个新增 $N=10$ primary | [primary_counts.csv](fuzzy_sphere/spectra/manuscript/primary_counts.csv) · [n10_table2_additional_primaries.csv](fuzzy_sphere/spectra/manuscript/n10_table2_additional_primaries.csv) |
 

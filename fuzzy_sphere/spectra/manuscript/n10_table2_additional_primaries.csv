@@ -28,7 +28,7 @@ rep,L,P,assignment,Delta_FS_N10,phys_level_key,class,w_primary,in_mixed_channels
 10,3,-1,above window,5.607234816606136,N10:C3:L3:P-1:22.4233047,primary,0.9386919741291412,False,,,
 35,3,1,above window,5.712068005548268,N10:C6:L3:P+1:22.5935492,primary,0.9460516574777197,False,,,
 105,2,-1,above window,6.105329590435238,N10:C12:L2:P-1:23.2321892,primary,1.0,False,,,
-C2=15,1,-1,above window,5.760266060034748,N10:C15:L1:P-1:22.6718208,primary,1.0,False,,,
-C2=15,2,-1,above window,6.226836884400087,N10:C15:L2:P-1:23.4295118,primary,1.0,False,,,
+154,1,-1,above window,5.760266060034748,N10:C15:L1:P-1:22.6718208,primary,1.0,False,,,
+154,2,-1,above window,6.226836884400087,N10:C15:L2:P-1:23.4295118,primary,1.0,False,,,
 30,2,-1,P->U,4.400416415941959,N10:C9:L2:P-1:20.4634835,mixed_primary_descendant,0.6241935990933257,True,4.546010887112631,0.347176,"50+, l=2"
 35,3,-1,P->U,4.621628722312908,N10:C6:L3:P-1:20.8227227,mixed_primary_descendant,0.10494722600432774,True,4.621365386152986,0.178862,"64-, l=3"
