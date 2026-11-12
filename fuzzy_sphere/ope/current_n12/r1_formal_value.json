@@ -1,0 +1,37 @@
+{
+ "date": "2026-11-12",
+ "channel": "phi_phi_J",
+ "N": 12,
+ "status": "formal blind-pipeline value (T20 R1)",
+ "lambda_iso": 1.078123899460342,
+ "lambda_vsinglet": 0.7623487202676913,
+ "previous_adopted_lambda_iso": 1.078123899460343,
+ "abs_difference_from_previous": 1.1102230246251565e-15,
+ "row": {
+  "sector": "half",
+  "X_phys_id": "N12:C2:L0:P-1:0.589911",
+  "Z_phys_id": "N12:C3:L1:P+1:2.000000",
+  "cg_status": "supported",
+  "cg_iso": 0.7071067811865475,
+  "spin_factor": 1.7320508075688772,
+  "normalization_Z_used": 0.24645740871548036,
+  "publishable": true,
+  "target_contraction": "exact_in_production_mode_span",
+  "raw_window_contraction": true,
+  "truncation_rel_bound": 0.0,
+  "contraction_status": "exact_raw_window"
+ },
+ "curve_lambda_iso_N5_N12": [
+  1.0491465736843153,
+  1.056000537316285,
+  1.060637931377737,
+  1.0644500277208864,
+  1.0679638855895535,
+  1.0713872290674225,
+  1.0747688543216742,
+  1.078123899460342
+ ],
+ "source": "DQCP_pure_blind/outputs/R1/run/ope_rows_stageB_exact.csv",
+ "source_sha256": "b865cad84d9189faabb8de38f507d9e5b577317aace88995651d37fd2656ca10",
+ "freeze_sha256": "e11b01994c2589252e421e404c0d9b2c8b1792aee174ad016855dcb28dac4262"
+}

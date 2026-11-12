@@ -118,6 +118,13 @@ sha256sum -c SHA256SUMS
 | `n12_reviewed_integer_ope.csv` | 每行一个 $N=12$ 收缩：`insertion`、`rank`、端点 `X_*` 与 `Z_*`、矩阵元 `me_*`、`cg_iso`、`normalization_Z_used`、`lambda_iso_signed`、`lambda_3j_blind`；`publishable`、`eligible_strict` 标出可用于比较的行 |
 | `n12_ope_route_identity.csv` | 各保留路线的 $N=12$ 值及其匹配方式 |
 
+### `fuzzy_sphere/ope/current_n12/`
+
+| 文件 | 列 |
+| --- | --- |
+| `manuscript_value.json`、`original_adopted_result.json`、`replay_v055.json` | 表 III 最初采用的 $N=12$ $\phi\phi J$ 值、态身份及复跑 |
+| `r1_formal_value.json` | 正式盲分析流程（T20 R1）给出的同一系数：`lambda_iso`、`lambda_vsinglet`（$=\lambda_{\rm iso}/\sqrt2$，即表 III 的值）、收缩行及其门槛、$N=5$–12 曲线，以及源表和冻结记录的 SHA-256；`abs_difference_from_previous` 为与原采用值之差 |
+
 ### `bootstrap/efm_v3/isolated_stress_20261109/`
 
 | 文件 | 列 |

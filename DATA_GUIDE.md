@@ -118,6 +118,13 @@ The external couplings are defined through $\phi\phi\to s$, $\phi\phi\to t$, $ss
 | `n12_reviewed_integer_ope.csv` | one row per $N=12$ contraction: `insertion`, `rank`, endpoints `X_*` and `Z_*`, matrix elements `me_*`, `cg_iso`, `normalization_Z_used`, `lambda_iso_signed`, `lambda_3j_blind`; `publishable` and `eligible_strict` select rows usable for comparison |
 | `n12_ope_route_identity.csv` | $N=12$ value of each retained route and how it was matched |
 
+### `fuzzy_sphere/ope/current_n12/`
+
+| File | Columns |
+| --- | --- |
+| `manuscript_value.json`, `original_adopted_result.json`, `replay_v055.json` | the $N=12$ $\phi\phi J$ value first adopted for Table III, its state identities and replay |
+| `r1_formal_value.json` | the same coefficient from the formal blind pipeline (T20 R1): `lambda_iso`, `lambda_vsinglet` ($=\lambda_{\rm iso}/\sqrt2$, Table III), the contraction row and its gates, the $N=5$–12 curve, and SHA-256 of the source table and freeze record; `abs_difference_from_previous` compares with the adopted value |
+
 ### `bootstrap/efm_v3/isolated_stress_20261109/`
 
 | File | Columns |

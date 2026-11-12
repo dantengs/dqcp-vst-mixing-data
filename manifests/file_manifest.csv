@@ -2308,3 +2308,4 @@ comparison/table3_finite_size_series.csv,table3_extrapolation,404,4c01aaa681a969
 comparison/ope_convention_by_channel.csv,ope_conversion,1489,8552050edfd08e9339ecfc3ba7b3cba0b775966c5f89a870527e6513139255ac,generated (rules a-c of manuscript Appendix C.2),
 comparison/table3_ope_lambda.csv,table3_ope,1104,9db69fae12cb5787e76da6ac12ac2d7ce678bac7dbbcbc78e317591d19209b34,"generated from bootstrap scan coordinates, isolated-T solve and fs publication_cells.csv",
 fuzzy_sphere/spectra/manuscript/n10_table2_additional_primaries.csv,n10_published_comparison,3881,c7c90b88272af6bcbb0089c41dacd6cba954ccfaa4b680d5a281845d058204d8,generated from n10_n11_formal_low_spin_spectrum.csv and the isolated-T spectrum,
+fuzzy_sphere/ope/current_n12/r1_formal_value.json,ope_current_n12,1226,af3c7bc1a8eb2487e854cff79d0a11e05732f0821b6fa6a9950e94d0175ad59c,E:/CCFiles/fuzzy sphere/DQCP_pure_blind/outputs/R1/run/ope_rows_stageB_exact.csv,

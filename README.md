@@ -4,7 +4,7 @@
 
 English | [简体中文](README.zh-CN.md)
 
-This repository archives the 6 November 2026 manuscript data, the 8 November $\Lambda=23$ EFM v3 extraction, and the 9 November updates listed below. The manuscript data, the rerun with corrected blind-analysis code, and the original calculation files have separate directories. The [file manifest](manifests/file_manifest.csv) records sources and SHA-256 checksums. The [data guide](DATA_GUIDE.md) maps each manuscript table and figure to its file and defines the columns. On Windows, clone with `git clone -c core.longpaths=true …`, because some paths exceed the default 260-character limit. The [dataset summary](manifests/dataset_summary.json) identifies each dataset's version and scope.
+This repository archives the 6 November 2026 manuscript data, the 8 November $\Lambda=23$ EFM v3 extraction, and the 9 November updates listed below. The manuscript data, the rerun with corrected blind-analysis code, and the original calculation files have separate directories. The [file manifest](manifests/file_manifest.csv) records sources and SHA-256 checksums. The [data guide](DATA_GUIDE.md) maps each manuscript table and figure to its file and defines the columns. On Windows, clone with `git clone -c core.longpaths=true …`, because some paths exceed the default 260-character limit. The [dataset summary](manifests/dataset_summary.json) identifies each dataset's version and scope. The fuzzy-sphere spectrum, conformal-generator and OPE code is maintained at [dantengs/fuzzysphere-dqcp](https://github.com/dantengs/fuzzysphere-dqcp).
 
 | Directory | Contents |
 | --- | --- |
